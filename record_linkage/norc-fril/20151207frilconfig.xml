@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <left-data-source class="cdc.impl.datasource.text.CSVDataSource" name="sourceA">
+        <params>
+            <param name="column-separator" value=","/>
+            <param name="source-name" value="sourceA"/>
+            <param name="input-file" value="/Users/terrya/norc_prl/Data/RLdata10000.csv"/>
+        </params>
+        <row-model>
+            <column column=""
+                converter="cdc.datamodel.converters.DummyConverter" name="">
+                <empty-values/>
+            </column>
+            <column column="fname_c1"
+                converter="cdc.datamodel.converters.DummyConverter" name="fname_c1">
+                <empty-values/>
+            </column>
+            <column column="fname_c2"
+                converter="cdc.datamodel.converters.DummyConverter" name="fname_c2">
+                <empty-values/>
+            </column>
+            <column column="lname_c1"
+                converter="cdc.datamodel.converters.DummyConverter" name="lname_c1">
+                <empty-values/>
+            </column>
+            <column column="lname_c2"
+                converter="cdc.datamodel.converters.DummyConverter" name="lname_c2">
+                <empty-values/>
+            </column>
+            <column column="by"
+                converter="cdc.datamodel.converters.DummyConverter" name="by">
+                <empty-values/>
+            </column>
+            <column column="bm"
+                converter="cdc.datamodel.converters.DummyConverter" name="bm">
+                <empty-values/>
+            </column>
+            <column column="bd"
+                converter="cdc.datamodel.converters.DummyConverter" name="bd">
+                <empty-values/>
+            </column>
+        </row-model>
+    </left-data-source>
+    <right-data-source class="cdc.impl.datasource.text.CSVDataSource" name="sourceB">
+        <params>
+            <param name="column-separator" value=","/>
+            <param name="source-name" value="sourceB"/>
+            <param name="input-file" value="/Users/terrya/norc_prl/Data/RLdata10000.csv"/>
+        </params>
+        <row-model>
+            <column column=""
+                converter="cdc.datamodel.converters.DummyConverter" name="">
+                <empty-values/>
+            </column>
+            <column column="fname_c1"
+                converter="cdc.datamodel.converters.DummyConverter" name="fname_c1">
+                <empty-values/>
+            </column>
+            <column column="fname_c2"
+                converter="cdc.datamodel.converters.DummyConverter" name="fname_c2">
+                <empty-values/>
+            </column>
+            <column column="lname_c1"
+                converter="cdc.datamodel.converters.DummyConverter" name="lname_c1">
+                <empty-values/>
+            </column>
+            <column column="lname_c2"
+                converter="cdc.datamodel.converters.DummyConverter" name="lname_c2">
+                <empty-values/>
+            </column>
+            <column column="by"
+                converter="cdc.datamodel.converters.DummyConverter" name="by">
+                <empty-values/>
+            </column>
+            <column column="bm"
+                converter="cdc.datamodel.converters.DummyConverter" name="bm">
+                <empty-values/>
+            </column>
+            <column column="bd"
+                converter="cdc.datamodel.converters.DummyConverter" name="bd">
+                <empty-values/>
+            </column>
+        </row-model>
+    </right-data-source>
+    <join class="cdc.impl.join.nestedloop.NestedLoopJoin"
+        summary-left="false" summary-right="false">
+        <params/>
+        <join-condition class="cdc.impl.conditions.WeightedJoinCondition">
+            <params>
+                <param name="acceptance-level" value="100"/>
+            </params>
+            <condition class="cdc.impl.distance.JaroWinkler"
+                left-column="fname_c1" right-column="fname_c1" weight="35">
+                <params>
+                    <param name="pref-weight" value="0.1"/>
+                    <param name="pref-length" value="4"/>
+                </params>
+            </condition>
+            <condition class="cdc.impl.distance.JaroWinkler"
+                left-column="lname_c1" right-column="lname_c1" weight="35">
+                <params>
+                    <param name="pref-weight" value="0.1"/>
+                    <param name="pref-length" value="4"/>
+                </params>
+            </condition>
+            <condition class="cdc.impl.distance.NumericDistance"
+                left-column="bd" right-column="bd" weight="10">
+                <params>
+                    <param name="use-lineral-approximation" value="true"/>
+                    <param name="percent-difference" value=""/>
+                    <param name="numeric-difference" value="0.0,0.0"/>
+                </params>
+            </condition>
+            <condition class="cdc.impl.distance.NumericDistance"
+                left-column="bm" right-column="bm" weight="10">
+                <params>
+                    <param name="use-lineral-approximation" value="true"/>
+                    <param name="percent-difference" value=""/>
+                    <param name="numeric-difference" value="0.0,0.0"/>
+                </params>
+            </condition>
+            <condition class="cdc.impl.distance.NumericDistance"
+                left-column="by" right-column="by" weight="10">
+                <params>
+                    <param name="use-lineral-approximation" value="true"/>
+                    <param name="percent-difference" value=""/>
+                    <param name="numeric-difference" value="0.0,0.0"/>
+                </params>
+            </condition>
+        </join-condition>
+        <row-model>
+            <column name="" source="sourceA"/>
+            <column name="fname_c1" source="sourceA"/>
+            <column name="fname_c2" source="sourceA"/>
+            <column name="lname_c1" source="sourceA"/>
+            <column name="lname_c2" source="sourceA"/>
+            <column name="by" source="sourceA"/>
+            <column name="bm" source="sourceA"/>
+            <column name="bd" source="sourceA"/>
+            <column name="" source="sourceB"/>
+            <column name="fname_c1" source="sourceB"/>
+            <column name="fname_c2" source="sourceB"/>
+            <column name="lname_c1" source="sourceB"/>
+            <column name="lname_c2" source="sourceB"/>
+            <column name="by" source="sourceB"/>
+            <column name="bm" source="sourceB"/>
+            <column name="bd" source="sourceB"/>
+        </row-model>
+    </join>
+    <results-savers>
+        <results-saver class="cdc.impl.resultsavers.DeduplicatingResultsSaver">
+            <params>
+                <param name="deduplication" value="left"/>
+                <param name="delete-duplicates" value="false"/>
+            </params>
+            <savers>
+                <results-saver class="cdc.impl.resultsavers.CSVFileSaver">
+                    <params>
+                        <param name="encoding" value="UTF-8"/>
+                        <param name="output-file" value="2051217_results.csv"/>
+                    </params>
+                </results-saver>
+            </savers>
+        </results-saver>
+    </results-savers>
+</configuration>

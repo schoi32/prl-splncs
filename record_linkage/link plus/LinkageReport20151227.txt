@@ -1,0 +1,2730 @@
+                          Output from Link Plus Version 2.0 Sun Dec 27 03:27:32 2015
+
+C:\RegPlus\LinkPlus\Configuration\rRLdata10000.cfg
+Data = C:\RegPlus\LinkPlus\data\RLdata10000c.csv
+Number of Records = 10000
+
+                                             Linking Process
+Direct method is employed
+Cutoff Value=10.0
+
+Field for Blocking
+dummy
+
+                                         Matching Parameters
+           Matching Field   m-prob   u-prob      agree   disagree     matching method
+                 fname_c1  0.96000  0.00956    4.19604   -2.92121           first name
+                 fname_c2  0.96000  0.86719    0.09254   -1.09229           first name
+                 lname_c1  0.97000  0.01723    3.66885   -3.17599            last name
+                 lname_c2  0.97000  0.97000    0.00000    0.00000            last name
+                       bd  0.95000  0.03268    3.06731   -2.69659       generic string
+                       bm  0.95000  0.08309    2.21787   -2.64788       generic string
+                       by  0.95000  0.01263    3.93276   -2.71527       generic string
+Cutoff Value=10.0
+
+m-prob: The probability that a matching variable agrees given that the comparison pair being examined is a match
+u-prob: The probability that a matching variable agrees given that comparison pair being examined as a non-match
+agree: The agreement weight assigned for an agreement on a given matching variable
+disagree: The disagreement weight assigned for a disagreement on a given matching variable
+matching method: The method used for computing the weight on a given matching variable.
+
+                                                Match Report
+Sorted by score descently (higher score, higher likelihood of being a matched pair)
+                                   Number of Matched Pairs =     898
+
+Linkage ID	Set ID	Record #	   id	  fname_c1	  fname_c2	   lname_c1	  lname_c2	bd	bm	  by	 Class	 Score
+
+         1	   897	    7333	 7333	     PETRA	  ELFRIEDE	    HOFMANN	     MEYER	14	 1	1955		
+         1	   897	    7718	 7718	     PETRA	  ELFRIEDE	    HOFRANN	     MEYER	14	 1	1955	     0	  29.6
+
+         2	   305	     420	  420	  ANDREANS	      KARL	    HOFMANN	        NA	19	12	1954		
+         2	   305	    4139	 4139	   ANDREAS	      KARL	    HOFMANN	        NA	19	12	1954	     0	  28.8
+
+         3	   895	    5930	 5930	 BRIGITETE	   IRMGARD	 ZIMMERMANN	        NA	10	12	1954		
+         3	   895	    8834	 8834	  BRIGITTE	   IRMGARD	 ZIMMERMANN	        NA	10	12	1954	     0	  27.9
+
+         4	   894	    1940	 1940	     OLAZF	   ANDREAS	       KOCH	        NA	14	 1	1951		
+         4	   894	    1960	 1960	      OLAF	   ANDREAS	       KOCH	        NA	14	 1	1951	     0	  26.5
+
+         5	   893	    5359	 5359	 BRIGILTTE	    MARGOT	     SOMMER	        NA	19	 6	2000		
+         5	   893	    8009	 8009	  BRIGITTE	    MARGOT	     SOMMER	        NA	19	 6	2000	     0	  24.7
+
+         6	   892	    5797	 5797	  INGEBORG	        NA	    SCHMIDT	    SCHMID	18	12	1998		
+         6	   892	    7488	 7488	  INGEBORG	        NA	    SCHMIDT	    SCHMID	18	12	1994	     0	  24.7
+
+         7	   891	    6657	 6657	  JOHANVNA	        NA	      SAUER	   NEUMANN	 5	11	1969		
+         7	   891	    7167	 7167	   JOHANNA	        NA	      SAUER	   NEUMANN	 5	11	1969	     0	  24.1
+
+         8	    14	    1022	 1022	     PETER	      ROLF	 ZIMMERMANN	        NA	21	11	1945		
+         8	    14	    4548	 4548	     PETER	      ROLF	 ZIMMERMANN	        NA	21	11	1935	     0	  24.1
+
+         9	   889	    7635	 7635	  BRIGITTE	  BRIGITTE	     BECJER	        NA	31	 1	1964		
+         9	   889	    9722	 9722	  BRIGITTE	  BRIGITTE	     BECKER	        NA	31	 1	1964	     0	  23.9
+
+        10	   888	    4698	 4698	     HORST	  MATTHIAS	    SCHWARZ	        NA	19	 1	1957		
+        10	   888	    4965	 4965	    HORCST	  MATTHIAS	    SCHWARZ	        NA	19	 1	1957	     0	  23.6
+
+        11	   887	    8238	 8238	     ILSEL	      ANNA	 SCHUMACHER	        NA	25	12	1958		
+        11	   887	    9303	 9303	      ILSE	      ANNA	 SCHUMACHER	        NA	25	12	1958	     0	  22.4
+
+        12	   886	    2868	 2868	    STEFAN	        NA	    KRACUSE	    WALTER	20	 2	1954		
+        12	   886	    3218	 3218	    STEFAN	        NA	     KRAUSE	    WALTER	20	 2	1954	     0	  22.3
+
+        13	   885	    5185	 5185	     HEIKE	    BIRGIT	   MUELLHER	        NA	18	 7	1967		
+        13	   885	    9241	 9241	     HEIKE	    BIRGIT	    MUELLER	        NA	18	 7	1967	     0	  22.3
+
+        14	   424	    5880	 5880	    PETFRA	        NA	 SCHUMACHER	        NA	17	10	1928		
+        14	   424	    8575	 8575	     PETRA	        NA	 SCHUMACHER	        NA	17	10	1928	     0	  22.1
+
+        15	   883	    5461	 5461	 CHRISTCEL	        NA	     JAEGER	        NA	14	12	1951		
+        15	   883	    7943	 7943	  CHRISTEL	        NA	     JAEGER	        NA	14	12	1951	     0	  22.0
+
+        16	   882	     955	  955	   DIETHER	        NA	     WINTER	        NA	 1	11	2008		
+        16	   882	    3723	 3723	    DIETER	        NA	     WINTER	        NA	 1	11	2008	     0	  22.0
+
+        17	   273	    2904	 2904	     PAFUL	        NA	   PFEIFFER	        NA	20	10	1956		
+        17	   273	    3478	 3478	      PAUL	        NA	   PFEIFFER	        NA	20	10	1956	     0	  21.9
+
+        18	   880	    5931	 5931	    SABINE	     KARIN	      WEBER	        NA	14	11	1956		
+        18	   880	    8179	 8179	    SABINE	     KARIN	      WEBER	        NA	14	11	1959	     0	  21.8
+
+        19	   879	    5748	 5748	     ANNDA	        NA	     FRANKE	        NA	14	12	1992		
+        19	   879	    7215	 7215	      ANNA	        NA	     FRANKE	        NA	14	12	1992	     0	  21.8
+
+        20	   878	     709	  709	   CARSTEN	        NA	   FRIERICH	        NA	15	11	1934		
+        20	   878	    4578	 4578	   CARSTEN	        NA	  FRIEDRICH	        NA	15	11	1934	     0	  21.8
+
+        21	   877	    8574	 8574	      ERNA	     PETRA	       VOGT	        NA	17	 7	1959		
+        21	   877	    9453	 9453	      ERNA	     PETRA	       VOGT	        NA	15	 7	1959	     0	  21.6
+
+        22	   876	     299	  299	    PETEIR	        NA	    KOEHLER	        NA	17	10	1952		
+        22	   876	    2086	 2086	     PETER	        NA	    KOEHLER	        NA	17	10	1952	     0	  21.4
+
+        23	   875	    6218	 6218	   MARIWON	        NA	 ZIMMERMANN	        NA	20	12	1961		
+        23	   875	    6842	 6842	    MARION	        NA	 ZIMMERMANN	        NA	20	12	1961	     0	  21.2
+
+        24	   874	    9121	 9121	   RENAATE	        NA	 ZIMMERMANN	        NA	10	12	1956		
+        24	   874	    9442	 9442	    RENATE	        NA	 ZIMMERMANN	        NA	10	12	1956	     0	  21.2
+
+        25	   873	    1879	 1879	   MARTINL	        NA	       WOLF	        NA	18	10	1953		
+        25	   873	    2097	 2097	    MARTIN	        NA	       WOLF	        NA	18	10	1953	     0	  21.2
+
+        26	     9	     492	  492	    HORSZT	        NA	    SCHWARZ	        NA	14	10	9185		
+        26	     9	    1798	 1798	     HORST	        NA	    SCHWARZ	        NA	14	10	1985	     0	  21.1
+
+        27	   871	     826	  826	    JOERGD	        NA	    SCHWARZ	        NA	11	 1	1939		
+        27	   871	    1120	 1120	     JOERG	        NA	    SCHWARZ	        NA	11	 1	1939	     0	  21.1
+
+        28	   870	    6692	 6692	      RUTH	 MARGARETE	     THOMAS	        NA	 9	 1	1998		
+        28	   870	    9541	 9541	     RUTHH	 MARGARETE	     THOMAS	        NA	 9	 1	1998	     0	  21.1
+
+        29	   869	     624	  624	 GUENTTHER	        NA	   HOFFMANN	        NA	11	11	1942		
+        29	   869	    2882	 2882	  GUENTHER	        NA	   HOFFMANN	        NA	11	11	1942	     0	  21.0
+
+        30	   868	    2899	 2899	    BERNXD	        NA	      KLEIN	        NA	12	11	2006		
+        30	   868	    3629	 3629	     BERND	        NA	      KLEIN	        NA	12	11	2006	     0	  20.9
+
+        31	   867	    6054	 6054	 HANNELORE	        NA	      ERNST	    BECKER	11	 8	1933		
+        31	   867	    9343	 9343	 HANNELORE	        NA	      ERNST	    BECKER	11	 6	1933	     0	  20.9
+
+        32	   866	    5345	 5345	 WALTTRAUD	        NA	     BECKER	        NA	14	11	1978		
+        32	   866	    5374	 5374	  WALTRAUD	        NA	     BECKER	        NA	14	11	1978	     0	  20.8
+
+        33	   865	    1193	 1193	    MARKUS	   HARTMUT	    NEUMANN	        NA	31	 7	1948		
+        33	   865	    3277	 3277	   MARKGUS	   HARTMUT	    NEUMANN	        NA	31	 7	1948	     0	  20.7
+
+        34	   354	    5823	 5823	  SUSAZNNE	        NA	      WEBER	        NA	19	10	1948		
+        34	   354	    9367	 9367	   SUSANNE	        NA	      WEBER	        NA	19	10	1948	     0	  20.7
+
+        35	   169	    6836	 6836	    PETRAM	        NA	      WEBER	        NA	15	10	1992		
+        35	   169	    9758	 9758	     PETRA	        NA	      WEBER	        NA	15	10	1992	     0	  20.5
+
+        36	   862	    3028	 3028	    HELMUT	        NA	     BERGER	  SCHAEFER	31	 7	1964		
+        36	   862	    3052	 3052	   HELMPUT	        NA	     BERGER	  SCHAEFER	31	 7	1964	     0	  20.5
+
+        37	   861	    3756	 3756	   THOMAVS	        NA	    RICHTER	        NA	14	10	1980		
+        37	   861	    4019	 4019	    THOMAS	        NA	    RICHTER	        NA	14	10	1980	     0	  20.3
+
+        38	   860	     106	  106	    DIETER	        NA	    SCHAEFR	        NA	12	12	1952		
+        38	   860	     398	  398	    DIETER	        NA	   SCHAEFER	        NA	12	12	1952	     0	  20.3
+
+        39	   859	    9407	 9407	      ANJA	        NA	     ENGELM	        NA	16	10	1970		
+        39	   859	    9887	 9887	      ANJA	        NA	      ENGEL	        NA	16	10	1970	     0	  20.2
+
+        40	   858	    8203	 8203	   GIESELA	        NA	    KOEHLER	        NA	 1	10	1995		
+        40	   858	    8833	 8833	    GISELA	        NA	    KOEHLER	        NA	 1	10	1995	     0	  20.1
+
+        41	   857	    1375	 1375	    WALTER	    RAINER	      MEYER	        NA	18	 9	1935		
+        41	   857	    3790	 3790	    WALTER	    RAINER	      MEYER	        NA	17	 9	1935	     0	  20.1
+
+        42	   856	    3737	 3737	   MICHAEL	        NA	    MUELDER	    SEIDEL	 8	10	1975		
+        42	   856	    4177	 4177	   MICHAEL	        NA	    MUELLER	    SEIDEL	 8	10	1975	     0	  20.1
+
+        43	   311	    7493	 7493	 ELISABETH	        NA	     BECEKR	        NA	11	 1	1985		
+        43	   311	    8010	 8010	 ELISABETH	        NA	     BECKER	        NA	11	 1	1985	     0	  20.1
+
+        44	   854	    6796	 6796	CHRISTIENE	    GISELA	    MUELLER	        NA	 2	11	1956		
+        44	   854	    9916	 9916	 CHRISTINE	    GISELA	    MUELLER	        NA	 2	11	1956	     0	  20.0
+
+        45	   853	     430	  430	   GERHARD	    WERNER	     SCHULZ	        NA	20	10	1937		
+        45	   853	     796	  796	   GERHARD	    WERNIR	     SCHUKZ	        NA	20	10	1937	     0	  19.9
+
+        46	   852	    3268	 3268	     ERNST	        NA	   SCHUBERT	        NA	30	 1	1925		
+        46	   852	    3480	 3480	     ERNST	        NA	   SCHUBERT	        NA	30	 1	1975	     0	  19.7
+
+        47	    57	    6330	 6330	  GERTRUCD	        NA	    MUELLER	        NA	19	11	1986		
+        47	    57	    8192	 8192	   GERTRUD	        NA	    MUELLER	        NA	19	11	1986	     0	  19.7
+
+        48	    55	     722	  722	    KALAUS	        NA	       WOLF	        NA	16	10	1972		
+        48	    55	     752	  752	     KLAUS	        NA	       WOLF	        NA	16	10	1972	     0	  19.5
+
+        49	   849	    7211	 7211	  STEFANIE	     HEIKE	     BECKER	        NA	12	12	1975		
+        49	   849	    7999	 7999	  STEFANIE	     HEIKE	     BECKER	        NA	12	 4	1975	     0	  19.4
+
+        50	   848	    2958	 2958	     WILLI	        NA	      FUCHS	        NA	21	10	1947		
+        50	   848	    4811	 4811	    WILLIA	        NA	      FUCHS	        NA	21	10	1947	     0	  19.3
+
+        51	   847	    8121	 8121	 ELISABETH	  ANGELIKA	      BAUER	        NA	16	 6	1944		
+        51	   847	    9521	 9521	ELISABRETH	  ANGELIKA	      BAUER	        NA	16	 6	1944	     0	  19.3
+
+        52	   846	    8379	 8379	 CHRISTINA	      ANNA	     FRANKE	        NA	13	 8	1997		
+        52	   846	    9870	 9870	 CHRISTINA	       ANN	     FRANKE	        NA	13	 8	1997	     0	  19.2
+
+        53	   171	    2043	 2043	      HANS	        NA	       ENGL	        NA	19	10	1962		
+        53	   171	    4226	 4226	      HANS	        NA	      ENGEL	        NA	19	10	1962	     0	  19.1
+
+        54	   844	    3284	 3284	     WILLI	    WERNER	    SCHMIDT	        NA	19	 6	1962		
+        54	   844	    4974	 4974	    WILLMI	    WERNER	    SCHMIDT	        NA	19	 6	1962	     0	  19.1
+
+        55	   843	     479	  479	      MAIK	        NA	    SCHULZE	        NA	15	 1	1961		
+        55	   843	    4703	 4703	     MASIK	        NA	    SCHULZE	        NA	15	 1	1961	     0	  19.0
+
+        56	   842	    4290	 4290	     FRITZ	        NA	     WAGNER	        NA	10	14	1961		
+        56	   842	    4590	 4590	     FRITZ	        NA	     WAGNER	        NA	10	12	1961	     0	  19.0
+
+        57	   841	      79	   79	     HORST	    THOMAS	  SCHROEDER	        NA	10	 5	1936		
+        57	   841	    4127	 4127	     HORST	    THOMAS	 SCHROEADER	        NA	10	 5	1936	     0	  19.0
+
+        58	   840	    3703	 3703	  RUEDIGER	        NA	      LANGE	        NA	20	12	1941		
+        58	   840	    3766	 3766	  RUEDIGER	        NA	     LANGER	        NA	20	12	1941	     0	  19.0
+
+        59	   839	    5172	 5172	    SILVIA	        NA	   GUENTHER	        NA	30	11	1926		
+        59	   839	    7637	 7637	    SILVIA	        NA	   GUENTHER	        NA	30	11	1958	     0	  19.0
+
+        60	   838	     678	  678	      GERD	        NA	       LANG	        NA	20	12	1933		
+        60	   838	     723	  723	      GERD	        NA	       LANG	        NA	20	12	1938	     0	  18.9
+
+        61	   837	    6751	 6751	CHRISTIANE	        NA	      KLEIN	        NA	16	10	1986		
+        61	   837	    8147	 8147	CHRISTIANE	        NA	      KLEIN	        NA	18	10	1986	     0	  18.9
+
+        62	   836	    1671	 1671	   WILHELM	  WOLFGANG	      KRAUS	        NA	26	11	1973		
+        62	   836	    1734	 1734	  WILHELIM	  WOLFGANG	      KRAUS	        NA	26	11	1973	     0	  18.9
+
+        63	   835	      28	   28	   JOACHIM	        NA	      KUEHN	        NA	21	11	1994		
+        63	   835	    3391	 3391	   JOACHIM	        NA	      KUEHN	        NA	71	11	1994	     0	  18.9
+
+        64	   834	    5475	 5475	    GISELA	    ANGELA	   ALBRECHT	        NA	27	12	1960		
+        64	   834	    6803	 6803	    GISELA	    ANGELZ	   ALBRECHT	        NA	27	12	1960	     0	  18.8
+
+        65	   833	    5365	 5365	    NICOLE	    URSULA	      SIMON	        NA	 6	 1	1974		
+        65	   833	    5680	 5680	    NICOLE	    URSULA	      SIMON	        NA	 6	 1	1975	     0	  18.7
+
+        66	   196	      85	   85	    HARALD	        NA	      FUCHS	        NA	20	11	1954		
+        66	   196	    2623	 2623	   HARAJLD	        NA	      FUCHS	        NA	20	11	1954	     0	  18.7
+
+        67	   345	    2126	 2126	     HEINZ	        NA	    KRAEMDR	        NA	17	 1	1965		
+        67	   345	    2267	 2267	     HEINZ	        NA	    KRAEMER	        NA	17	 1	1965	     0	  18.7
+
+        68	   830	    8691	 8691	    INGRID	     HELGA	     KRAUSE	        NA	20	 4	2004		
+        68	   830	    9208	 9208	    INGRID	     HELGA	     KRAUSE	        NA	20	 4	2009	     0	  18.7
+
+        69	   151	    6644	 6644	   BARBARA	        NA	      VOIGT	        NA	19	12	1995		
+        69	   151	    7805	 7805	   BARBARA	        NA	      VOIGT	        NA	19	12	1996	     0	  18.6
+
+        70	   828	    7245	 7245	   BAERBEL	      ANNA	    SCHMIDT	        NA	 1	 9	1972		
+        70	   828	    8267	 8267	  BAERBEGL	      ANNA	    SCHMIDT	        NA	 1	 9	1972	     0	  18.6
+
+        71	   827	     582	  582	    STEFAN	      RALF	 SCHUMACHER	        NA	 5	 1	1982		
+        71	   827	    4610	 4610	    STEFAN	      RALF	 SCHUMACHER	        NA	 0	 1	1982	     0	  18.6
+
+        72	   826	    2294	 2294	    ULRICH	     KLAUS	       VOGT	        NA	 9	11	2006		
+        72	   826	    3797	 3797	    ULRICH	     KLAUZ	       VOGT	        NA	 9	11	2006	     0	  18.6
+
+        73	   825	    8606	 8606	     HELGA	 KATHARINA	      KLEIN	        NA	18	 4	1951		
+        73	   825	    9299	 9299	    HELGVA	 KATHARINA	      KLEIN	        NA	18	 4	1951	     0	  18.6
+
+        74	    23	    1241	 1241	    ROBERT	        NA	      KLEIN	        NA	14	10	1942		
+        74	    23	    3213	 3213	   ROBERET	        NA	      KLEIN	        NA	14	10	1942	     0	  18.5
+
+        75	   823	    5849	 5849	     ERIKA	    INGRID	    LEHMCNN	        NA	29	 1	1963		
+        75	   823	    7278	 7278	     ERIKA	    INGRID	    LEHMANN	        NA	29	 1	1963	     0	  18.5
+
+        76	   822	    7683	 7683	     HEIDI	        NA	    SCHMIDT	        NA	21	12	1988		
+        76	   822	    8995	 8995	    HEIDIC	        NA	    SCHMIDT	        NA	21	12	1988	     0	  18.5
+
+        77	   821	    3411	 3411	      JENS	   JUERGEN	      KLEIN	        NA	16	 8	1933		
+        77	   821	    3461	 3461	     JENSB	   JUERGEN	      KLEIN	        NA	16	 8	1933	     0	  18.2
+
+        78	    59	     893	  893	      ROLF	        NA	   SCHUBERT	        NA	13	10	1983		
+        78	    59	    2240	 2240	     ROLMF	        NA	   SCHUBERT	        NA	13	10	1983	     0	  18.1
+
+        79	   819	     178	  178	    MARTIN	        NA	   SCHUBERT	        NA	20	11	1948		
+        79	   819	    1570	 1570	   MARTKIN	        NA	   SCHUBERT	        NA	20	11	1948	     0	  18.0
+
+        80	    96	     495	  495	    THOMAS	        NA	    MUELKER	        NA	12	12	1962		
+        80	    96	    3490	 3490	    THOMAS	        NA	    MUELLER	        NA	12	12	1962	     0	  18.0
+
+        81	   817	    7515	 7515	   CLAUDIA	        NA	     WIBTER	        NA	10	 1	1953		
+        81	   817	    7707	 7707	   CLAUDIA	        NA	     WINTER	        NA	10	 1	1953	     0	  18.0
+
+        82	   816	    8966	 8966	  BRIGITTE	        NA	       LANG	        NA	16	12	1992		
+        82	   816	    9250	 9250	  BRIGITTE	        NA	       LANG	        NA	18	12	1996	     0	  18.0
+
+        83	   815	    5253	 5253	    RENATE	        NA	       HORN	        NA	81	11	1994		
+        83	   815	    7266	 7266	    RENATE	        NA	       HORN	        NA	18	11	1994	     0	  17.9
+
+        84	   814	     552	  552	   MARTIZN	      OLAF	    SCHULZE	        NA	 5	 7	1942		
+        84	   814	     890	  890	    MARTIN	      OLAF	    SCHULZE	        NA	 5	 7	1942	     0	  17.9
+
+        85	   813	    7389	 7389	  CHRISNTA	    REGINA	   SCHAEFER	        NA	 4	 6	1980		
+        85	   813	    8015	 8015	   CHRISTA	    REGINA	   SCHAEFER	        NA	 4	 6	1980	     0	  17.8
+
+        86	   812	    1477	 1477	       UWE	        NA	     WINTER	        NA	12	11	1973		
+        86	   812	    3709	 3709	       UWE	        NA	     WINTER	        NA	12	11	1963	     0	  17.8
+
+        87	   234	    7537	 7537	   SUSANNE	        NA	       OTTO	        NA	14	10	1964		
+        87	   234	    7563	 7563	   SUSANNE	        NA	       OTTO	        NA	14	10	1764	     0	  17.8
+
+        88	   810	    1539	 1539	    THOMAS	        NA	  SCHREIBER	        NA	15	12	2004		
+        88	   810	    2522	 2522	   THOQMAS	        NA	  SCHREIBER	        NA	15	12	2004	     0	  17.7
+
+        89	   280	    7529	 7529	    SABINE	        NA	      WOLFF	        NA	10	11	1927		
+        89	   280	    9042	 9042	    SABINE	        NA	      WOLFF	        NA	10	11	1957	     0	  17.7
+
+        90	   808	     272	  272	  GUENTHER	    HELMUT	      BRAUN	        NA	 5	19	1950		
+        90	   808	    4652	 4652	  GUENTHER	    HELMUT	      BRAUN	        NA	 5	12	1950	     0	  17.6
+
+        91	   807	    1499	 1499	    STEFAN	        NA	      STEIN	        NA	21	11	1938		
+        91	   807	    4635	 4635	   STEFEAN	        NA	      STEIN	        NA	21	11	1938	     0	  17.6
+
+        92	   806	    1184	 1184	   MICHAEL	        NA	       GRAF	        NA	13	12	1964		
+        92	   806	    1449	 1449	  MICHCAEL	        NA	       GRAF	        NA	13	12	1964	     0	  17.6
+
+        93	   276	    3858	 3858	      GERD	        NA	  SCHNEIDER	        NA	10	11	1954		
+        93	   276	    4072	 4072	      GERD	        NA	  SCHNEIDER	        NA	10	11	1955	     0	  17.6
+
+        94	    11	    3096	 3096	     HORST	        NA	      MAYER	        NA	14	 1	1972		
+        94	    11	    4845	 4845	     HORST	        NA	      MAYER	        NA	17	 1	1952	     0	  17.5
+
+        95	   803	    7004	 7004	 CHRISTINA	        NA	     BECKER	        NA	11	10	1960		
+        95	   803	    8923	 8923	CHRISTTINA	        NA	     BECKER	        NA	11	10	1960	     0	  17.5
+
+        96	   802	    7606	 7606	    SABINE	    URSULA	     PETEFS	        NA	25	10	1935		
+        96	   802	    9728	 9728	    SABINE	    URSULA	     PETERS	        NA	25	10	1935	     0	  17.5
+
+        97	   801	    7153	 7153	   CLAUDIA	        NA	     WALTER	        NA	 1	 1	1926		
+        97	   801	    7746	 7746	  CLAUDNIA	        NA	     WALTER	        NA	 1	 1	1926	     0	  17.5
+
+        98	   800	     305	  305	  THORSTEN	        NA	       KOCH	        NA	19	13	1939		
+        98	   800	    4603	 4603	  THORSTEN	        NA	       KOCH	        NA	19	12	1939	     0	  17.5
+
+        99	   799	    2741	 2741	  GUENTHER	        NA	     JAETER	        NA	14	 1	1946		
+        99	   799	    3541	 3541	  GUENTHER	        NA	     JAEGER	        NA	14	 1	1946	     0	  17.5
+
+       100	   798	    8657	 8657	    URSULA	        NA	     LORENZ	        NA	20	12	1947		
+       100	   798	    8707	 8707	    URSULA	        NA	     LORENZ	        NA	20	12	1957	     0	  17.5
+
+       101	   797	    2409	 2409	      HANS	        NA	   PFEIFFER	        NA	 1	12	1970		
+       101	   797	    4310	 4310	      HANS	        NA	   PFIEFFER	        NA	 1	12	1970	     0	  17.4
+
+       102	   796	    7089	 7089	 HANNELORE	        NA	  SCHNEIDER	        NA	30	12	1982		
+       102	   796	    9572	 9572	 HANNELORE	        NA	  SCHNEIDER	        NA	30	17	1982	     0	  17.4
+
+       103	   795	     173	  173	  JUERGUEN	        NA	     WAGNER	  HOFFMANN	25	 2	1970		
+       103	   795	    1169	 1169	   JUERGEN	        NA	     WAGNER	  HOFFMANN	25	 2	1970	     0	  17.4
+
+       104	   794	    4080	 4080	  JOACHIJM	        NA	  SCHREIBER	        NA	10	 2	1953		
+       104	   794	    4616	 4616	   JOACHIM	        NA	  SCHREIBER	        NA	10	 2	1953	     0	  17.3
+
+       105	   793	    5692	 5692	    GISELA	        NA	      FRANK	        NA	31	10	1942		
+       105	   793	    7870	 7870	   GISELAK	        NA	      FRANK	        NA	31	10	1942	     0	  17.3
+
+       106	   792	     650	  650	 WOLFGQANG	        NA	   PFEIFFER	        NA	11	 8	1924		
+       106	   792	    4234	 4234	  WOLFGANG	        NA	   PFEIFFER	        NA	11	 8	1924	     0	  17.3
+
+       107	   791	    4325	 4325	   GERHARD	        NA	       WOLF	        NA	21	 1	2007		
+       107	   791	    4395	 4395	   GERHARD	        NA	       WOLF	        NA	21	 1	2005	     0	  17.3
+
+       108	   790	     332	  332	  WOLFGANG	        NA	      WEISS	        NA	13	12	1943		
+       108	   790	    2931	 2931	 WOLFZGANG	        NA	      WEISS	        NA	13	12	1943	     0	  17.3
+
+       109	   789	    2167	 2167	 GUENKTHER	        NA	   SCHUSTER	        NA	30	 5	1956		
+       109	   789	    3506	 3506	  GUENTHER	        NA	   SCHUSTER	        NA	30	 5	1956	     0	  17.2
+
+       110	   788	     557	  557	  THORSTEN	    OLIVER	     SCHULZ	        NA	20	 9	1983		
+       110	   788	    3278	 3278	  THORSTEN	    OLIVER	     SCHUWZ	        NA	20	 9	1983	     0	  17.2
+
+       111	   787	    1281	 1281	  GERHARGD	    HELMUT	    KOERTIG	        NA	 5	 3	1973		
+       111	   787	    2672	 2672	   GERHARD	    HELMUT	    KOERTIG	        NA	 5	 3	1973	     0	  17.2
+
+       112	   786	    1933	 1933	     FRANK	        NA	     WERNER	        NA	17	12	2001		
+       112	   786	    2041	 2041	    FRANKR	        NA	     WERNER	        NA	17	12	2001	     0	  17.2
+
+       113	   785	    2416	 2416	  ANDRUEAS	      RALF	    KOEHLER	        NA	29	 7	1958		
+       113	   785	    2704	 2704	   ANDREAS	      RALF	    KOEHLER	        NA	29	 7	1958	     0	  17.2
+
+       114	   784	    4404	 4404	    MARTIN	    THOMAS	 SCHUMACHER	        NA	29	12	1985		
+       114	   784	    4438	 4438	    MARTIN	    THOMAS	SCHUMEACHER	        NA	29	12	1985	     0	  17.2
+
+       115	    11	    1776	 1776	  WOLFGANG	        NA	      MAYER	        NA	14	 1	1984		
+       115	    11	    4421	 4421	 WOLTFGANG	        NA	      MAYER	        NA	14	 1	1984	     0	  17.2
+
+       116	   782	    3698	 3698	  ANDREEAS	     PETER	      VOIGT	        NA	 8	 5	1955		
+       116	   782	    4301	 4301	   ANDREAS	     PETER	      VOIGT	        NA	 8	 5	1955	     0	  17.2
+
+       117	   781	    7095	 7095	   URSURLA	        NA	    KRAEMER	        NA	20	 7	1983		
+       117	   781	    8518	 8518	    URSULA	        NA	    KRAEMER	        NA	20	 7	1983	     0	  17.1
+
+       118	   780	    3421	 3421	    STEFAN	        NA	      LANGE	        NA	14	11	1949		
+       118	   780	    3651	 3651	    STEFAN	        NA	      LANGE	        NA	14	11	1969	     0	  17.1
+
+       119	   779	    6779	 6779	    PEGTRA	        NA	   SCHUSTER	        NA	19	 6	1940		
+       119	   779	    9540	 9540	     PETRA	        NA	   SCHUSTER	        NA	19	 6	1940	     0	  17.1
+
+       120	   778	    5414	 5414	 ANGELBIKA	        NA	     LUDWIG	        NA	19	 2	1974		
+       120	   778	    5568	 5568	  ANGELIKA	        NA	     LUDWIG	        NA	19	 2	1974	     0	  17.1
+
+       121	   777	    6301	 6301	  JOHCANNA	        NA	       OTTO	        NA	 1	 0	1967		
+       121	   777	    7191	 7191	   JOHANNA	        NA	       OTTO	        NA	 1	 3	1967	     0	  17.1
+
+       122	   296	     323	  323	   ANDREAS	        NA	    KRUEGER	        NA	10	13	1967		
+       122	   296	    2489	 2489	   ANDREAS	        NA	    KRUEGER	        NA	10	12	1967	     0	  17.0
+
+       123	   775	    6564	 6564	    INGRID	        NA	      BRAUN	        NA	14	10	1967		
+       123	   775	    6683	 6683	    INGRID	        NA	      BRAUN	        NA	14	10	1977	     0	  17.0
+
+       124	   774	    1119	 1119	CHRISOTIAN	        NA	     SCHOLZ	        NA	 1	 9	1986		
+       124	   774	    4630	 4630	 CHRISTIAN	        NA	     SCHOLZ	        NA	 1	 9	1986	     0	  17.0
+
+       125	   773	    7098	 7098	 MARIANRNE	        NA	       JUNG	        NA	13	 3	1941		
+       125	   773	    7954	 7954	  MARIANNE	        NA	       JUNG	        NA	13	 3	1941	     0	  17.0
+
+       126	   772	    2658	 2658	     HORST	   ANDREAS	       KOCH	        NA	 5	12	1979		
+       126	   772	    2700	 2700	     HORST	   ANDREAS	       KOCH	        NA	25	12	1979	     0	  17.0
+
+       127	   771	    7803	 7803	  IRMGATRD	     MARIA	  SCHNEIDER	        NA	 9	 8	1942		
+       127	   771	    8112	 8112	   IRMGARD	     MARIA	  SCHNEIDER	        NA	 9	 8	1942	     0	  17.0
+
+       128	   770	     422	  422	  MANFRESD	        NA	      FUCHS	        NA	18	 7	1956		
+       128	   770	    3003	 3003	   MANFRED	        NA	      FUCHS	        NA	18	 7	1956	     0	  16.9
+
+       129	   769	    7359	 7359	      ILSE	        NA	     WAGNER	        NA	21	 1	1986		
+       129	   769	    8127	 8127	     ILSEO	        NA	     WAGNER	        NA	21	 1	1986	     0	  16.9
+
+       130	   768	    4753	 4753	   HERMANN	        NA	   ALBRECHT	        NA	12	11	1943		
+       130	   768	    4991	 4991	   HERMANN	        NA	   ALBREVHT	        NA	12	11	1943	     0	  16.8
+
+       131	   767	    2255	 2255	     MARCO	        NA	    SCHMLID	        NA	10	 7	1961		
+       131	   767	    4151	 4151	     MARCO	        NA	     SCHMID	        NA	10	 7	1961	     0	  16.8
+
+       132	   766	    2433	 2433	  JUERGDEN	        NA	     LORENZ	        NA	18	 3	1950		
+       132	   766	    4797	 4797	   JUERGEN	        NA	     LORENZ	        NA	18	 3	1950	     0	  16.8
+
+       133	    35	     438	  438	    DIETER	        NA	      MEYER	        NA	17	12	1953		
+       133	    35	    4535	 4535	    DIETER	        NA	      MEYER	        NA	17	12	1959	     0	  16.8
+
+       134	   764	    2547	 2547	      RENE	        NA	     BERGER	      JUNG	23	 9	1450		
+       134	   764	    3702	 3702	      RENE	        NA	     BERGER	      JUNG	23	 9	1950	     0	  16.8
+
+       135	   763	    8680	 8680	     ILSVE	        NA	     SCHOLZ	        NA	21	 7	1949		
+       135	   763	    9011	 9011	      ILSE	        NA	     SCHOLZ	        NA	21	 7	1949	     0	  16.8
+
+       136	   762	    2533	 2533	     KARZL	        NA	   ALBRECHT	        NA	15	 8	1953		
+       136	   762	    2833	 2833	      KARL	        NA	   ALBRECHT	        NA	15	 8	1953	     0	  16.7
+
+       137	   761	    1061	 1061	    VOLKER	        NA	     SOMMER	        NA	30	10	1973		
+       137	   761	    4443	 4443	    VOLKER	        NA	     SOMNER	        NA	30	10	1973	     0	  16.7
+
+       138	   760	    8804	 8804	   DANIELA	        NA	      KOTCH	        NA	13	 8	1993		
+       138	   760	    8986	 8986	   DANIELA	        NA	       KOCH	        NA	13	 8	1993	     0	  16.7
+
+       139	   759	    3009	 3009	     PETER	        NA	  SCHROEDER	        NA	18	 1	1997		
+       139	   759	    4100	 4100	    PETERJ	        NA	  SCHROEDER	        NA	18	 1	1997	     0	  16.7
+
+       140	   228	    1422	 1422	    WERNER	        NA	   HOFFMANN	        NA	71	11	1964		
+       140	   228	    4524	 4524	    WERNER	        NA	   HOFFMANN	        NA	17	11	1964	     0	  16.7
+
+       141	   757	    7622	 7622	    HEIKET	        NA	     BERGER	        NA	13	 7	1963		
+       141	   757	    8742	 8742	     HEIKE	        NA	     BERGER	        NA	13	 7	1963	     0	  16.7
+
+       142	   756	    5966	 5966	 CHRISTTEL	        NA	      MAIER	        NA	12	 6	1966		
+       142	   756	    7775	 7775	  CHRISTEL	        NA	      MAIER	        NA	12	 6	1966	     0	  16.7
+
+       143	   755	    5170	 5170	     HELGA	   MARTINA	       KUHJ	        NA	30	10	1959		
+       143	   755	    7338	 7338	     HELGA	   MARTINA	       KUHN	        NA	30	10	1959	     0	  16.6
+
+       144	   754	    5693	 5693	    INGRID	        NA	   HOFFMANN	        NA	11	10	1963		
+       144	   754	    9518	 9518	    INGRID	        NA	   HOFFMANN	        NA	11	10	1968	     0	  16.6
+
+       145	   753	    2025	 2025	    FRAINK	        NA	      FRANK	        NA	21	 2	2004		
+       145	   753	    3932	 3932	     FRANK	        NA	      FRANK	        NA	21	 2	2004	     0	  16.6
+
+       146	   752	     831	  831	    PEPTER	        NA	      FRANK	        NA	 1	 7	1990		
+       146	   752	    2230	 2230	     PETER	        NA	      FRANK	        NA	 1	 7	1990	     0	  16.6
+
+       147	   751	    7671	 7671	  BARBAVRA	        NA	    KOERTIG	        NA	19	 8	1951		
+       147	   751	    9104	 9104	   BARBARA	        NA	    KOERTIG	        NA	19	 8	1961	     0	  16.6
+
+       148	   750	     460	  460	     MAWIK	        NA	     BERGER	        NA	13	 6	1978		
+       148	   750	    4743	 4743	      MAIK	        NA	     BERGER	        NA	13	 6	1978	     0	  16.6
+
+       149	   749	    5203	 5203	     KARIN	        NA	    RICHTER	        NA	18	 1	1973		
+       149	   749	    8241	 8241	     KARIN	        NA	    RICHTER	        NA	19	 1	1965	     0	  16.6
+
+       150	   748	    5792	 5792	   BIRGITR	        NA	    SCHULZE	        NA	17	 8	1998		
+       150	   748	    9115	 9115	    BIRGIT	        NA	    SCHULZE	        NA	17	 8	1998	     0	  16.5
+
+       151	   747	    2709	 2709	  GUENTHER	 CHRISTIAN	    SCHMIDT	        NA	12	12	1932		
+       151	   747	    4309	 4309	  GUENTHER	 CHRISTIAN	    SCHMIDT	        NA	12	11	1932	     0	  16.5
+
+       152	   746	    8697	 8697	    PETERA	        NA	     KAISER	        NA	30	 5	1999		
+       152	   746	    9586	 9586	     PETRA	        NA	     KAISER	        NA	30	 5	1999	     0	  16.5
+
+       153	   745	    1509	 1509	    BERNSD	        NA	     KAISER	        NA	17	 2	1961		
+       153	   745	    3112	 3112	     BERND	        NA	     KAISER	        NA	17	 2	1961	     0	  16.5
+
+       154	   744	    7930	 7930	  CLAXUDIA	        NA	      LANGE	        NA	19	 5	1960		
+       154	   744	    7944	 7944	   CLAUDIA	        NA	      LANGE	        NA	19	 5	1960	     0	  16.4
+
+       155	   743	    6477	 6477	  SUSAXNNE	        NA	    SCHMITZ	        NA	13	 5	1999		
+       155	   743	    8544	 8544	   SUSANNE	        NA	    SCHMITZ	        NA	13	 5	1999	     0	  16.4
+
+       156	   742	     350	  350	    BERNHD	        NA	    KRUEGER	        NA	17	 5	1968		
+       156	   742	    1706	 1706	     BERND	        NA	    KRUEGER	        NA	17	 5	1968	     0	  16.4
+
+       157	   741	    9429	 9429	  CLAUNDIA	        NA	  SCHROEDER	        NA	31	 8	1989		
+       157	   741	    9848	 9848	   CLAUDIA	        NA	  SCHROEDER	        NA	31	 8	1989	     0	  16.4
+
+       158	   740	    6114	 6114	   GISESLA	        NA	    SCHMITZ	        NA	14	 2	1950		
+       158	   740	    9599	 9599	    GISELA	        NA	    SCHMITZ	        NA	14	 2	1950	     0	  16.4
+
+       159	   163	    5787	 5787	    SABINE	        NA	   HOFFMANN	        NA	16	11	1976		
+       159	   163	    9770	 9770	    SABINE	        NA	  HOFFMMANN	        NA	16	11	1976	     0	  16.3
+
+       160	   738	    1278	 1278	     HANSS	        NA	  SCHREIBER	        NA	27	11	2008		
+       160	   738	    1280	 1280	      HANS	        NA	  SCHREIBER	        NA	27	11	2008	     0	  16.2
+
+       161	   737	    6560	 6560	     HELGA	        NA	     BECKER	        NA	15	10	1930		
+       161	   737	    8538	 8538	    HELGAX	        NA	     BECKER	        NA	15	10	1930	     0	  16.2
+
+       162	   736	    8287	 8287	   KATHRIN	        NA	    SCHMIDT	        NA	20	10	1964		
+       162	   736	    8800	 8800	  KATHRYIN	        NA	    SCHMIDT	        NA	20	10	1964	     0	  16.2
+
+       163	   735	    2289	 2289	 WOLFGANGR	        NA	       KOCH	        NA	14	 4	2003		
+       163	   735	    4865	 4865	  WOLFGANG	        NA	       KOCH	        NA	14	 4	2003	     0	  16.2
+
+       164	   734	    6823	 6823	     KARIN	        NA	    FISCHER	        NA	12	11	1948		
+       164	   734	    8016	 8016	     KARIN	        NA	    FISCHER	        NA	17	11	1962	     0	  16.2
+
+       165	   733	     936	  936	  WILVHELM	        NA	       HAHN	        NA	28	11	1979		
+       165	   733	     986	  986	   WILHELM	        NA	       HAHN	        NA	28	11	1979	     0	  16.2
+
+       166	   732	    1370	 1370	    WALTER	        NA	    MUELLER	        NA	 1	 1	1993		
+       166	   732	    3666	 3666	    WALTER	        NA	    MUELLER	        NA	31	 1	1964	     0	  16.2
+
+       167	   731	    1232	 1232	   THOEMAS	        NA	     JAEGER	        NA	 6	12	1967		
+       167	   731	    1790	 1790	    THOMAS	        NA	     JAEGER	        NA	 6	12	1967	     0	  16.2
+
+       168	   730	    9268	 9268	      UTBE	        NA	      GROSS	        NA	12	 5	1932		
+       168	   730	    9279	 9279	       UTE	        NA	      GROSS	        NA	12	 5	1932	     0	  16.2
+
+       169	   729	    2869	 2869	     RALFC	        NA	      KUEHN	        NA	25	11	2005		
+       169	   729	    3839	 3839	      RALF	        NA	      KUEHN	        NA	25	11	2005	     0	  16.2
+
+       170	   728	     346	  346	    HORSST	        NA	       KUHN	        NA	 4	12	1959		
+       170	   728	    3481	 3481	     HORST	        NA	       KUHN	        NA	 4	12	1959	     0	  16.1
+
+       171	   382	    6455	 6455	   INGRIHD	        NA	      BAUER	        NA	13	 7	1997		
+       171	   382	    9167	 9167	    INGRID	        NA	      BAUER	        NA	13	 7	1997	     0	  16.1
+
+       172	   726	    1426	 1426	    PETEHR	        NA	       KOCH	        NA	17	 7	1969		
+       172	   726	    2102	 2102	     PETER	        NA	       KOCH	        NA	17	 7	1969	     0	  16.1
+
+       173	   725	    5360	 5360	  IRMGALRD	        NA	       LANG	        NA	27	 1	1980		
+       173	   725	    5868	 5868	   IRMGARD	        NA	       LANG	        NA	27	 1	1980	     0	  16.1
+
+       174	   724	    5043	 5043	   FRIENDA	        NA	    RICHTER	        NA	31	 7	1979		
+       174	   724	    7519	 7519	    FRIEDA	        NA	    RICHTER	        NA	31	 7	1979	     0	  16.1
+
+       175	    85	    6308	 6308	 ELISABETH	     JUTTA	     BECKER	        NA	17	12	1948		
+       175	    85	    7552	 7552	 ELISABETH	        NA	     BECKER	        NA	21	12	1937	     0	  16.1
+
+       176	   722	    1722	 1722	   ALFREMD	        NA	   HOFFMANN	        NA	18	 3	1937		
+       176	   722	    3653	 3653	    ALFRED	        NA	   HOFFMANN	        NA	18	 3	1937	     0	  16.0
+
+       177	   721	    6313	 6313	    KARIFN	        NA	      BAUER	        NA	20	 5	2003		
+       177	   721	    6742	 6742	     KARIN	        NA	      BAUER	        NA	20	 5	2003	     0	  16.0
+
+       178	   414	    6727	 6727	  CHRISCTA	        NA	   GUENTHER	        NA	29	10	1969		
+       178	   414	    9283	 9283	   CHRISTA	        NA	   GUENTHER	        NA	29	10	1969	     0	  16.0
+
+       179	   719	     110	  110	    HEINZA	        NA	    WINKLER	        NA	 7	12	1965		
+       179	   719	    1867	 1867	     HEINZ	        NA	    WINKLER	        NA	 7	12	1965	     0	  16.0
+
+       180	   718	    4170	 4170	    JOERGF	        NA	   ALBRECHT	        NA	25	10	1979		
+       180	   718	    4394	 4394	     JOERG	        NA	   ALBRECHT	        NA	25	10	1979	     0	  15.9
+
+       181	   717	    1514	 1514	 WOLFGAMNG	        NA	      HUBER	        NA	 4	 1	1959		
+       181	   717	    4894	 4894	  WOLFGANG	        NA	      HUBER	        NA	 4	 1	1959	     0	  15.9
+
+       182	   716	     123	  123	     PETER	        NA	  SCHNEIDER	        NA	16	 1	1940		
+       182	   716	    4161	 4161	    PETERR	        NA	  SCHNEIDER	        NA	16	 1	1940	     0	  15.9
+
+       183	   715	    2460	 2460	CHRISTILAN	        NA	      WEBER	        NA	14	 5	1969		
+       183	   715	    2752	 2752	 CHRISTIAN	        NA	      WEBER	        NA	14	 5	1969	     0	  15.9
+
+       184	   714	    2184	 2184	    FRANNK	        NA	     LORENZ	        NA	 2	12	1951		
+       184	   714	    4482	 4482	     FRANK	        NA	     LORENZ	        NA	 2	12	1951	     0	  15.8
+
+       185	   713	     571	  571	     INGOT	        NA	   GUENTHER	        NA	26	 1	1966		
+       185	   713	    4835	 4835	      INGO	        NA	   GUENTHER	        NA	26	 1	1966	     0	  15.8
+
+       186	   712	    1090	 1090	  MICHAELL	        NA	      WEBER	        NA	31	 3	1976		
+       186	   712	    4382	 4382	   MICHAEL	        NA	      WEBER	        NA	31	 3	1976	     0	  15.8
+
+       187	   711	    2099	 2099	    RAINER	        NA	   HOFFMANN	        NA	10	12	1978		
+       187	   711	    2961	 2961	    RAINER	        NA	   HOFFMSNN	        NA	10	12	1978	     0	  15.8
+
+       188	   710	    6041	 6041	       UTE	        NA	    SCHMITD	        NA	19	 4	1940		
+       188	   710	    6258	 6258	       UTE	        NA	    SCHMIDT	        NA	19	 4	1940	     0	  15.7
+
+       189	   709	    8616	 8616	    KARWIN	        NA	      MEYER	        NA	12	 5	1950		
+       189	   709	    8713	 8713	     KARIN	        NA	      MEYER	        NA	12	 5	1950	     0	  15.7
+
+       190	   708	    1863	 1863	  WILFRIED	     FRANK	  SCHNEIDER	        NA	29	 3	1959		
+       190	   708	    3209	 3209	  WILFRIED	     FRANK	  SCHNEIDER	        NA	92	 3	1959	     0	  15.7
+
+       191	   707	    3378	 3378	 CHRISTIAN	        NA	    FISCHER	        NA	21	12	1999		
+       191	   707	    4230	 4230	 CHRISTIAN	        NA	    FISCEHR	        NA	21	12	1999	     0	  15.7
+
+       192	   706	    5141	 5141	      ILSE	        NA	    SCHUERT	        NA	14	 8	1935		
+       192	   706	    7717	 7717	      ILSE	        NA	   SCHUBERT	        NA	14	 8	1935	     0	  15.6
+
+       193	   705	    1409	 1409	  MICHAEHL	        NA	  SCHNEIDER	        NA	12	 4	1982		
+       193	   705	    1979	 1979	   MICHAEL	        NA	  SCHNEIDER	        NA	12	 4	1982	     0	  15.6
+
+       194	   456	     547	  547	    RUDOLF	        NA	    MUELLER	        NA	15	11	1926		
+       194	   456	    1656	 1656	    RUDOLF	        NA	    MUELLDR	        NA	15	11	1926	     0	  15.6
+
+       195	   703	    2271	 2271	    HEIKCO	        NA	     KAISER	        NA	27	11	1972		
+       195	   703	    2960	 2960	     HEIKO	        NA	     KAISER	        NA	27	11	1972	     0	  15.6
+
+       196	   702	    3084	 3084	    WERNER	        NA	    SCHMIDT	        NA	21	11	1975		
+       196	   702	    3513	 3513	   WERNERG	        NA	    SCHMIDT	        NA	21	11	1975	     0	  15.6
+
+       197	   701	    5826	 5826	  INGEBORG	        NA	     BECKER	        NA	21	 1	2000		
+       197	   701	    7696	 7696	  INGEBORG	        NA	     BECLER	        NA	21	 1	2000	     0	  15.5
+
+       198	   700	    7550	 7550	     ANFJA	        NA	    FISCHER	        NA	31	 7	1980		
+       198	   700	    9077	 9077	      ANJA	        NA	    FISCHER	        NA	31	 7	1980	     0	  15.5
+
+       199	   699	    1510	 1510	     KLAUS	        NA	    SCHMIDT	        NA	10	12	2003		
+       199	   699	    2589	 2589	    KLAUSN	        NA	    SCHMIDT	        NA	10	12	2003	     0	  15.5
+
+       200	   698	    2242	 2242	     HEINZ	        NA	    SCHUULZ	        NA	18	 2	1979		
+       200	   698	    3266	 3266	     HEINZ	        NA	     SCHULZ	        NA	18	 2	1979	     0	  15.5
+
+       201	   291	     138	  138	    DANIEL	        NA	    SCHMIDT	        NA	15	11	1964		
+       201	   291	    1480	 1480	    DANIEL	        NA	    SCHMKDT	        NA	15	11	1964	     0	  15.5
+
+       202	    93	    2219	 2219	  GUENTHER	        NA	    MUELLER	        NA	 1	11	1955		
+       202	    93	    3008	 3008	  GUENTHER	        NA	    MUELLER	        NA	16	11	1985	     0	  15.3
+
+       203	    93	    1295	 1295	  GUENTHER	        NA	    MUELLER	        NA	19	11	1993		
+       203	    93	    2219	 2219	  GUENTHER	        NA	    MUELLER	        NA	 1	11	1955	     0	  15.3
+
+       204	    93	    1295	 1295	  GUENTHER	        NA	    MUELLER	        NA	19	11	1993		
+       204	    93	    3008	 3008	  GUENTHER	        NA	    MUELLER	        NA	16	11	1985	     0	  15.3
+
+       205	    93	      22	   22	  GUENTHER	        NA	    MUELLER	        NA	17	11	1994		
+       205	    93	    1295	 1295	  GUENTHER	        NA	    MUELLER	        NA	19	11	1993	     0	  15.3
+
+       206	    93	      22	   22	  GUENTHER	        NA	    MUELLER	        NA	17	11	1994		
+       206	    93	    3008	 3008	  GUENTHER	        NA	    MUELLER	        NA	16	11	1985	     0	  15.3
+
+       207	    93	      22	   22	  GUENTHER	        NA	    MUELLER	        NA	17	11	1994		
+       207	    93	    2219	 2219	  GUENTHER	        NA	    MUELLER	        NA	 1	11	1955	     0	  15.3
+
+       208	   690	    1929	 1929	    TOBIAS	        NA	     WINTER	        NA	20	 3	1925		
+       208	   690	    3948	 3948	    TOBIAS	        NA	     WINTER	        NA	20	 7	1925	     0	  15.3
+
+       209	   689	    5234	 5234	     ERIKA	        NA	    SCHMITT	        NA	14	 1	1961		
+       209	   689	    8308	 8308	     ERIKA	        NA	    SCHMIDT	        NA	14	 1	1951	     0	  15.3
+
+       210	   688	    3300	 3300	  WOLFGANG	        NA	    MUELLER	        NA	16	 1	2002		
+       210	   688	    4936	 4936	 WOLFGIANG	        NA	    MUELLER	        NA	16	 1	2002	     0	  15.3
+
+       211	   161	    9842	 9842	      ANNA	        NA	    MUELLER	        NA	20	11	1965		
+       211	   161	    9854	 9854	     ANNRA	        NA	    MUELLER	        NA	20	11	1965	     0	  15.3
+
+       212	   686	    1843	 1843	      UKWE	        NA	    SCHWARZ	        NA	17	 9	1963		
+       212	   686	    2045	 2045	       UWE	        NA	    SCHWARZ	        NA	17	 9	1963	     0	  15.3
+
+       213	   685	    5440	 5440	    URSULA	        NA	    MUELLER	        NA	16	12	1961		
+       213	   685	    6212	 6212	   URSULTA	        NA	    MUELLER	        NA	16	12	1961	     0	  15.3
+
+       214	   684	    5881	 5881	     HELGA	        NA	 SCHROTEDER	        NA	 5	 1	1949		
+       214	   684	    7695	 7695	     HELGA	        NA	  SCHROEDER	        NA	 5	 1	1949	     0	  15.2
+
+       215	   683	    7857	 7857	   MARTINA	    SILVIA	       HORN	        NA	 5	 8	1967		
+       215	   683	    8869	 8869	  MARTINSA	    SILVIA	       HORN	        NA	 5	 8	1967	     0	  15.2
+
+       216	   682	    5851	 5851	    ANDREA	     KARIN	       KOCH	        NA	 5	12	1980		
+       216	   682	    9278	 9278	    ANDREA	     KARIN	        KOH	        NA	 5	12	1980	     0	  15.2
+
+       217	   681	     609	  609	     FRITZ	        NA	     KELLER	        NA	11	 4	1980		
+       217	   681	    1358	 1358	     FRITZ	        NA	     KELLER	        NA	11	 4	1970	     0	  15.2
+
+       218	   680	     937	  937	     MARRK	        NA	   SCHAEFER	        NA	28	 1	1947		
+       218	   680	    4886	 4886	      MARK	        NA	   SCHAEFER	        NA	28	 1	1947	     0	  15.1
+
+       219	   679	    8934	 8934	    URSULA	        NA	   KRUEGEDR	        NA	13	 7	2006		
+       219	   679	    9555	 9555	    URSULA	        NA	    KRUEGER	        NA	13	 7	2006	     0	  15.1
+
+       220	   678	    7865	 7865	    HEIVKE	        NA	    RICHTER	        NA	 9	12	1953		
+       220	   678	    9950	 9950	     HEIKE	        NA	    RICHTER	        NA	 9	12	1953	     0	  15.1
+
+       221	   677	    9606	 9606	 INGEBUORG	        NA	     SCHULZ	        NA	 5	10	1956		
+       221	   677	    9616	 9616	  INGEBORG	        NA	     SCHULZ	        NA	 5	10	1956	     0	  15.1
+
+       222	   676	    1773	 1773	   JUERGEN	        NA	    SCHMITT	        NA	17	 1	1974		
+       222	   676	    2325	 2325	   JUERGEN	        NA	    SCHMIRT	        NA	17	 1	1974	     0	  15.1
+
+       223	   675	    5757	 5757	   URSUHLA	        NA	    SCHMIDT	        NA	15	 6	1968		
+       223	   675	    9420	 9420	    URSULA	        NA	    SCHMIDT	        NA	15	 6	1968	     0	  15.1
+
+       224	   674	    5293	 5293	   RENATAE	        NA	    SCHMIDT	        NA	18	 3	1924		
+       224	   674	    5950	 5950	    RENATE	        NA	    SCHMIDT	        NA	18	 3	1924	     0	  15.1
+
+       225	   673	    6936	 6936	   SABIINE	        NA	     KAISER	        NA	26	12	1937		
+       225	   673	    9082	 9082	    SABINE	        NA	     KAISER	        NA	26	12	1937	     0	  15.1
+
+       226	   672	    7574	 7574	    SONVJA	        NA	    SCHMIDT	        NA	15	 9	2008		
+       226	   672	    7984	 7984	     SONJA	        NA	    SCHMIDT	        NA	15	 9	2008	     0	  15.0
+
+       227	   671	    3130	 3130	      SVEN	        NA	      HOYRN	        NA	18	 5	1940		
+       227	   671	    4386	 4386	      SVEN	        NA	       HORN	        NA	18	 5	1940	     0	  14.9
+
+       228	   670	    1962	 1962	      UWEY	        NA	     BECKER	        NA	11	 9	1967		
+       228	   670	    2942	 2942	       UWE	        NA	     BECKER	        NA	11	 9	1967	     0	  14.9
+
+       229	   669	    6983	 6983	KATHDARINA	        NA	    MUELLER	        NA	20	 3	1968		
+       229	   669	    8926	 8926	 KATHARINA	        NA	    MUELLER	        NA	20	 3	1968	     0	  14.9
+
+       230	   668	    7101	 7101	   GISEPLA	        NA	      WEBER	        NA	25	12	1979		
+       230	   668	    8566	 8566	    GISELA	        NA	      WEBER	        NA	25	12	1979	     0	  14.8
+
+       231	   667	    1885	 1885	    THOMAS	        NA	    MOELELR	        NA	21	 9	1981		
+       231	   667	    2127	 2127	    THOMAS	        NA	    MOELLER	        NA	21	 9	1981	     0	  14.8
+
+       232	   666	    3836	 3836	  MANFRXED	        NA	    MUELLER	        NA	21	 5	1957		
+       232	   666	    4133	 4133	   MANFRED	        NA	    MUELLER	        NA	21	 5	1957	     0	  14.8
+
+       233	   665	    1766	 1766	      JENS	        NA	    PETHERS	        NA	29	12	1971		
+       233	   665	    3749	 3749	      JENS	        NA	     PETERS	        NA	29	12	1971	     0	  14.8
+
+       234	    40	      51	   51	  MATTHIAS	        NA	   MUELLLER	        NA	24	 1	1993		
+       234	    40	    4165	 4165	  MATTHIAS	        NA	    MUELLER	        NA	24	 1	1993	     0	  14.7
+
+       235	     1	    1990	 1990	       UWE	        NA	    SCHMIDT	        NA	 1	12	1928		
+       235	     1	    2557	 2557	       UWE	      JENS	    SCHMIDT	        NA	17	12	1969	     0	  14.7
+
+       236	   662	    3462	 3462	     PETER	        NA	     KAISER	        NA	13	10	1992		
+       236	   662	    3931	 3931	     PETER	        NA	     KAISEP	        NA	13	10	1992	     0	  14.7
+
+       237	   661	    5165	 5165	  CORNELIA	        NA	   SCHUBERT	        NA	16	 3	1987		
+       237	   661	    9113	 9113	 CORNEHLIA	        NA	   SCHUBERT	        NA	16	 3	1987	     0	  14.6
+
+       238	   660	    5209	 5209	CHRISTIANE	        NA	     LORENZ	        NA	18	 4	1959		
+       238	   660	    5607	 5607	CHRISTIANE	        NA	     LORENZ	        NA	18	 4	1953	     0	  14.6
+
+       239	   659	    4481	 4481	    WERNER	        NA	     MEIEAR	        NA	16	 5	1963		
+       239	   659	    4545	 4545	    WERNER	        NA	      MEIER	        NA	16	 5	1963	     0	  14.6
+
+       240	   658	    6417	 6417	      INGE	        NA	    KOERNIG	        NA	10	 4	1972		
+       240	   658	    8836	 8836	      INGE	        NA	    KOERTIG	        NA	10	 5	1972	     0	  14.6
+
+       241	   290	    3907	 3907	     SVEHN	        NA	    MUELLER	        NA	16	 4	1958		
+       241	   290	    3961	 3961	      SVEN	        NA	    MUELLER	        NA	16	 4	1958	     0	  14.6
+
+       242	   656	    6991	 6991	    INGRID	        NA	     SIMONK	        NA	17	 2	2007		
+       242	   656	    8385	 8385	    INGRID	        NA	      SIMON	        NA	17	 2	2007	     0	  14.6
+
+       243	   655	     130	  130	  HEINRICH	 CHRISTIAN	      STEIN	        NA	29	 6	1946		
+       243	   655	     245	  245	  HEINRICH	 CHRISTIAN	      STEIN	        NA	28	 6	1946	     0	  14.5
+
+       244	   654	    1564	 1564	   PHILIPP	        NA	       WOLF	        NA	30	 9	1938		
+       244	   654	    1763	 1763	  PHILGIPP	        NA	       WOLF	        NA	30	 9	1938	     0	  14.5
+
+       245	   653	    1941	 1941	    DIETER	        NA	    HARTMNN	        NA	 8	11	1965		
+       245	   653	    3318	 3318	    DIETER	        NA	   HARTMANN	        NA	 8	11	1965	     0	  14.5
+
+       246	   652	    2314	 2314	  GUENTHER	        NA	     WEBERH	        NA	12	 5	1967		
+       246	   652	    4484	 4484	  GUENTHER	        NA	      WEBER	        NA	12	 5	1967	     0	  14.5
+
+       247	   651	    1523	 1523	    ULRICH	        NA	       ROTH	        NA	21	12	1976		
+       247	   651	    2832	 2832	    ULRICH	        NA	       ROTH	        NA	21	 3	1969	     0	  14.5
+
+       248	   650	    8739	 8739	    RENATE	        NA	     MEIJER	        NA	13	 3	1950		
+       248	   650	    9216	 9216	    RENATE	        NA	      MEIER	        NA	13	 3	1950	     0	  14.5
+
+       249	   649	     565	  565	      OLAF	        NA	      GROSS	        NA	12	 3	1997		
+       249	   649	    3708	 3708	     OLANF	        NA	      GROSS	        NA	12	 3	1997	     0	  14.4
+
+       250	   648	    5593	 5593	  STEFANIE	        NA	    MUELLER	        NA	12	 1	1952		
+       250	   648	    5594	 5594	  STEFANIE	        NA	    MUELLEO	        NA	12	 1	1952	     0	  14.4
+
+       251	   647	    3288	 3288	    MARTIN	     PETER	    MUELLER	        NA	27	11	2006		
+       251	   647	    4533	 4533	    MARTIN	     PETER	    MUELJER	        NA	27	11	2006	     0	  14.4
+
+       252	   646	    6771	 6771	    FRIEDA	    INGRID	      HUBER	        NA	 4	 3	1988		
+       252	   646	    9357	 9357	   FRIERDA	    INGRID	      HUBER	        NA	 4	 3	1988	     0	  14.4
+
+       253	   645	    6547	 6547	    BRITTA	    MARION	     BRANDT	        NA	 7	 8	1957		
+       253	   645	    7249	 7249	   BRIATTA	    MARION	     BRANDT	        NA	 7	 8	1957	     0	  14.4
+
+       254	   133	    7259	 7259	  BRIGITTE	        NA	    MUELLER	        NA	13	 1	1974		
+       254	   133	    8378	 8378	    BIRGIT	        NA	    MUELLER	        NA	13	 1	1933	     0	  14.3
+
+       255	   234	    5107	 5107	     EDITH	        NA	       OTTO	        NA	14	10	1973		
+       255	   234	    9864	 9864	     EDITH	        NA	       OTTO	        NA	14	19	1973	     0	  14.3
+
+       256	   640	    7939	 7939	    MARION	        NA	       HORN	        NA	20	 5	1964		
+       256	   640	    8831	 8831	    MARION	        NA	       HORN	        NA	20	 2	1947	     0	  14.3
+
+       257	   640	    8831	 8831	    MARION	        NA	       HORN	        NA	20	 2	1947		
+       257	   640	    9492	 9492	    MARION	        NA	       HORN	        NA	20	 4	1964	     0	  14.3
+
+       258	   640	    7939	 7939	    MARION	        NA	       HORN	        NA	20	 5	1964		
+       258	   640	    9492	 9492	    MARION	        NA	       HORN	        NA	20	 4	1964	     0	  14.3
+
+       259	   639	     230	  230	     MARCO	        NA	    LEHMANN	        NA	18	 7	1944		
+       259	   639	     885	  885	     MARCO	        NA	    LEHMANN	        NA	16	 7	1944	     0	  14.3
+
+       260	   638	    1959	 1959	   MANFRED	      HANS	     PETWRS	        NA	25	 5	1987		
+       260	   638	    2728	 2728	   MANFRED	      HANS	     PETERS	        NA	25	 5	1987	     0	  14.3
+
+       261	   637	    6844	 6844	     GERDA	        NA	    FISCJER	        NA	11	 2	1981		
+       261	   637	    8774	 8774	     GERDA	        NA	    FISCHER	        NA	11	 2	1981	     0	  14.2
+
+       262	   636	    7235	 7235	    HELENE	        NA	    SCHMITT	        NA	 6	12	1947		
+       262	   636	    7320	 7320	    HELENE	        NA	    SCHMITT	        NA	 6	12	1948	     0	  14.2
+
+       263	   138	    5046	 5046	  WALTRAUD	        NA	   HERRMANN	        NA	17	 4	1992		
+       263	   138	    9857	 9857	  WALTRAUD	        NA	   HERRMANN	        NA	17	12	1992	     0	  14.2
+
+       264	   634	    7164	 7164	      INGE	        NA	    SCHMIST	        NA	13	 8	1993		
+       264	   634	    8233	 8233	      INGE	        NA	    SCHMIDT	        NA	13	 8	1993	     0	  14.2
+
+       265	   633	    5025	 5025	 HILDEGARD	        NA	    WINKKER	        NA	14	 2	1964		
+       265	   633	    7966	 7966	 HILDEGARD	        NA	    WINKLER	        NA	14	 2	1964	     0	  14.1
+
+       266	   632	    6017	 6017	 CHRISTINE	        NA	    SCHWSRZ	        NA	31	 5	1930		
+       266	   632	    9328	 9328	 CHRISTINE	        NA	    SCHWARZ	        NA	31	 5	1930	     0	  14.1
+
+       267	   318	    7433	 7433	 CHRISTINE	        NA	    MUEKLER	        NA	18	 7	1937		
+       267	   318	    7580	 7580	 CHRISTINE	        NA	    MUELLER	        NA	18	 7	1937	     0	  14.1
+
+       268	   630	     908	  908	    RAINER	        NA	      POUHL	        NA	24	10	1971		
+       268	   630	    1444	 1444	    RAINER	        NA	       POHL	        NA	24	10	1971	     0	  14.1
+
+       269	   629	    9070	 9070	    RENATE	        NA	   SCHWADRZ	        NA	28	12	1962		
+       269	   629	    9570	 9570	    RENATE	        NA	    SCHWARZ	        NA	28	12	1962	     0	  14.1
+
+       270	   628	    6366	 6366	    MARION	        NA	      STEIN	        NA	18	 2	1989		
+       270	   628	    7295	 7295	    MARION	        NA	      STEIN	        NA	18	 7	1989	     0	  14.0
+
+       271	   627	    7895	 7895	     MARIA	 ELISABETH	      HUBER	        NA	26	 6	1996		
+       271	   627	    9672	 9672	    MARIAK	 ELISABETH	      HUBER	        NA	26	 6	1996	     0	  14.0
+
+       272	   626	    6701	 6701	    URSULA	        NA	    WINTEHR	        NA	23	11	1944		
+       272	   626	    7698	 7698	    URSULA	        NA	     WINTER	        NA	23	11	1944	     0	  14.0
+
+       273	   625	    2574	 2574	     GEORG	        NA	      SIMON	        NA	14	10	1954		
+       273	   625	    4237	 4237	     GEORG	        NA	      SIMON	        NA	20	10	1967	     0	  14.0
+
+       274	   624	     170	  170	    OLIVER	        NA	    MUELLRR	        NA	19	 8	1949		
+       274	   624	    3286	 3286	    OLIVER	        NA	    MUELLER	        NA	19	 8	1949	     0	  14.0
+
+       275	   623	    9111	 9111	    MARTHA	        NA	    SCHNIDT	        NA	15	 7	1975		
+       275	   623	    9382	 9382	    MARTHA	        NA	    SCHMIDT	        NA	15	 7	1925	     0	  14.0
+
+       276	   622	     593	  593	 SIEGFRIED	        NA	      BRAUN	        NA	10	 6	1991		
+       276	   622	    4734	 4734	 SIEGFRIED	        NA	     BRAUVN	        NA	10	 6	1991	     0	  14.0
+
+       277	   621	     486	  486	       JAN	        NA	      WOLFF	        NA	17	 9	2008		
+       277	   621	    2044	 2044	       JAN	        NA	      WOLFF	        NA	17	 4	2008	     0	  14.0
+
+       278	   620	     363	  363	   FLORIAN	        NA	      MEIER	        NA	 9	 1	2002		
+       278	   620	    1924	 1924	  FLORIXAN	        NA	      MEIER	        NA	 9	 1	2002	     0	  14.0
+
+       279	   619	    2481	 2481	   HERMANN	        NA	    WINKLER	        NA	10	 7	1972		
+       279	   619	    3991	 3991	   HERMANN	        NA	    WINKLER	        NA	10	 6	1972	     0	  13.9
+
+       280	   618	    5721	 5721	   CHRISTA	        NA	   SCHUNERT	        NA	19	 4	1928		
+       280	   618	    8741	 8741	   CHRISTA	        NA	   SCHUBERT	        NA	19	 4	1928	     0	  13.9
+
+       281	   617	    5426	 5426	    INGRID	        NA	  SCHROESER	        NA	30	 9	1999		
+       281	   617	    6310	 6310	    INGRID	        NA	  SCHROEDER	        NA	30	 9	1999	     0	  13.9
+
+       282	   616	    1213	 1213	     ERICH	        NA	      HUBER	        NA	17	 1	1943		
+       282	   616	    2003	 2003	     ERICH	        NA	      HUBER	        NA	77	 1	1943	     0	  13.9
+
+       283	   615	    7289	 7289	    MONIKA	        NA	    MUELLER	        NA	15	11	1950		
+       283	   615	    8338	 8338	    MONIKA	        NA	    MUELLEF	        NA	15	11	1950	     0	  13.9
+
+       284	   614	      75	   75	  HERMAANN	        NA	    MUELLER	        NA	 2	10	1990		
+       284	   614	    2377	 2377	   HERMANN	        NA	    MUELLER	        NA	 2	10	1990	     0	  13.9
+
+       285	   613	    1816	 1816	  JOHANNES	        NA	    RICHTER	        NA	14	 7	1964		
+       285	   613	    4624	 4624	  JOHANNES	        NA	    RICHTER	        NA	14	 7	1963	     0	  13.9
+
+       286	   612	    5916	 5916	     HELGA	        NA	     FISCER	        NA	29	11	1939		
+       286	   612	    6063	 6063	     HELGA	        NA	    FISCHER	        NA	29	11	1939	     0	  13.9
+
+       287	   611	    6464	 6464	    SIGRID	        NA	      MEYER	        NA	10	 5	1954		
+       287	   611	    7887	 7887	    SIGRID	        NA	      MEYER	        NA	10	 5	1966	     0	  13.8
+
+       288	   610	     590	  590	      AXEL	        NA	      KLEIN	        NA	10	 9	1960		
+       288	   610	     979	  979	     AXEML	        NA	      KLEIN	        NA	10	 9	1960	     0	  13.8
+
+       289	   609	    1307	 1307	    RUDOLF	        NA	    LEHMANN	        NA	13	 3	1987		
+       289	   609	    3542	 3542	   RUDORLF	        NA	    LEHMANN	        NA	13	 3	1987	     0	  13.8
+
+       290	   608	    6570	 6570	 CHRISTINE	        NA	      STEIN	        NA	14	 9	1930		
+       290	   608	    9426	 9426	 CHRISTINE	        NA	      STEIN	        NA	14	 4	1930	     0	  13.8
+
+       291	   607	    5493	 5493	      ANJA	        NA	       VOGT	        NA	14	12	1986		
+       291	   607	    7677	 7677	      ANJA	        NA	       VOGT	        NA	15	 9	1986	     0	  13.8
+
+       292	   606	    5079	 5079	   IRMGARD	        NA	     BERGER	        NA	20	 5	1972		
+       292	   606	    8159	 8159	   IRMGARD	        NA	     BERGER	        NA	20	 5	1956	     0	  13.8
+
+       293	   605	    5738	 5738	    EDIMTH	        NA	    MUELLER	        NA	26	10	2007		
+       293	   605	    7361	 7361	     EDITH	        NA	    MUELLER	        NA	26	10	2007	     0	  13.8
+
+       294	   604	    2309	 2309	   NORBERT	        NA	     KAISER	        NA	11	 4	1939		
+       294	   604	    2920	 2920	   NORBERT	        NA	     KAISER	        NA	11	 4	1934	     0	  13.8
+
+       295	   603	    2825	 2825	     BERND	        NA	       WEBR	        NA	 6	11	1927		
+       295	   603	    3171	 3171	     BERND	        NA	      WEBER	        NA	 6	11	1927	     0	  13.8
+
+       296	   602	    5133	 5133	    MARTHA	        NA	    WINKLER	        NA	10	 9	1943		
+       296	   602	    6689	 6689	   MARTHCA	        NA	    WINKLER	        NA	10	 9	1943	     0	  13.7
+
+       297	   601	    5978	 5978	     GERDA	        NA	   ALBRECHT	        NA	17	 2	1956		
+       297	   601	    7341	 7341	     GERDA	        NA	   ALBRECHT	        NA	18	 2	1956	     0	  13.7
+
+       298	   600	    9256	 9256	    ANGELA	        NA	     SCHULZ	        NA	12	 4	1974		
+       298	   600	    9332	 9332	    ANGELA	        NA	     SCHULZ	        NA	12	 4	1973	     0	  13.7
+
+       299	   599	    5435	 5435	 CHRISTINA	        NA	  SCHNEIRER	        NA	17	 8	1961		
+       299	   599	    8109	 8109	 CHRISTINA	        NA	  SCHNEIDER	        NA	17	 8	1961	     0	  13.7
+
+       300	   598	    7742	 7742	  STEFANIE	        NA	       HAAS	        NA	17	 1	1982		
+       300	   598	    9423	 9423	  STEFANIE	        NA	       HAAS	        NA	17	 2	1982	     0	  13.6
+
+       301	   597	      99	   99	      RALF	        NA	      HUBER	        NA	13	10	1964		
+       301	   597	    4314	 4314	      RALF	        NA	      HUBER	        NA	13	 9	1936	     0	  13.6
+
+       302	   596	    3338	 3338	      DIRK	        NA	   HARTMANN	        NA	20	 4	1981		
+       302	   596	    4308	 4308	      DIRK	        NA	   HARTMANN	        NA	20	 5	1981	     0	  13.5
+
+       303	   595	    8240	 8240	     GERDA	        NA	     KELLER	        NA	16	 8	1947		
+       303	   595	    9488	 9488	    GERIDA	        NA	     KELLER	        NA	16	 8	1947	     0	  13.5
+
+       304	   594	    6521	 6521	 CHRISTINA	        NA	    NEUMSNN	        NA	25	11	1960		
+       304	   594	    8361	 8361	 CHRISTINA	        NA	    NEUMANN	        NA	25	11	1960	     0	  13.5
+
+       305	   593	    5557	 5557	     ERIKA	     ERIKA	    NEUMANN	        NA	 3	 7	1974		
+       305	   593	    9315	 9315	     ERIKA	     ERIKA	    NEUMANN	        NA	 3	 7	1975	     0	  13.5
+
+       306	   592	    1578	 1578	     BERND	        NA	      KUEHN	        NA	17	 9	2002		
+       306	   592	    2468	 2468	     BERND	        NA	      KUEHN	        NA	18	 9	2002	     0	  13.5
+
+       307	   591	    6556	 6556	  ELFRIEDE	        NA	     SCHULZ	        NA	21	 5	1989		
+       307	   591	    7238	 7238	 ELFRIEDSE	        NA	     SCHULZ	        NA	21	 5	1989	     0	  13.5
+
+       308	   590	    8649	 8649	   GERTRUD	        NA	       OTTO	        NA	10	 7	1939		
+       308	   590	    9404	 9404	   GERTRUD	        NA	       OTTO	        NA	10	 3	1939	     0	  13.4
+
+       309	   589	     284	  284	     HORST	   GERGARD	       KOCH	        NA	 6	 2	1957		
+       309	   589	    2919	 2919	     HORST	   GERHARD	       KOCH	        NA	 6	 2	1957	     0	  13.4
+
+       310	   588	     635	  635	      PAUL	        NA	      MAIER	        NA	11	 6	1947		
+       310	   588	     657	  657	     PAUBL	        NA	      MAIER	        NA	11	 6	1947	     0	  13.4
+
+       311	   587	    1736	 1736	  WOLFGANG	     BERND	      MAIER	        NA	 6	 2	1928		
+       311	   587	    3204	 3204	 WOLFGASNG	     BERND	      MAIER	        NA	 6	 2	1928	     0	  13.4
+
+       312	   586	    5442	 5442	   KERSTIN	        NA	      KLEIN	        NA	17	 4	1938		
+       312	   586	    8062	 8062	   KERSTIN	        NA	      KLEIN	        NA	17	 3	1938	     0	  13.4
+
+       313	   585	     679	  679	    HELMUT	        NA	     WINTER	        NA	15	 5	1979		
+       313	   585	    3131	 3131	    HELMUT	        NA	     WINTER	        NA	14	 5	1986	     0	  13.3
+
+       314	   584	    6615	 6615	    NICOLE	        NA	  FRIEDRICH	        NA	10	 8	1999		
+       314	   584	    6839	 6839	    NICOLE	        NA	  FRIEDRICH	        NA	10	 9	1999	     0	  13.3
+
+       315	   583	    5518	 5518	      INGE	        NA	       KOCH	        NA	21	 4	1936		
+       315	   583	    7810	 7810	      INGE	        NA	       KOCH	        NA	21	10	1963	     0	  13.3
+
+       316	   582	    7425	 7425	    ANDREA	   SUSANNE	      WEISS	        NA	26	 6	1944		
+       316	   582	    9269	 9269	    ANDREA	   SUSANNE	      WEISS	        NA	26	 5	1944	     0	  13.3
+
+       317	   581	    7596	 7596	   SUSANNE	        NA	    SCHAIDT	        NA	10	 8	1970		
+       317	   581	    8716	 8716	   SUSANNE	        NA	    SCHMIDT	        NA	10	 8	1970	     0	  13.3
+
+       318	   580	    5215	 5215	    BIRGIT	        NA	    SCHKIDT	        NA	14	 8	1955		
+       318	   580	    7688	 7688	    BIRGIT	        NA	    SCHMIDT	        NA	14	 8	1955	     0	  13.3
+
+       319	   579	     568	  568	   HERBERT	        NA	   SCHUBERT	        NA	22	10	1953		
+       319	   579	     884	  884	   HERBERT	        NA	   SCHUBERT	        NA	22	10	1958	     0	  13.3
+
+       320	   578	    2239	 2239	   MANFRED	   GERHARD	     WAGMER	        NA	 9	 3	1925		
+       320	   578	    3495	 3495	   MANFRED	   GERHARD	     WAGNER	        NA	 9	 3	1925	     0	  13.3
+
+       321	   577	    5784	 5784	 MARGARETE	        NA	    SCHWARZ	        NA	17	 4	1997		
+       321	   577	    8082	 8082	 MARGARETE	        NA	    SCHWARZ	        NA	17	 3	1997	     0	  13.3
+
+       322	   576	    3272	 3272	     KLAUS	        NA	      ERNST	        NA	12	 8	1963		
+       322	   576	    3687	 3687	     KLAUS	        NA	      ERNST	        NA	12	 2	1964	     0	  13.3
+
+       323	   138	    1951	 1951	    WALTER	        NA	     SCHMID	        NA	17	 3	1963		
+       323	   138	    4264	 4264	    WALTER	        NA	     SCHMID	        NA	17	12	1958	     0	  13.3
+
+       324	   574	    6534	 6534	     ERIKA	        NA	    SCHULTE	        NA	14	 9	1982		
+       324	   574	    9764	 9764	     ERIKA	        NA	    SCHULTE	        NA	14	 8	1982	     0	  13.3
+
+       325	   573	    6139	 6139	    SIGRID	        NA	      BAUER	        NA	 9	11	1951		
+       325	   573	    9319	 9319	    SIGRID	        NA	      BAUER	        NA	 0	11	1951	     0	  13.2
+
+       326	   572	    5363	 5363	   BAERBEL	        NA	     BERGER	        NA	22	 1	1973		
+       326	   572	    8348	 8348	  BAERBFEL	        NA	     BERGER	        NA	22	 1	1973	     0	  13.2
+
+       327	   571	     581	  581	      PAUL	        NA	    SCHMITZ	        NA	16	 2	1972		
+       327	   571	    4056	 4056	     PAULG	        NA	    SCHMITZ	        NA	16	 2	1972	     0	  13.2
+
+       328	   570	    3832	 3832	   MICHAEL	        NA	    MUELLOR	        NA	10	 9	2006		
+       328	   570	    4822	 4822	   MICHAEL	        NA	    MUELLER	        NA	10	 9	2006	     0	  13.2
+
+       329	   569	    3153	 3153	      HANS	        NA	     SCHILZ	        NA	17	 5	1980		
+       329	   569	    3245	 3245	      HANS	        NA	     SCHULZ	        NA	17	 5	1980	     0	  13.2
+
+       330	   568	     243	  243	    ROBERT	        NA	  SCHROEDER	        NA	64	12	2001		
+       330	   568	    2541	 2541	    ROBERT	        NA	  SCHROEDER	        NA	14	12	2001	     0	  13.2
+
+       331	   567	    2945	 2945	    MARTIN	        NA	       HAHN	        NA	30	 3	1943		
+       331	   567	    3967	 3967	   MARTBIN	        NA	       HAHN	        NA	30	 3	1943	     0	  13.2
+
+       332	   566	    2306	 2306	   HERBERT	        NA	   ALBRECHT	        NA	 8	12	1985		
+       332	   566	    3265	 3265	   HERBERT	        NA	   ALBRECHT	        NA	15	12	1985	     0	  13.2
+
+       333	   565	    6772	 6772	      ELKE	        NA	   SCHAEDER	        NA	25	 1	1949		
+       333	   565	    8531	 8531	      ELKE	        NA	   SCHAEFER	        NA	25	 1	1949	     0	  13.2
+
+       334	   564	    1494	 1494	    DIETER	        NA	      KUEHN	        NA	11	 9	1977		
+       334	   564	    4919	 4919	   DIETEER	        NA	      KUEHN	        NA	11	 9	1977	     0	  13.2
+
+       335	   563	    6834	 6834	   GERTRUD	        NA	    MUELOER	        NA	11	 7	1964		
+       335	   563	    8567	 8567	   GERTRUD	        NA	    MUELLER	        NA	11	 7	1964	     0	  13.1
+
+       336	   562	     946	  946	    DIETER	  WOLFGANG	      MEIER	        NA	20	 8	1959		
+       336	   562	    3174	 3174	    DIETER	  WOLFGANG	      MEIER	        NA	21	 8	1959	     0	  13.1
+
+       337	   561	    1708	 1708	   MANFRED	        NA	      WEISS	        NA	13	 7	1969		
+       337	   561	    3393	 3393	   MANFRED	        NA	      WEISS	        NA	12	 7	1969	     0	  13.1
+
+       338	   560	    8430	 8430	  BRIGITTE	        NA	     WINTER	        NA	16	 5	1983		
+       338	   560	    9893	 9893	 BRIGIPTTE	        NA	     WINTER	        NA	16	 5	1983	     0	  13.1
+
+       339	   559	    3012	 3012	     PETER	        NA	    HOFWANN	        NA	21	 3	1925		
+       339	   559	    4004	 4004	     PETER	        NA	    HOFMANN	        NA	21	 3	1925	     0	  13.1
+
+       340	   558	     751	  751	     KLAUS	        NA	     MARTIN	        NA	17	 1	1979		
+       340	   558	    4702	 4702	     KLAUS	        NA	     MARTIN	        NA	17	 3	1979	     0	  13.1
+
+       341	   557	    7674	 7674	   CHRISTA	    INGRID	   GUENTHER	        NA	 3	 4	1981		
+       341	   557	    8980	 8980	   CHRISTA	    INGRID	   GUENTHER	        NA	 4	 4	1981	     0	  13.1
+
+       342	   556	    2894	 2894	    HELMUT	        NA	   DIETRICH	        NA	11	 5	1971		
+       342	   556	    4028	 4028	    HELMUT	        NA	  DIETRKICH	        NA	11	 5	1971	     0	  13.1
+
+       343	   555	    7457	 7457	     DORIS	        NA	    MUELLER	        NA	10	 3	1951		
+       343	   555	    9264	 9264	     DORIS	        NA	    MUELLER	        NA	10	12	1951	     0	  13.0
+
+       344	   554	    3092	 3092	     HORST	        NA	   SCHUBERT	        NA	14	 4	1927		
+       344	   554	    4225	 4225	     HORST	        NA	   SCHUBERT	        NA	14	 6	1995	     0	  13.0
+
+       345	   553	    5893	 5893	     JUTTA	        NA	   SCHAEFER	        NA	21	 4	1977		
+       345	   553	    9756	 9756	     JUTTA	        NA	   SCHAEFER	        NA	 1	 4	1966	     0	  13.0
+
+       346	   552	      40	   40	    STEFAN	        NA	 SCHUMACHER	        NA	19	 5	1983		
+       346	   552	    1771	 1771	   STELFAN	        NA	 SCHUMACHER	        NA	19	 5	1983	     0	  13.0
+
+       347	   551	    3431	 3431	  WOLFGANG	        NA	     BRANDT	        NA	10	 3	1964		
+       347	   551	    3564	 3564	  WOLFGANG	        NA	     BRANDT	        NA	10	 2	1964	     0	  13.0
+
+       348	    54	    4280	 4280	      JENS	    MARTIN	    MUELLER	        NA	 3	 9	1942		
+       348	    54	    4778	 4778	      JENS	    MARTIN	    MUELLER	        NA	31	 8	1942	     0	  13.0
+
+       349	   549	    5558	 5558	    GISELA	        NA	     LUDWIG	        NA	18	 7	1961		
+       349	   549	    9443	 9443	    GISELA	        NA	     LUDWIG	        NA	13	 7	1961	     0	  13.0
+
+       350	   548	    1212	 1212	    HOLGER	        NA	     BERGER	        NA	 8	12	1997		
+       350	   548	    2233	 2233	    HOLGER	        NA	     BERGER	        NA	 7	12	1997	     0	  13.0
+
+       351	   547	    5024	 5024	CHRISTIANE	        NA	      LANGE	        NA	14	 5	1985		
+       351	   547	    9238	 9238	   CHRISTA	        NA	      LANGE	        NA	14	 5	1934	     0	  12.9
+
+       352	   546	    8024	 8024	  MARIANNE	        NA	     BECKER	        NA	12	 8	2000		
+       352	   546	    8174	 8174	  MARIANNE	        NA	     BECKER	        NA	12	 4	2000	     0	  12.9
+
+       353	   545	     730	  730	      KURT	        NA	    RICHTER	        NA	14	 7	1999		
+       353	   545	    4619	 4619	      KURT	        NA	    RICHTER	        NA	15	 7	1999	     0	  12.9
+
+       354	   544	    2549	 2549	   ANDREAS	        NA	      KUEHN	        NA	19	 5	1984		
+       354	   544	    3215	 3215	   ANDREAS	        NA	      KUEHN	        NA	19	 5	1944	     0	  12.9
+
+       355	   543	    3520	 3520	     ANDRE	        NA	     LORENZ	        NA	14	 8	1963		
+       355	   543	    4751	 4751	   ANDREAS	        NA	     LORENZ	        NA	14	 8	1978	     0	  12.9
+
+       356	   542	    7498	 7498	       UTE	        NA	       POHL	        NA	23	10	1939		
+       356	   542	    9919	 9919	       UTE	        NA	       POHL	        NA	22	10	1939	     0	  12.9
+
+       357	   541	    4221	 4221	  GUENTHER	        NA	     BRANDT	        NA	18	 3	1924		
+       357	   541	    4558	 4558	  GUENTHER	        NA	     BRANDT	        NA	19	 3	1962	     0	  12.9
+
+       358	   540	    5117	 5117	      ILSE	        NA	    KOEHLWR	        NA	28	11	1947		
+       358	   540	    5350	 5350	      ILSE	        NA	    KOEHLER	        NA	28	11	1947	     0	  12.9
+
+       359	   539	     688	  688	    DIETER	   HERMANN	    MUELLER	        NA	22	 7	1970		
+       359	   539	    2814	 2814	    DIETER	   HERMANN	    MUELLER	        NA	23	 7	1970	     0	  12.9
+
+       360	   538	     310	  310	     ANDRE	        NA	  SCHNEIDER	        NA	11	 4	1934		
+       360	   538	    2650	 2650	     ANDRE	        NA	  SCHNEIDER	        NA	11	10	1938	     0	  12.9
+
+       361	   537	    5457	 5457	    REGINA	        NA	    MUELLER	        NA	17	 4	1925		
+       361	   537	    9969	 9969	    REGINA	        NA	    MUELLER	        NA	19	 4	1964	     0	  12.9
+
+       362	   239	    7391	 7391	   BARBARA	        NA	    SCHMITT	        NA	31	 3	1965		
+       362	   239	    7770	 7770	  BARBAGRA	        NA	    SCHMITT	        NA	31	 3	1965	     0	  12.9
+
+       363	   535	    5076	 5076	   KATHRIN	        NA	 ZIMMERMANN	        NA	12	 1	1994		
+       363	   535	    7244	 7244	   KATHRIN	        NA	 ZIMMERMANN	        NA	12	 2	1994	     0	  12.9
+
+       364	   534	     391	  391	     MARIO	        NA	     KAISER	        NA	17	 9	2006		
+       364	   534	    1447	 1447	     MARIO	        NA	     KAIAER	        NA	17	 9	2006	     0	  12.9
+
+       365	   533	    1855	 1855	 CHRISTIAN	        NA	    MOELLER	        NA	11	 2	2002		
+       365	   533	    3697	 3697	 CHRISTIAN	        NA	    MOELLER	        NA	11	 7	2002	     0	  12.8
+
+       366	   532	    1189	 1189	       UWE	        NA	   DIETRICH	        NA	12	 6	1966		
+       366	   532	    4145	 4145	       UWE	        NA	   DIETRICH	        NA	18	 6	1977	     0	  12.8
+
+       367	   531	    5166	 5166	     ERIKA	        NA	      WEISS	        NA	15	 9	2007		
+       367	   531	    8152	 8152	     ERIKA	        NA	      WEISS	        NA	14	 9	2007	     0	  12.8
+
+       368	   530	     177	  177	  REINHARD	        NA	    MUELLER	        NA	11	 5	1997		
+       368	   530	    3880	 3880	  REINHARD	        NA	    MUELLER	        NA	11	 4	1997	     0	  12.8
+
+       369	   529	      44	   44	     PETER	        NA	       KUHN	        NA	20	 3	1981		
+       369	   529	    2701	 2701	     PETER	        NA	       KUHN	        NA	20	 2	1981	     0	  12.8
+
+       370	   528	    5504	 5504	   KERSTIN	        NA	  SCHNEIDER	        NA	 1	 2	1952		
+       370	   528	    6450	 6450	   KERSTIN	        NA	  SCHNEIDER	        NA	 1	 2	1943	     0	  12.8
+
+       371	   527	    1310	 1310	   CARSTEN	        NA	    SCHULTE	        NA	 4	12	1962		
+       371	   527	    2443	 2443	   CARSTEN	        NA	    SCHULTE	        NA	29	12	1962	     0	  12.8
+
+       372	   526	    5801	 5801	   IRMGARD	        NA	      WEBER	        NA	 1	 2	1970		
+       372	   526	    9057	 9057	   IRMGARD	        NA	      WEBER	        NA	 1	 0	1970	     0	  12.8
+
+       373	   525	    2075	 2075	   ANDREAS	        NA	     JAEGER	        NA	13	 7	1934		
+       373	   525	    3579	 3579	   ANDREAS	        NA	     JAEGER	        NA	13	 7	1936	     0	  12.8
+
+       374	   524	    5155	 5155	 CHRISTINA	        NA	    MUELOER	        NA	 5	11	1961		
+       374	   524	    9580	 9580	 CHRISTINA	        NA	    MUELLER	        NA	 5	11	1961	     0	  12.8
+
+       375	   523	    2988	 2988	       UWE	        NA	     SCHOLZ	        NA	11	10	1970		
+       375	   523	    4349	 4349	       UWE	        NA	     SCHOLZ	        NA	11	11	1970	     0	  12.8
+
+       376	   522	    5651	 5651	 ELISABETH	        NA	  SCHROEDER	        NA	15	 3	1959		
+       376	   522	    9977	 9977	 ELISABETH	        NA	  SCHROEDER	        NA	15	 5	1959	     0	  12.8
+
+       377	   521	    8540	 8540	    NICOLE	        NA	    SCHMITZ	        NA	14	 6	1931		
+       377	   521	    8749	 8749	   NICOGLE	        NA	    SCHMITZ	        NA	14	 6	1931	     0	  12.8
+
+       378	   520	    6097	 6097	    BIRGIT	        NA	      FUCHS	        NA	15	 4	1982		
+       378	   520	    8723	 8723	    BIRGIT	        NA	      FUCHS	        NA	15	 4	1992	     0	  12.7
+
+       379	   519	    1229	 1229	       JAN	        NA	       LANG	        NA	 7	11	1968		
+       379	   519	    2174	 2174	       JAN	        NA	       LANG	        NA	 8	11	1968	     0	  12.7
+
+       380	   518	     740	  740	       JAN	        NA	   HOFFMANN	        NA	20	 5	1924		
+       380	   518	    2171	 2171	       JAN	        NA	   HOFFMANN	        NA	20	 6	1924	     0	  12.7
+
+       381	   517	     952	  952	     KLAUS	        NA	       JUNG	        NA	30	 5	1975		
+       381	   517	    2339	 2339	     KLAUS	        NA	       JUNG	        NA	30	 5	1965	     0	  12.7
+
+       382	   516	    9127	 9127	   KATHRIN	        NA	      VOIGT	        NA	22	10	2006		
+       382	   516	    9288	 9288	   KATHRIN	        NA	      VOIGT	        NA	22	10	2005	     0	  12.7
+
+       383	   515	    1746	 1746	   MICHAEL	        NA	       LANG	        NA	18	 8	1953		
+       383	   515	    4441	 4441	   MICHAEL	        NA	       LANG	        NA	18	 8	1952	     0	  12.7
+
+       384	   514	    7030	 7030	 ELISABETH	        NA	       WOLF	        NA	15	10	1984		
+       384	   514	    9553	 9553	 ELISABETH	        NA	       WOLF	        NA	17	 4	1984	     0	  12.7
+
+       385	   513	    6529	 6529	      ELKE	        NA	      WEISS	        NA	30	 4	1978		
+       385	   513	    9554	 9554	     ELDKE	        NA	      WEISS	        NA	30	 4	1978	     0	  12.7
+
+       386	   512	    7356	 7356	     HELGA	        NA	      SAUER	        NA	13	 2	1958		
+       386	   512	    8247	 8247	    HELGAO	        NA	      SAUER	        NA	13	 2	1958	     0	  12.7
+
+       387	   511	      55	   55	     FRANK	        NA	     PETERS	        NA	 1	 7	1990		
+       387	   511	    2980	 2980	     FRANK	        NA	     PETERS	        NA	 1	 6	1990	     0	  12.7
+
+       388	   510	    1385	 1385	  THORSTEN	        NA	     SEIDEL	        NA	 3	10	1965		
+       388	   510	    3305	 3305	  THORSTEN	        NA	     SEIDEL	        NA	 3	10	1969	     0	  12.7
+
+       389	   509	     881	  881	     PETER	        NA	   SCHUBERT	        NA	20	 8	1957		
+       389	   509	     886	  886	     PETER	        NA	   SCHUBERT	        NA	20	 8	1967	     0	  12.7
+
+       390	   508	    3840	 3840	    WERNER	        NA	     BECKDR	        NA	15	 3	1939		
+       390	   508	    4684	 4684	    WERNER	        NA	     BECKER	        NA	15	 3	1939	     0	  12.7
+
+       391	   507	    2253	 2253	      PAUL	     FRANK	    MUELLER	        NA	 2	 7	1981		
+       391	   507	    3764	 3764	      PAUL	     FRANK	    MUELLER	        NA	 9	 7	1981	     0	  12.7
+
+       392	   506	    5546	 5546	   CLAUDIA	        NA	    SCHMITZ	        NA	18	 9	1929		
+       392	   506	    6596	 6596	   CLAUDIA	        NA	    SCHMITZ	        NA	17	 9	1942	     0	  12.6
+
+       393	   505	    2316	 2316	    RAINER	        NA	    RICHTER	        NA	16	 4	1977		
+       393	   505	    4611	 4611	    RAINER	        NA	    RICHTER	        NA	16	 4	1965	     0	  12.6
+
+       394	   504	    6589	 6589	      ELKE	        NA	      LANGE	        NA	19	 9	1972		
+       394	   504	    8435	 8435	      ELKE	        NA	      LANGE	        NA	19	 4	1996	     0	  12.6
+
+       395	   503	    6342	 6342	     KARIN	        NA	   SCHUBERT	        NA	16	 2	1924		
+       395	   503	    6363	 6363	     KARIN	        NA	   SCHUBERT	        NA	16	 9	1975	     0	  12.6
+
+       396	   502	    3292	 3292	      HANS	    STEFAN	    RICHTER	        NA	 7	 7	1966		
+       396	   502	    4095	 4095	      HANS	    STEFAN	    RICHTER	        NA	 7	 4	1966	     0	  12.6
+
+       397	   501	    2713	 2713	     FRANK	 CHRISTIAN	      FRANK	        NA	34	 7	1951		
+       397	   501	    4279	 4279	     FRANK	 CHRISTIAN	      FRANK	        NA	30	 7	1951	     0	  12.6
+
+       398	   500	    5544	 5544	     MARIA	        NA	    LEHMANN	        NA	17	 4	1945		
+       398	   500	    8364	 8364	    MARIHA	        NA	    LEHMANN	        NA	17	 4	1945	     0	  12.6
+
+       399	   499	    5251	 5251	   BARBARA	        NA	   HOFFMANN	        NA	 1	 7	1942		
+       399	   499	    5626	 5626	   BARBARA	        NA	   HOFFMANN	        NA	 1	 6	1942	     0	  12.6
+
+       400	   498	    7916	 7916	      ANNA	        NA	      FRANK	        NA	17	 8	1964		
+       400	   498	    9714	 9714	      ANNA	        NA	      FRANK	        NA	17	 8	1962	     0	  12.6
+
+       401	   497	    3200	 3200	  GUENTHER	      HANS	     SCHULZ	        NA	 3	 9	1931		
+       401	   497	    4130	 4130	  GUENTHER	      HANS	     SCHULZ	        NA	 8	 9	1931	     0	  12.6
+
+       402	   496	    1303	 1303	      KURT	        NA	    KOEHLER	        NA	25	 1	1962		
+       402	   496	    2142	 2142	      KURT	        NA	    KOEHLER	        NA	25	 1	1969	     0	  12.6
+
+       403	   495	    6001	 6001	   BARBARA	        NA	   SCHAEFER	        NA	11	 5	1972		
+       403	   495	    6181	 6181	  BARBMARA	        NA	   SCHAEFER	        NA	11	 5	1972	     0	  12.6
+
+       404	   233	    2748	 2748	   CARSTEN	        NA	       OTTO	        NA	13	 1	1983		
+       404	   233	    4560	 4560	   CARSTEN	        NA	       OTTO	        NA	22	 1	1925	     0	  12.6
+
+       405	   165	    7546	 7546	       UTE	        NA	    MOELLER	        NA	25	12	1997		
+       405	   165	    8356	 8356	       UTE	        NA	    MOELLER	        NA	20	12	1997	     0	  12.6
+
+       406	   492	    1838	 1838	     HORST	 FRIEDRICH	      LAMGE	        NA	19	 4	1975		
+       406	   492	    3144	 3144	     HORST	 FRIEDRICH	      LANGE	        NA	19	 4	1975	     0	  12.6
+
+       407	   491	    5478	 5478	   SUSANNE	        NA	      FRANK	        NA	12	 5	1939		
+       407	   491	    6700	 6700	   SUSANNE	        NA	      FRANK	        NA	13	 5	1939	     0	  12.6
+
+       408	   490	    1056	 1056	      JENS	        NA	     WAGNER	        NA	14	 8	1976		
+       408	   490	    2763	 2763	      JENS	        NA	     WAGNER	        NA	14	 8	1986	     0	  12.6
+
+       409	   489	    2382	 2382	    ULRICH	        NA	       KOCH	        NA	 5	10	1982		
+       409	   489	    4189	 4189	   ULRIECH	        NA	       KOCH	        NA	 5	10	1982	     0	  12.6
+
+       410	   488	    2197	 2197	     PETER	        NA	      VOGEL	        NA	15	 4	1949		
+       410	   488	    3354	 3354	     PETER	        NA	      VOGEL	        NA	15	12	1948	     0	  12.6
+
+       411	   487	    5275	 5275	    URSULA	        NA	   ALBRECHT	        NA	10	 7	1986		
+       411	   487	    5529	 5529	   URSWULA	        NA	   ALBRECHT	        NA	10	 7	1986	     0	  12.6
+
+       412	   486	    1047	 1047	       JAN	        NA	  FRIEDRICH	        NA	 8	10	1949		
+       412	   486	    4838	 4838	       JAN	        NA	  FRIEDRICH	        NA	 9	10	1949	     0	  12.6
+
+       413	   485	    8148	 8148	    RENATE	        NA	      VOGEL	        NA	13	 5	1965		
+       413	   485	    9037	 9037	    RENATE	        NA	      VOGEL	        NA	16	 5	1957	     0	  12.5
+
+       414	   484	    1099	 1099	   MICHAEL	    HOLGER	      WEBER	        NA	29	 9	1955		
+       414	   484	    3825	 3825	  MICHKAEL	    HOLGER	      WEBER	        NA	29	 9	1955	     0	  12.5
+
+       415	   483	    6871	 6871	    GISELA	        NA	      MAIER	        NA	15	 9	1992		
+       415	   483	    7553	 7553	    GISELA	        NA	      MAIER	        NA	21	 9	1985	     0	  12.5
+
+       416	   482	    3201	 3201	      HANS	        NA	     FRANKE	        NA	28	10	1973		
+       416	   482	    4297	 4297	      HANS	        NA	     FRANKE	        NA	28	10	1933	     0	  12.5
+
+       417	   481	       4	    4	      HANS	        NA	    SCHMITT	        NA	14	 8	1945		
+       417	   481	    1957	 1957	     HRANS	        NA	    SCHMITT	        NA	14	 8	1945	     0	  12.5
+
+       418	   480	    5938	 5938	    MONIKA	        NA	    MOELLER	        NA	15	 3	1947		
+       418	   480	    7473	 7473	   MONIKSA	        NA	    MOELLER	        NA	15	 3	1947	     0	  12.5
+
+       419	    26	    1619	 1619	       KAI	        NA	      KLEIN	        NA	16	11	1949		
+       419	    26	    3535	 3535	       KAI	        NA	      KLEIN	        NA	16	11	2003	     0	  12.5
+
+       420	   478	    2673	 2673	  BERNHARD	        NA	     BECKER	        NA	10	 1	1925		
+       420	   478	    3315	 3315	  BERNHARD	        NA	     BECKER	        NA	10	 1	2002	     0	  12.5
+
+       421	   157	    1341	 1341	   MICHAEL	        NA	     PETERS	        NA	12	 1	1937		
+       421	   157	    2078	 2078	   MICHAEL	        NA	     PETERS	        NA	12	 9	1937	     0	  12.5
+
+       422	   476	    2862	 2862	      ROLF	        NA	     SCHNID	        NA	24	 1	1954		
+       422	   476	    3636	 3636	      ROLF	        NA	     SCHMID	        NA	24	 1	1954	     0	  12.5
+
+       423	   475	    7459	 7459	    HELENE	        NA	    SCHMIDT	        NA	22	10	1983		
+       423	   475	    9379	 9379	   HELXENE	        NA	    SCHMIDT	        NA	22	10	1983	     0	  12.5
+
+       424	   474	    1631	 1631	    MARKUS	        NA	      WEBER	        NA	18	 7	1954		
+       424	   474	    4628	 4628	   MARKOUS	        NA	      WEBER	        NA	18	 7	1954	     0	  12.5
+
+       425	   473	    2718	 2718	    HOLGER	        NA	    NEUMANN	        NA	26	10	1988		
+       425	   473	    4968	 4968	    HOLGER	        NA	    NEUMANN	        NA	26	10	1982	     0	  12.5
+
+       426	    22	    7644	 7644	      ANNA	        NA	    SCHMILT	        NA	 3	 1	1949		
+       426	    22	    8828	 8828	      ANNA	        NA	    SCHMIDT	        NA	 3	 1	1949	     0	  12.5
+
+       427	   471	    6892	 6892	    SABINE	        NA	     BECKET	        NA	 1	 5	1968		
+       427	   471	    8679	 8679	    SABINE	        NA	     BECKER	        NA	 1	 5	1968	     0	  12.4
+
+       428	   470	     413	  413	   CARSTEN	        NA	     WAGNER	        NA	21	 4	1934		
+       428	   470	    1882	 1882	   CARSTEN	        NA	     WAGNER	        NA	21	 7	1974	     0	  12.4
+
+       429	   469	    6083	 6083	      ANNA	        NA	     BERGER	        NA	30	 9	1929		
+       429	   469	    8381	 8381	     ANCNA	        NA	     BERGER	        NA	30	 9	1929	     0	  12.4
+
+       430	   468	    7336	 7336	     ANTJE	        NA	     BECKER	        NA	10	 9	1955		
+       430	   468	    9851	 9851	     ANTJE	        NA	     BECKRR	        NA	10	 9	1955	     0	  12.4
+
+       431	   467	    6939	 6939	     MARIA	        NA	   HOFFMANN	        NA	16	 8	1936		
+       431	   467	    8948	 8948	     MARIA	        NA	   HOFFMANN	        NA	16	 8	1935	     0	  12.4
+
+       432	   466	     249	  249	    HARALD	        NA	      BAUER	        NA	 5	 1	1986		
+       432	   466	    3018	 3018	    HARALD	        NA	      BAUER	        NA	 4	 1	1986	     0	  12.4
+
+       433	   465	    8667	 8667	   GERTRUD	        NA	     WAGNER	        NA	14	 9	1979		
+       433	   465	    9183	 9183	   GERTRUD	        NA	     WAGNER	        NA	14	 5	1982	     0	  12.4
+
+       434	   464	    5863	 5863	     HELGA	  BRIGITTE	    SCHWARZ	        NA	28	 7	1969		
+       434	   464	    9053	 9053	    HELGGA	  BRIGITTE	    SCHWARZ	        NA	28	 7	1969	     0	  12.4
+
+       435	   463	    5906	 5906	    SILVIA	        NA	    NEUMANN	        NA	24	10	1960		
+       435	   463	    7059	 7059	   SILVIIA	        NA	    NEUMANN	        NA	24	10	1960	     0	  12.4
+
+       436	   462	    8821	 8821	     KARIN	        NA	       JUNG	        NA	13	 6	1954		
+       436	   462	    9228	 9228	    KARINW	        NA	       JUNG	        NA	13	 6	1954	     0	  12.4
+
+       437	    61	    3044	 3044	     FRANK	        NA	  SCHROEDER	        NA	19	 3	1966		
+       437	    61	    3355	 3355	     FRANK	        NA	  SCHROEDER	        NA	19	10	1973	     0	  12.4
+
+       438	    61	     498	  498	     FRANK	        NA	  SCHROEDER	        NA	18	 4	1952		
+       438	    61	    2457	 2457	     FRANK	        NA	  SCHROEDER	        NA	19	 4	1952	     0	  12.4
+
+       439	    61	    2457	 2457	     FRANK	        NA	  SCHROEDER	        NA	19	 4	1952		
+       439	    61	    3044	 3044	     FRANK	        NA	  SCHROEDER	        NA	19	 3	1966	     0	  12.4
+
+       440	    61	    2457	 2457	     FRANK	        NA	  SCHROEDER	        NA	19	 4	1952		
+       440	    61	    3355	 3355	     FRANK	        NA	  SCHROEDER	        NA	19	10	1973	     0	  12.4
+
+       441	   457	    1121	 1121	    THOMAS	        NA	     LORENZ	        NA	30	 8	1958		
+       441	   457	    2001	 2001	   THOMQAS	        NA	     LORENZ	        NA	30	 8	1958	     0	  12.3
+
+       442	   456	     547	  547	    RUDOLF	        NA	    MUELLER	        NA	15	11	1926		
+       442	   456	    3082	 3082	    RUDOLF	        NA	    MUELLER	        NA	15	 1	1962	     0	  12.3
+
+       443	   455	    2609	 2609	    HELMUT	        NA	    SCHWWRZ	        NA	 4	12	2006		
+       443	   455	    3113	 3113	    HELMUT	        NA	    SCHWARZ	        NA	 4	12	2006	     0	  12.3
+
+       444	     9	    1798	 1798	     HORST	        NA	    SCHWARZ	        NA	14	10	1985		
+       444	     9	    1911	 1911	     HORST	        NA	    SCHWARZ	        NA	14	 3	1972	     0	  12.3
+
+       445	   453	    7093	 7093	    BIRGIT	        NA	     KRAUSE	        NA	30	 6	1992		
+       445	   453	    8868	 8868	    BIRGIT	        NA	     KRAUSE	        NA	30	 6	1962	     0	  12.3
+
+       446	   452	    2819	 2819	    THOMAS	        NA	     KAISER	        NA	13	 5	1680		
+       446	   452	    3580	 3580	    THOMAS	        NA	     KAISER	        NA	13	 5	1980	     0	  12.3
+
+       447	   451	    1718	 1718	      SVEN	     KLAUS	      MEYER	        NA	 7	 9	1929		
+       447	   451	    4257	 4257	     SVEQN	     KLAUS	      MEYER	        NA	 7	 9	1929	     0	  12.3
+
+       448	   450	    7492	 7492	    URSULA	        NA	    SCHMITT	        NA	14	13	2003		
+       448	   450	    9411	 9411	    URSULA	        NA	    SCHMITT	        NA	14	11	2003	     0	  12.3
+
+       449	   449	    1615	 1615	   ANDREAS	        NA	     WALTER	        NA	18	 6	1935		
+       449	   449	    2866	 2866	   ANDREAS	        NA	     WALTER	        NA	12	 4	1935	     0	  12.3
+
+       450	   448	     540	  540	       UWE	        NA	     KRAUSE	        NA	10	 6	2007		
+       450	   448	    4932	 4932	       UWE	        NA	     KRAUSE	        NA	10	 5	2007	     0	  12.3
+
+       451	   447	     987	  987	     HORST	        NA	      ENGEL	        NA	10	11	1996		
+       451	   447	    1968	 1968	     HORST	        NA	      ENGEL	        NA	 3	11	1944	     0	  12.3
+
+       452	   446	    1234	 1234	   WILHELM	        NA	     KRAUSE	        NA	23	 1	1943		
+       452	   446	    2115	 2115	  WILHEBLM	        NA	     KRAUSE	        NA	23	 1	1943	     0	  12.3
+
+       453	   445	    3925	 3925	    MARTIN	        NA	     BECKER	        NA	20	 7	1967		
+       453	   445	    4385	 4385	    MARTIN	        NA	     BECKER	        NA	20	10	1929	     0	  12.3
+
+       454	   444	     705	  705	     JOERG	        NA	    KRUEGER	        NA	 6	 1	1958		
+       454	   444	     764	  764	     JOERG	        NA	    KRUEGER	        NA	 7	 1	1958	     0	  12.3
+
+       455	    65	    1485	 1485	 ALEXANDER	        NA	    SCHMITZ	        NA	 3	10	1932		
+       455	    65	    3662	 3662	 ALEXANDER	        NA	    SCHMITZ	        NA	 1	10	1964	     0	  12.2
+
+       456	   442	    1201	 1201	    HELMUT	        NA	     WINTER	        NA	26	 1	1967		
+       456	   442	    3879	 3879	   HELMMUT	        NA	     WINTER	        NA	26	 1	1967	     0	  12.2
+
+       457	    84	    5600	 5600	 ELISABETH	        NA	  FRIEDRICH	        NA	21	10	1982		
+       457	    84	    6891	 6891	 ELISABETH	        NA	  FRIEDRICH	        NA	26	10	1982	     0	  12.2
+
+       458	   440	    2038	 2038	       UWE	        NA	     MARTIN	        NA	23	11	1942		
+       458	   440	    4960	 4960	       UWE	        NA	     MARTIN	        NA	10	11	1942	     0	  12.2
+
+       459	   439	    5462	 5462	     TANJA	        NA	    SCHMIDT	        NA	29	12	1976		
+       459	   439	    7508	 7508	     TANJA	        NA	    SCHMIDT	        NA	23	12	1976	     0	  12.2
+
+       460	   438	     466	  466	  MATTHIAS	        NA	     BECKER	        NA	17	 7	1940		
+       460	   438	    4265	 4265	  MATTHIAS	        NA	     BECKER	        NA	18	 7	1960	     0	  12.2
+
+       461	   437	    1478	 1478	      HANS	        NA	     BECKER	        NA	18	 7	1960		
+       461	   437	    2004	 2004	      HANS	        NA	     BECKER	        NA	18	 2	1960	     0	  12.2
+
+       462	   436	    2402	 2402	    THOMAS	        NA	     KRAUSE	        NA	18	 8	1958		
+       462	   436	    4306	 4306	    THOMAS	        NA	     KRAUSE	        NA	18	 3	1958	     0	  12.2
+
+       463	   435	    2177	 2177	      OTTO	        NA	      WOLFF	        NA	24	12	1954		
+       463	   435	    2742	 2742	      OTTO	        NA	      WOFLF	        NA	24	12	1954	     0	  12.2
+
+       464	   434	    1071	 1071	   JUERGEN	        NA	     THOMAS	        NA	24	10	1992		
+       464	   434	    2514	 2514	   JUERGEN	        NA	     THOMAS	        NA	24	10	1987	     0	  12.2
+
+       465	   433	    1758	 1758	     JOERG	        NA	      WEBER	        NA	30	 8	1976		
+       465	   433	    2963	 2963	    JOERIG	        NA	      WEBER	        NA	30	 8	1976	     0	  12.2
+
+       466	   432	     871	  871	       KAI	        NA	    SCHMIDT	        NA	18	11	1951		
+       466	   432	    1699	 1699	       KAI	        NA	      GROSS	        NA	12	11	1951	     0	  12.2
+
+       467	   431	    3081	 3081	    WERNER	        NA	  SCHROEDER	        NA	17	 7	1963		
+       467	   431	    4877	 4877	    WERNER	        NA	  SCHROEDER	        NA	17	 6	1968	     0	  12.2
+
+       468	   150	    5486	 5486	   BARBARA	        NA	  SCHNEIDER	        NA	19	 1	1980		
+       468	   150	    8106	 8106	   BARBARA	        NA	  SCHNEIDER	        NA	19	 5	1950	     0	  12.2
+
+       469	   429	     182	  182	  GUENTHER	      OLAF	    SCHMIDT	        NA	26	 3	1967		
+       469	   429	    4300	 4300	  GUENTHER	      OLAF	    SCHMIDT	        NA	24	 3	1967	     0	  12.1
+
+       470	   428	    7883	 7883	    MONIKA	        NA	       HORN	        NA	 5	12	1931		
+       470	   428	    9374	 9374	   MONIRKA	        NA	       HORN	        NA	 5	12	1931	     0	  12.1
+
+       471	   426	    5807	 5807	    MONIKA	        NA	    NEUMANN	        NA	21	12	1976		
+       471	   426	    8163	 8163	    MONIKA	        NA	    NEUMANN	        NA	15	 9	1976	     0	  12.1
+
+       472	   426	    7804	 7804	    MONIKA	        NA	    NEUMANN	        NA	15	 4	1943		
+       472	   426	    8163	 8163	    MONIKA	        NA	    NEUMANN	        NA	15	 9	1976	     0	  12.1
+
+       473	   425	    1412	 1412	    HELMUT	        NA	     BECKER	        NA	13	 8	1994		
+       473	   425	    2116	 2116	    HELMUT	        NA	     BECKER	        NA	13	 3	1994	     0	  12.1
+
+       474	   424	    5087	 5087	     PETRA	 ELISABETH	 SCHUMACHER	        NA	17	 6	1989		
+       474	   424	    8575	 8575	     PETRA	        NA	 SCHUMACHER	        NA	17	10	1928	     0	  12.1
+
+       475	   423	    2634	 2634	   JUERGEN	        NA	     KRAUSE	        NA	 1	 7	1962		
+       475	   423	    4791	 4791	  JUERTGEN	        NA	     KRAUSE	        NA	 1	 7	1962	     0	  12.1
+
+       476	   422	    1004	 1004	     HORST	        NA	    SCHULTE	        NA	22	10	1999		
+       476	   422	    1484	 1484	    HORSTZ	        NA	    SCHULTE	        NA	22	10	1999	     0	  12.1
+
+       477	   421	     240	  240	      SVEN	        NA	    KRUEGER	        NA	22	 1	1992		
+       477	   421	    1819	 1819	      SVEN	        NA	    KRUEGER	        NA	12	 1	1988	     0	  12.1
+
+       478	   420	    1638	 1638	    VOLKER	        NA	     LORENZ	        NA	27	 1	1976		
+       478	   420	    2644	 2644	   VOLEKER	        NA	     LORENZ	        NA	27	 1	1976	     0	  12.1
+
+       479	   419	    7634	 7634	    SABINE	        NA	    ZIETLER	        NA	 3	11	1989		
+       479	   419	    7993	 7993	    SABINE	        NA	    ZIEGLER	        NA	 3	11	1989	     0	  12.1
+
+       480	   418	    5771	 5771	    URSULA	    RENATE	  SCHROEDER	        NA	22	 2	1956		
+       480	   418	    7979	 7979	   URSGULA	    RENATE	  SCHROEDER	        NA	22	 2	1956	     0	  12.1
+
+       481	   417	    6926	 6926	      ANJA	        NA	  SCHNEIDER	        NA	30	 6	1949		
+       481	   417	    7868	 7868	      ANJA	        NA	  SCHNEIDER	        NA	30	 4	1949	     0	  12.1
+
+       482	   416	    3912	 3912	   NORBERT	        NA	    SCHMIDT	        NA	19	 2	1977		
+       482	   416	    4285	 4285	  NORBEVRT	        NA	    SCHMIDT	        NA	19	 2	1977	     0	  12.1
+
+       483	   415	    8412	 8412	    MONIKA	        NA	       VOGT	        NA	 3	10	1958		
+       483	   415	    8733	 8733	   MONIJKA	        NA	       VOGT	        NA	 3	10	1958	     0	  12.1
+
+       484	   414	    6328	 6328	   CHRISTA	        NA	   GUENTHER	        NA	 2	10	1959		
+       484	   414	    9283	 9283	   CHRISTA	        NA	   GUENTHER	        NA	29	10	1969	     0	  12.1
+
+       485	    68	    6767	 6767	     KARIN	        NA	      LANGE	        NA	 1	11	1976		
+       485	    68	    6909	 6909	     KARIN	        NA	      LANGE	        NA	 1	16	1976	     0	  12.0
+
+       486	   412	    5261	 5261	     MARIA	        NA	     SCHULZ	        NA	17	 3	1966		
+       486	   412	    9598	 9598	    MARIAY	        NA	     SCHULZ	        NA	17	 3	1966	     0	  12.0
+
+       487	   411	     201	  201	   MICHAEL	        NA	    SCHMITZ	        NA	10	 5	2002		
+       487	   411	    1481	 1481	  MICVHAEL	        NA	    SCHMITZ	        NA	10	 5	2002	     0	  12.0
+
+       488	   410	    6130	 6130	   CHRISTA	        NA	      WOLFF	        NA	14	 6	1990		
+       488	   410	    9400	 9400	   CHRISTA	        NA	     WOLFZF	        NA	14	 6	1990	     0	  12.0
+
+       489	   409	    1204	 1204	    STEFAN	        NA	   HEINRICH	        NA	 4	12	1996		
+       489	   409	    4478	 4478	   STEFRAN	        NA	   HEINRICH	        NA	 4	12	1996	     0	  12.0
+
+       490	   408	     308	  308	   HERMANN	        NA	     LORENZ	        NA	17	10	1953		
+       490	   408	    2807	 2807	   HERMANN	        NA	     LORENZ	        NA	17	10	1951	     0	  12.0
+
+       491	   407	     829	  829	       JAN	        NA	       POHL	        NA	 3	 1	1999		
+       491	   407	    4956	 4956	      JAZN	        NA	       POHL	        NA	 3	 1	1999	     0	  12.0
+
+       492	   406	    8052	 8052	    GISELA	        NA	   HOFFMANN	        NA	14	 9	1956		
+       492	   406	    8910	 8910	    GISELA	        NA	   HOFFMANN	        NA	14	12	1983	     0	  12.0
+
+       493	   405	    5571	 5571	     KARIN	    BIRGIT	     KELLER	        NA	28	 2	1941		
+       493	   405	    7180	 7180	     KARIN	    BIRHIT	     KELLER	        NA	28	 2	1941	     0	  12.0
+
+       494	   404	    6960	 6960	     ERIKA	        NA	     SCHULZ	        NA	19	 8	1985		
+       494	   404	    7886	 7886	     ERIKA	        NA	     SCHULZ	        NA	19	 8	1984	     0	  12.0
+
+       495	   403	    6239	 6239	  BRIGITTE	        NA	     WAGNER	        NA	14	 9	1960		
+       495	   403	    9045	 9045	 BRIGISTTE	        NA	     WAGNER	        NA	14	 9	1960	     0	  12.0
+
+       496	   402	    4742	 4742	    STEFAN	        NA	       WOLF	        NA	12	 9	1936		
+       496	   402	    4869	 4869	   STEFFAN	        NA	       WOLF	        NA	12	 9	1936	     0	  12.0
+
+       497	   401	    7195	 7195	    SABINE	        NA	    SCHMITZ	        NA	14	 7	1939		
+       497	   401	    7327	 7327	    SABINE	        NA	    SCHMITZ	        NA	14	 7	1972	     0	  12.0
+
+       498	   400	    4034	 4034	  WOLFGANG	        NA	       HAHN	        NA	 9	 1	1982		
+       498	   400	    4267	 4267	  WOLFGANG	        NA	       HAHN	        NA	 8	 1	1982	     0	  12.0
+
+       499	   399	    5489	 5489	     PETRA	        NA	      BAUER	        NA	21	11	1946		
+       499	   399	    6461	 6461	     PETRA	        NA	      BAUER	        NA	21	15	1946	     0	  11.9
+
+       500	   398	    8754	 8754	     KARIN	        NA	    SCHWARZ	        NA	18	 8	1994		
+       500	   398	    9514	 9514	     KARIN	        NA	    SCHWARZ	        NA	18	 4	1994	     0	  11.9
+
+       501	    23	    6942	 6942	    INGRID	        NA	      KLEIN	        NA	14	10	1945		
+       501	    23	    7969	 7969	    INGRID	        NA	      KLEIN	        NA	14	 6	1964	     0	  11.9
+
+       502	   396	    7630	 7630	     PETRA	        NA	      KRAUS	        NA	28	12	1947		
+       502	   396	    7796	 7796	     PETRA	        NA	      KRAUS	        NA	13	12	1984	     0	  11.9
+
+       503	   395	    5474	 5474	 MARGARETE	        NA	    SCHMIDT	        NA	 1	 2	1938		
+       503	   395	    5480	 5480	MARGAREQTE	        NA	    SCHMIDT	        NA	 1	 2	1938	     0	  11.9
+
+       504	   394	    1561	 1561	     HORST	        NA	    HOFMANN	        NA	 4	11	1945		
+       504	   394	    3352	 3352	     HORST	        NA	    HOFMANN	        NA	 4	11	1944	     0	  11.9
+
+       505	   393	    1329	 1329	    WERNER	        NA	    SCHNIDT	        NA	 8	10	1956		
+       505	   393	    3177	 3177	    WERNER	        NA	    SCHMIDT	        NA	 8	10	1956	     0	  11.9
+
+       506	   392	    6620	 6620	 HANNELORE	        NA	      MEYER	        NA	25	11	1939		
+       506	   392	    9460	 9460	 HANNELORE	        NA	      MEYER	        NA	27	11	1939	     0	  11.9
+
+       507	   391	     958	  958	    THOMAS	        NA	       KOCH	        NA	19	 9	1924		
+       507	   391	    2187	 2187	    THOMAS	        NA	       KOCH	        NA	19	 9	1922	     0	  11.9
+
+       508	     9	     832	  832	       UWE	        NA	    WINKLER	        NA	19	10	1973		
+       508	     9	    4665	 4665	       UWE	        NA	    WINKLER	        NA	10	10	1973	     0	  11.9
+
+       509	   389	    5134	 5134	    MONIKA	    RENATE	     SCHULZ	        NA	24	 8	1931		
+       509	   389	    7427	 7427	    MONIKA	    RENATE	     SCHULZ	        NA	24	 9	1931	     0	  11.9
+
+       510	   388	    5660	 5660	    MONIKA	        NA	   SCHAEFER	        NA	17	 5	1977		
+       510	   388	    9608	 9608	   MONIKKA	        NA	   SCHAEFER	        NA	17	 5	1977	     0	  11.9
+
+       511	   387	    3386	 3386	    THOMAS	        NA	       WOLF	        NA	20	 6	1997		
+       511	   387	    4365	 4365	   THOMWAS	        NA	       WOLF	        NA	20	 6	1997	     0	  11.9
+
+       512	   386	     373	  373	     FRANK	        NA	      BAUER	        NA	16	 4	1996		
+       512	   386	    2441	 2441	    FRANKV	        NA	      BAUER	        NA	16	 4	1996	     0	  11.9
+
+       513	   385	     406	  406	       UWE	        NA	       LANG	        NA	31	10	1973		
+       513	   385	    1299	 1299	       UWE	        NA	       LANG	        NA	26	10	1963	     0	  11.9
+
+       514	   384	    5502	 5502	    SABINE	        NA	    SCHWARZ	        NA	16	10	1966		
+       514	   384	    8310	 8310	    SABINE	        NA	    SCHWARZ	        NA	16	 1	1934	     0	  11.9
+
+       515	   383	    1589	 1589	      JENS	        NA	    SCHMITT	        NA	13	 9	1960		
+       515	   383	    1679	 1679	     JENDS	        NA	   SCHMIDTT	        NA	13	 9	1960	     0	  11.8
+
+       516	   382	    9167	 9167	    INGRID	        NA	      BAUER	        NA	13	 7	1997		
+       516	   382	    9418	 9418	    INGRID	        NA	      BAUER	        NA	13	 3	1952	     0	  11.8
+
+       517	   381	     812	  812	    WALTER	        NA	       KOCH	        NA	28	10	1987		
+       517	   381	    3002	 3002	    WALTER	        NA	       KOCH	        NA	 1	10	1928	     0	  11.8
+
+       518	   380	    8320	 8320	     ERIKA	        NA	      WEBER	        NA	13	12	1964		
+       518	   380	    8989	 8989	     ERIKA	        NA	      WEBER	        NA	13	 2	1967	     0	  11.8
+
+       519	   379	    6965	 6965	     ERIKA	        NA	      WEBER	        NA	 1	 1	1958		
+       519	   379	    8614	 8614	     ERIKA	        NA	      WEBER	        NA	 1	 9	1948	     0	  11.8
+
+       520	   378	    2685	 2685	    WERNER	        NA	     SOMMER	        NA	28	11	1995		
+       520	   378	    2724	 2724	    WERNER	        NA	     SOMMER	        NA	12	11	1987	     0	  11.8
+
+       521	    25	    8087	 8087	     KARIN	        NA	      KLEIN	        NA	16	 3	1987		
+       521	    25	    9791	 9791	     KARIN	        NA	      KLEIN	        NA	16	 1	1978	     0	  11.8
+
+       522	    44	    5686	 5686	  GABRIELE	        NA	    NEUMANN	        NA	 9	11	1962		
+       522	    44	    6528	 6528	  GABRIELE	        NA	    NEUMANN	        NA	15	11	1954	     0	  11.8
+
+       523	   373	    6959	 6959	     ERIKA	        NA	    FISCHER	        NA	 1	 4	1959		
+       523	   373	    7209	 7209	     ERIKA	        NA	    FISCHER	        NA	18	 4	1947	     0	  11.8
+
+       524	   373	    6959	 6959	     ERIKA	        NA	    FISCHER	        NA	 1	 4	1959		
+       524	   373	    8436	 8436	     ERIKA	        NA	    FISCHER	        NA	17	 4	1947	     0	  11.8
+
+       525	   373	    7209	 7209	     ERIKA	        NA	    FISCHER	        NA	18	 4	1947		
+       525	   373	    8436	 8436	     ERIKA	        NA	    FISCHER	        NA	17	 4	1947	     0	  11.8
+
+       526	   372	    2423	 2423	     KLAUS	        NA	      KLEIN	        NA	10	 8	2003		
+       526	   372	    3785	 3785	    KLAUCS	        NA	      KLEIN	        NA	10	 8	2003	     0	  11.8
+
+       527	   371	    1591	 1591	     HORST	        NA	   GUENTHER	        NA	 8	 1	1965		
+       527	   371	    2315	 2315	    HORQST	        NA	   GUENTHER	        NA	 8	 1	1965	     0	  11.8
+
+       528	   370	    6819	 6819	     MARIA	        NA	    NEUMANN	        NA	 9	12	1966		
+       528	   370	    9034	 9034	     MARIA	        NA	    NEUMANN	        NA	20	12	1958	     0	  11.7
+
+       529	   368	    5668	 5668	    SABINE	        NA	       KOCH	        NA	12	 8	1984		
+       529	   368	    7064	 7064	    SABINE	        NA	       KOCH	        NA	16	 8	1939	     0	  11.7
+
+       530	   368	    7064	 7064	    SABINE	        NA	       KOCH	        NA	16	 8	1939		
+       530	   368	    9300	 9300	    SABINE	        NA	       KOCH	        NA	16	 9	1939	     0	  11.7
+
+       531	   367	     948	  948	    WERNER	        NA	     SCHULZ	        NA	 1	 5	1955		
+       531	   367	    4709	 4709	    WERNER	        NA	     SCHULZ	        NA	 1	 4	1968	     0	  11.7
+
+       532	   366	      89	   89	      SVEN	        NA	      BAUER	        NA	23	 1	1935		
+       532	   366	    3701	 3701	      SVEN	        NA	      BAUER	        NA	23	 1	1995	     0	  11.7
+
+       533	   365	    1178	 1178	    STEFAN	        NA	     LORENZ	        NA	 8	12	1973		
+       533	   365	    1762	 1762	    STEFAN	        NA	     LORENZ	        NA	 8	12	1972	     0	  11.7
+
+       534	   364	     151	  151	    WERNER	        NA	     BECKER	        NA	21	 9	1994		
+       534	   364	    4243	 4243	    WERNER	        NA	     BECKER	        NA	14	 9	1965	     0	  11.7
+
+       535	   363	    7074	 7074	   CLAUDIA	        NA	       WOLF	        NA	27	12	1959		
+       535	   363	    8776	 8776	   CLAUDIA	        NA	       WOLF	        NA	 2	12	1989	     0	  11.7
+
+       536	   362	    5718	 5718	    ANDREA	        NA	    SCHULZE	        NA	28	10	1979		
+       536	   362	    9097	 9097	    ANDREA	        NA	    SCHULZE	        NA	28	10	1973	     0	  11.7
+
+       537	   361	    8595	 8595	    URSULA	        NA	       JUNG	        NA	 9	10	1971		
+       537	   361	    8660	 8660	   URSUOLA	        NA	       JUNG	        NA	 9	10	1971	     0	  11.7
+
+       538	   360	    6277	 6277	     HELGA	        NA	   GUENTHER	        NA	 5	 1	1953		
+       538	   360	    9734	 9734	     HELGA	        NA	   GUENTHER	        NA	11	 1	1953	     0	  11.6
+
+       539	   359	    1757	 1757	   MICHAEL	        NA	   HERRMANN	        NA	18	11	1997		
+       539	   359	    3326	 3326	   MICHAEL	        NA	   HERRMANN	        NA	23	11	1947	     0	  11.6
+
+       540	   358	     147	  147	  THORSTEN	        NA	    RICHTER	        NA	29	12	1962		
+       540	   358	    1590	 1590	  THORSTEN	        NA	    RICHTER	        NA	28	12	1967	     0	  11.6
+
+       541	   357	    1832	 1832	    WILLZI	        NA	      ERNST	        NA	29	 6	1959		
+       541	   357	    4631	 4631	     WILLI	        NA	      ERNST	        NA	29	 6	1959	     0	  11.6
+
+       542	   356	    2558	 2558	  GUENTHER	        NA	     SCHULZ	        NA	15	 9	1987		
+       542	   356	    4491	 4491	  GUENTHER	        NA	     SCHULZ	        NA	21	 2	1987	     0	  11.6
+
+       543	   354	    5344	 5344	   SUSANNE	        NA	      WEBER	        NA	16	 7	1949		
+       543	   354	    9530	 9530	   SUSANNE	        NA	      WEBER	        NA	16	 1	1948	     0	  11.6
+
+       544	   354	    9367	 9367	   SUSANNE	        NA	      WEBER	        NA	19	10	1948		
+       544	   354	    9530	 9530	   SUSANNE	        NA	      WEBER	        NA	16	 1	1948	     0	  11.6
+
+       545	   353	     510	  510	   JUERGEN	        NA	      MEYER	        NA	15	 5	1976		
+       545	   353	    3114	 3114	   JUERGEN	        NA	      MEYER	        NA	15	 8	1988	     0	  11.6
+
+       546	   352	    2103	 2103	   MICHAEL	     HORST	   HARTMANN	        NA	 3	 9	1947		
+       546	   352	    4522	 4522	   MICHAEL	     HORSR	   HARTMANN	        NA	 3	 9	1947	     0	  11.6
+
+       547	   351	    6760	 6760	    BIRGIT	        NA	      WEBER	        NA	10	11	1980		
+       547	   351	    7619	 7619	    BIRGIT	        NA	      WEBER	        NA	10	16	1980	     0	  11.6
+
+       548	   350	     121	  121	  GUENTHER	        NA	       JUNG	        NA	 6	11	1955		
+       548	   350	    1503	 1503	 GUEKNTHER	        NA	       JUNG	        NA	 6	11	1955	     0	  11.6
+
+       549	   349	    6136	 6136	     KARIN	        NA	     WAGNER	        NA	12	12	1999		
+       549	   349	    9061	 9061	     KARIN	        NA	     WAGNER	        NA	12	 3	1955	     0	  11.6
+
+       550	   348	    5013	 5013	    NICOLE	        NA	     SCHULZ	        NA	 5	 1	1954		
+       550	   348	    9021	 9021	    NICOLE	        NA	     SCHULZ	        NA	30	 1	1953	     0	  11.6
+
+       551	   347	    8415	 8415	 CHRISTINE	        NA	    SCHMIDT	        NA	18	 9	1993		
+       551	   347	    9823	 9823	CHRISGTINE	        NA	    SCHMIDT	        NA	18	 9	1993	     0	  11.6
+
+       552	   346	    7416	 7416	      ANNA	        NA	     KAISER	        NA	23	11	1952		
+       552	   346	    8079	 8079	      ANNA	        NA	     KAISER	        NA	 8	11	1984	     0	  11.6
+
+       553	   345	    1487	 1487	     HEINZ	 CHRISTIAN	    KRAEMER	        NA	 4	 1	1942		
+       553	   345	    2267	 2267	     HEINZ	        NA	    KRAEMER	        NA	17	 1	1965	     0	  11.6
+
+       554	   118	     551	  551	    STEFAN	        NA	    KOEHLER	        NA	12	 1	1985		
+       554	   118	    1876	 1876	    STEFAN	        NA	    KOEHLER	        NA	26	 1	1987	     0	  11.6
+
+       555	   343	    5852	 5852	    MONIKA	        NA	     WALTER	        NA	92	11	2000		
+       555	   343	    9801	 9801	    MONIKA	        NA	     WALTER	        NA	29	11	2000	     0	  11.5
+
+       556	   342	    8040	 8040	   KATHRIN	      ILSE	      KLEIN	        NA	 1	 8	2003		
+       556	   342	    9196	 9196	   KATHRIN	        NA	      KLEIN	        NA	 1	 6	2004	     0	  11.5
+
+       557	   341	    6205	 6205	     GERDA	        NA	      WOLFF	        NA	29	10	1958		
+       557	   341	    8941	 8941	     GERDA	        NA	       WOLF	        NA	29	10	1939	     0	  11.5
+
+       558	   340	    3902	 3902	   ANDREAS	        NA	     SCHOLZ	        NA	14	 6	1943		
+       558	   340	    4779	 4779	   ANDREAS	      GERD	     SCHOLZ	        NA	21	 6	1964	     0	  11.5
+
+       559	   339	    2519	 2519	    THOMAS	        NA	     SCHMID	        NA	30	10	1956		
+       559	   339	    2543	 2543	    THOMAS	        NA	     SCHMID	        NA	26	10	1932	     0	  11.5
+
+       560	   338	    7115	 7115	   URSTULA	        NA	     MARTIN	        NA	 8	 6	1963		
+       560	   338	    8824	 8824	    URSULA	        NA	     MARTIN	        NA	 8	 6	1963	     0	  11.5
+
+       561	   337	    3512	 3512	   WALDTER	        NA	  SCHREIBER	        NA	22	 2	1998		
+       561	   337	    4767	 4767	    WALTER	        NA	  SCHREIBER	        NA	22	 2	1998	     0	  11.5
+
+       562	   336	    7282	 7282	    URSULA	        NA	    FISCHER	        NA	14	 5	1978		
+       562	   336	    7885	 7885	    URSULA	        NA	    FISCHER	        NA	14	 7	1963	     0	  11.5
+
+       563	   335	    6848	 6848	    RENATE	        NA	      WEISS	        NA	25	12	1979		
+       563	   335	    8319	 8319	    RENATE	        NA	      WEISS	        NA	 6	12	1989	     0	  11.5
+
+       564	   334	    6922	 6922	    RENATE	        NA	   HERRMANN	        NA	28	 1	2002		
+       564	   334	    7403	 7403	    RENATE	        NA	   HERRMANN	        NA	28	12	2002	     0	  11.5
+
+       565	   333	    1739	 1739	      ROLF	        NA	     BECKER	        NA	13	 1	1995		
+       565	   333	    2778	 2778	      ROLF	        NA	     BECKER	        NA	 3	 1	1928	     0	  11.5
+
+       566	   332	    8214	 8214	     HELGA	        NA	    MUELOER	        NA	 5	10	1938		
+       566	   332	    8823	 8823	     HELGA	        NA	    MUELLER	        NA	 5	10	1938	     0	  11.5
+
+       567	   331	    1574	 1574	     PETER	        NA	     PETERS	        NA	26	11	1937		
+       567	   331	    2744	 2744	     PETER	        NA	     PETERS	        NA	27	11	1937	     0	  11.5
+
+       568	   330	    2746	 2746	  WOLFGANG	        NA	     WERNER	        NA	 8	 1	1948		
+       568	   330	    3327	 3327	  WOLFGANG	        NA	     WERNER	        NA	 7	 1	1938	     0	  11.5
+
+       569	   329	    1160	 1160	     KLAUS	        NA	     WALTER	        NA	24	 1	1972		
+       569	   329	    2397	 2397	     KLAUS	        NA	     WALTER	        NA	18	 1	1968	     0	  11.5
+
+       570	   328	    6304	 6304	    MONIKA	    RENATE	  SCHREIBER	        NA	22	 2	1941		
+       570	   328	    9191	 9191	    MONIKA	    RENATE	  SCHREUBER	        NA	22	 2	1941	     0	  11.5
+
+       571	   294	      35	   35	   ANDREAS	        NA	      WEBER	        NA	 1	 3	1955		
+       571	   294	    1599	 1599	   ANDREAS	        NA	      WEBER	        NA	19	 3	1947	     0	  11.5
+
+       572	   326	     359	  359	   WERNMER	        NA	      KUEHN	        NA	23	 6	1977		
+       572	   326	    4371	 4371	    WERNER	        NA	      KUEHN	        NA	23	 6	1977	     0	  11.4
+
+       573	   325	    8654	 8654	 ANGELHIKA	        NA	     SEIDEL	        NA	29	 6	2004		
+       573	   325	    8682	 8682	  ANGELIKA	        NA	     SEIDEL	        NA	29	 6	2004	     0	  11.4
+
+       574	   324	    6152	 6152	    TANJAB	        NA	    ZIEGLER	        NA	26	 3	1936		
+       574	   324	    8899	 8899	     TANJA	        NA	    ZIEGLER	        NA	26	 3	1936	     0	  11.4
+
+       575	   323	     882	  882	     PETER	        NA	     WAGNER	        NA	17	 6	1998		
+       575	   323	    3126	 3126	    PELTER	        NA	     WAGNER	        NA	17	 6	1998	     0	  11.4
+
+       576	   322	    8674	 8674	    NICOLE	        NA	    SCHMIDT	        NA	16	 8	1998		
+       576	   322	    9803	 9803	   NICOTLE	        NA	    SCHMIDT	        NA	16	 8	1998	     0	  11.4
+
+       577	   321	    1277	 1277	    THOMAS	        NA	    FISCHER	        NA	21	11	1942		
+       577	   321	    1520	 1520	    THOMAS	        NA	    FISCHER	        NA	16	 4	1942	     0	  11.4
+
+       578	   320	    6806	 6806	      ILSE	        NA	    SCHMIDT	        NA	16	 3	1958		
+       578	   320	    7781	 7781	      ILSE	        NA	    SCHMIDT	        NA	16	 4	1953	     0	  11.4
+
+       579	   319	    7044	 7044	  CHRGISTA	        NA	   BERGMANN	        NA	29	 3	1941		
+       579	   319	    7983	 7983	   CHRISTA	        NA	   BERGMANN	        NA	29	 3	1941	     0	  11.4
+
+       580	   318	    7580	 7580	 CHRISTINE	        NA	    MUELLER	        NA	18	 7	1937		
+       580	   318	    8806	 8806	 CHRISTINE	        NA	    MUELLER	        NA	18	10	1963	     0	  11.4
+
+       581	   317	    9064	 9064	   GERTRUD	        NA	     BECKER	        NA	11	 1	1982		
+       581	   317	    9666	 9666	   GERTRUD	        NA	     BECKER	        NA	12	 1	1982	     0	  11.4
+
+       582	   259	     695	  695	      JENS	        NA	    FISCHER	        NA	20	11	1949		
+       582	   259	    1325	 1325	      JENS	        NA	    FISCHER	        NA	 5	11	1968	     0	  11.4
+
+       583	   315	    2005	 2005	  MATTHIAS	        NA	     WAGNER	        NA	15	12	1977		
+       583	   315	    2101	 2101	  MATTHIAS	        NA	     WAGNER	        NA	27	12	1937	     0	  11.4
+
+       584	   314	    5448	 5448	    SABINE	        NA	    WINKLER	        NA	11	 2	1941		
+       584	   314	    9800	 9800	    SABINE	        NA	     WIKLER	        NA	11	 2	1941	     0	  11.4
+
+       585	   313	    6142	 6142	   MARIOQN	        NA	     BRANDT	        NA	23	 6	1946		
+       585	   313	    7722	 7722	    MARION	        NA	     BRANDT	        NA	23	 6	1946	     0	  11.4
+
+       586	   312	    8093	 8093	     PETRA	        NA	      WEBER	        NA	20	 6	1970		
+       586	   312	    8874	 8874	    PETRHA	        NA	      WEBER	        NA	20	 6	1970	     0	  11.4
+
+       587	   311	    8010	 8010	 ELISABETH	        NA	     BECKER	        NA	11	 1	1985		
+       587	   311	    8303	 8303	 ELISABETH	        NA	     BECKER	        NA	 8	 1	1989	     0	  11.4
+
+       588	   310	    3499	 3499	     PETER	        NA	    FISCHER	        NA	12	 8	1966		
+       588	   310	    3758	 3758	     PETER	        NA	    FISCHER	        NA	12	 4	1985	     0	  11.4
+
+       589	   309	     765	  765	    STEFAN	        NA	  SCHNEIDER	        NA	 1	 2	1997		
+       589	   309	    3639	 3639	    STEFAN	        NA	  SCHNEIDER	        NA	 1	 6	1997	     0	  11.4
+
+       590	   308	    5611	 5611	  GERTRUDD	        NA	       KUHN	        NA	 9	 3	1960		
+       590	   308	    9821	 9821	   GERTRUD	        NA	       KUHN	        NA	 9	 3	1960	     0	  11.4
+
+       591	   307	    6585	 6585	    PETWRA	        NA	       HAAS	        NA	24	 2	1953		
+       591	   307	    7495	 7495	     PETRA	        NA	       HAAS	        NA	24	 2	1953	     0	  11.4
+
+       592	   306	    5704	 5704	   CHRISTA	        NA	   SCHAEFER	        NA	10	10	1927		
+       592	   306	    9912	 9912	   CHRISTA	        NA	   SCHAEFER	        NA	 3	10	1997	     0	  11.4
+
+       593	   305	    2985	 2985	   ANDREAS	        NA	    HOFMANN	        NA	19	 2	1979		
+       593	   305	    4139	 4139	   ANDREAS	      KARL	    HOFMANN	        NA	19	12	1954	     0	  11.4
+
+       594	   304	      29	   29	   ANDREAS	        NA	     WALTER	        NA	 6	11	1954		
+       594	   304	    1367	 1367	   ANDREAS	        NA	     WALTER	        NA	 9	11	1948	     0	  11.4
+
+       595	   303	    1841	 1841	   JUERGEN	        NA	  SCHNEIDER	        NA	30	 6	1960		
+       595	   303	    3732	 3732	   JUERGEN	        NA	  SCHNEIDER	        NA	50	 6	1960	     0	  11.4
+
+       596	    65	    1196	 1196	 ALEXANDER	        NA	    SCHMITZ	        NA	 1	10	1990		
+       596	    65	    3662	 3662	 ALEXANDER	        NA	    SCHMITZ	        NA	 1	10	1964	     0	  11.4
+
+       597	   301	    5990	 5990	   GISXELA	        NA	     SEIDEL	        NA	22	 3	1985		
+       597	   301	    8061	 8061	    GISELA	        NA	     SEIDEL	        NA	22	 3	1985	     0	  11.4
+
+       598	   300	    6805	 6805	    BIRGIT	        NA	 ZIMMERMANN	        NA	 6	12	1989		
+       598	   300	    7893	 7893	    BIRGIT	        NA	 ZIMMERMANN	        NA	 7	12	1989	     0	  11.4
+
+       599	   299	    1100	 1100	     JOERG	        NA	   HARTMANN	        NA	 1	 4	1945		
+       599	   299	    1181	 1181	     JOERG	        NA	   HARGMANN	        NA	 1	 4	1945	     0	  11.4
+
+       600	   298	    8829	 8829	CHRISTDINE	        NA	     LUDWIG	        NA	25	 6	1950		
+       600	   298	    9066	 9066	 CHRISTINE	        NA	     LUDWIG	        NA	25	 6	1950	     0	  11.3
+
+       601	   297	    1906	 1906	  MATTHIAS	        NA	     BECKER	        NA	 6	 1	1984		
+       601	   297	    4352	 4352	  MATTHIAS	        NA	     BECKER	        NA	 7	 1	1997	     0	  11.3
+
+       602	   296	    2209	 2209	   ANDREAS	        NA	    KRUEGER	        NA	25	12	1956		
+       602	   296	    2489	 2489	   ANDREAS	        NA	    KRUEGER	        NA	10	12	1967	     0	  11.3
+
+       603	   295	    2628	 2628	   ANDREAS	        NA	    KOEHLER	        NA	 4	11	1977		
+       603	   295	    4062	 4062	  ANDREUAS	        NA	    KOEHLER	        NA	 4	11	1977	     0	  11.3
+
+       604	   294	      35	   35	   ANDREAS	        NA	      WEBER	        NA	 1	 3	1955		
+       604	   294	    7332	 7332	    ANDREA	        NA	      WEBER	        NA	 1	 3	1968	     0	  11.3
+
+       605	   293	      74	   74	    DIETER	        NA	   HOFFMANN	        NA	24	 1	1959		
+       605	   293	    1405	 1405	    DIETER	        NA	   HOFFMANN	        NA	25	 1	1959	     0	  11.3
+
+       606	   291	     333	  333	    DANIEL	        NA	    HOFMANN	        NA	15	11	1978		
+       606	   291	    1480	 1480	    DANIEL	        NA	    SCHMKDT	        NA	15	11	1964	     0	  11.3
+
+       607	   291	     138	  138	    DANIEL	        NA	    SCHMIDT	        NA	15	11	1964		
+       607	   291	     333	  333	    DANIEL	        NA	    HOFMANN	        NA	15	11	1978	     0	  11.3
+
+       608	   290	    3390	 3390	      SVEN	        NA	    MUELLER	        NA	15	 4	1987		
+       608	   290	    3961	 3961	      SVEN	        NA	    MUELLER	        NA	16	 4	1958	     0	  11.3
+
+       609	   289	    7737	 7737	     KARIN	        NA	   HARTMANN	        NA	 4	 1	2001		
+       609	   289	    9638	 9638	     KARIN	        NA	   HARTMANN	        NA	 3	 1	2001	     0	  11.2
+
+       610	   288	    1659	 1659	    STEFAN	      JENS	    MUELLER	        NA	26	 3	1938		
+       610	   288	    1735	 1735	   STEFAND	      JENS	    MUELLER	        NA	26	 3	1938	     0	  11.2
+
+       611	   287	    2346	 2346	    THOMAS	        NA	      LANGE	        NA	11	12	1932		
+       611	   287	    3995	 3995	    THOMAS	        NA	      LANGE	        NA	12	12	1957	     0	  11.2
+
+       612	   286	    7177	 7177	    RENATE	        NA	    KOEHLER	        NA	27	11	1951		
+       612	   286	    8026	 8026	   RENAUTE	        NA	    KOEHLER	        NA	27	11	1951	     0	  11.2
+
+       613	   285	    5501	 5501	    RENATE	        NA	  SCHNEIDER	        NA	12	 4	1983		
+       613	   285	    6567	 6567	    RENATE	        NA	  SCHNEIDER	        NA	12	 4	1893	     0	  11.2
+
+       614	   284	    8194	 8194	   KATHRIN	        NA	    MUELLER	        NA	21	 8	1995		
+       614	   284	    8227	 8227	   KATHRIN	        NA	    MUELLER	        NA	14	 8	1925	     0	  11.2
+
+       615	   283	     208	  208	    STEFAN	        NA	    SCHWARZ	        NA	29	10	1963		
+       615	   283	     488	  488	    STEFAN	        NA	    SCHWARZ	        NA	26	10	1963	     0	  11.2
+
+       616	   282	    6100	 6100	      INGE	        NA	      MAIER	        NA	18	12	2006		
+       616	   282	    8176	 8176	      INGE	        NA	      MAIDR	        NA	18	12	2006	     0	  11.2
+
+       617	   280	    3809	 3809	      SVEN	        NA	      WOLFF	        NA	10	11	1933		
+       617	   280	    7529	 7529	    SABINE	        NA	      WOLFF	        NA	10	11	1927	     0	  11.2
+
+       618	   280	    3809	 3809	      SVEN	        NA	      WOLFF	        NA	10	11	1933		
+       618	   280	    9042	 9042	    SABINE	        NA	      WOLFF	        NA	10	11	1957	     0	  11.2
+
+       619	   279	    1087	 1087	   MANFRED	        NA	     SCHULZ	        NA	 9	 1	1989		
+       619	   279	    1655	 1655	  MANFJRED	        NA	     SCHULZ	        NA	 9	 1	1989	     0	  11.2
+
+       620	   278	    5639	 5639	   IRMGARD	        NA	    SCHMIDT	        NA	30	12	1935		
+       620	   278	    7349	 7349	   IRMGARD	        NA	    SCHMIDT	        NA	 3	12	1935	     0	  11.2
+
+       621	   276	    3847	 3847	      GERD	        NA	    MUELLER	        NA	10	11	1989		
+       621	   276	    3858	 3858	      GERD	        NA	  SCHNEIDER	        NA	10	11	1954	     0	  11.2
+
+       622	   276	    3847	 3847	      GERD	        NA	    MUELLER	        NA	10	11	1989		
+       622	   276	    4072	 4072	      GERD	        NA	  SCHNEIDER	        NA	10	11	1955	     0	  11.2
+
+       623	    14	    1292	 1292	     PETER	        NA	 ZIMMERMANN	        NA	29	11	1994		
+       623	    14	    4604	 4604	     PETER	        NA	 ZIMMERMANN	        NA	24	11	1964	     0	  11.2
+
+       624	   273	    3478	 3478	      PAUL	        NA	   PFEIFFER	        NA	20	10	1956		
+       624	   273	    3769	 3769	     FRANK	        NA	   PFEIFFER	        NA	20	10	1945	     0	  11.2
+
+       625	   273	    2904	 2904	     PAFUL	        NA	   PFEIFFER	        NA	20	10	1956		
+       625	   273	    3769	 3769	     FRANK	        NA	   PFEIFFER	        NA	20	10	1945	     0	  11.2
+
+       626	   272	    6045	 6045	   BARBARA	        NA	    MUELLER	        NA	 1	 4	1982		
+       626	   272	    6785	 6785	  BARBANRA	        NA	    MUELLER	        NA	 1	 4	1982	     0	  11.2
+
+       627	   271	     375	  375	   CARSTEN	        NA	  SCHNEIDER	        NA	22	 1	1944		
+       627	   271	    1129	 1129	   CARSTEN	        NA	  SCHNEIDER	        NA	21	12	1944	     0	  11.1
+
+       628	   270	    8002	 8002	     ERIKA	        NA	    SCHMIDT	        NA	11	 9	1999		
+       628	   270	    8492	 8492	     ERIKA	        NA	    SCHMIDT	        NA	11	11	1999	     0	  11.1
+
+       629	   269	    6602	 6602	   MARMION	        NA	     SOMMER	        NA	 4	 4	1928		
+       629	   269	    7001	 7001	    MARION	        NA	     SOMMER	        NA	 4	 4	1928	     0	  11.1
+
+       630	   268	    8325	 8325	   SUSANNE	        NA	       KOCH	        NA	31	12	1981		
+       630	   268	    9654	 9654	   SUSANNE	        NA	       KOCH	        NA	 8	12	1981	     0	  11.1
+
+       631	   267	    3362	 3362	    MARTIN	        NA	    MUELLER	        NA	21	 9	2007		
+       631	   267	    3657	 3657	    MARTIN	        NA	    MUELLER	        NA	13	 9	2007	     0	  11.1
+
+       632	   266	    1016	 1016	   JUERGEN	        NA	   SCHUSTER	        NA	21	11	1968		
+       632	   266	    6371	 6371	  GABRIELE	        NA	   SCHUSTER	        NA	21	11	1943	     0	  11.1
+
+       633	   265	    1707	 1707	   MICHAEL	        NA	   SCHUSTER	        NA	13	 1	1968		
+       633	   265	    6253	 6253	     PETRA	        NA	   SCHUSTER	        NA	13	 1	1969	     0	  11.1
+
+       634	   264	    4442	 4442	   STEFIAN	        NA	      FUCHS	        NA	26	 4	1997		
+       634	   264	    4979	 4979	    STEFAN	        NA	      FUCHS	        NA	26	 4	1997	     0	  11.1
+
+       635	   263	    1604	 1604	   THOIMAS	        NA	      FUCHS	        NA	27	 9	1958		
+       635	   263	    1644	 1644	    THOMAS	        NA	      FUCHS	        NA	27	 9	1958	     0	  11.1
+
+       636	   262	    5060	 5060	    URSULA	        NA	   SCHAEFER	        NA	25	12	1997		
+       636	   262	    5517	 5517	    URSULA	        NA	   SCHAEFER	        NA	25	21	1997	     0	  11.1
+
+       637	   261	    5892	 5892	      ILSE	        NA	    MUELLER	        NA	11	 8	1957		
+       637	   261	    6910	 6910	      ILSE	        NA	    MUELLER	        NA	11	 5	1945	     0	  11.1
+
+       638	   260	    8854	 8854	    HELGAM	        NA	    WINKLER	        NA	23	 3	1959		
+       638	   260	    9648	 9648	     HELGA	        NA	    WINKLER	        NA	23	 3	1959	     0	  11.1
+
+       639	   259	    1325	 1325	      JENS	        NA	    FISCHER	        NA	 5	11	1968		
+       639	   259	    2037	 2037	     JJENS	        NA	    FISCHER	        NA	 5	11	1968	     0	  11.1
+
+       640	   171	    4226	 4226	      HANS	        NA	      ENGEL	        NA	19	10	1962		
+       640	   171	    5048	 5048	 CHRISTINE	        NA	      ENGEL	        NA	15	10	1962	     0	  11.1
+
+       641	   151	    6644	 6644	   BARBARA	        NA	      VOIGT	        NA	19	12	1995		
+       641	   151	    8037	 8037	    GISELA	        NA	      VOIGT	        NA	19	12	1963	     0	  11.1
+
+       642	   151	    7805	 7805	   BARBARA	        NA	      VOIGT	        NA	19	12	1996		
+       642	   151	    8037	 8037	    GISELA	        NA	      VOIGT	        NA	19	12	1963	     0	  11.1
+
+       643	   255	    3950	 3950	      HANS	        NA	    MUELLER	        NA	15	 8	1990		
+       643	   255	    4017	 4017	      HANS	        NA	    MUELLER	        NA	15	 7	1990	     0	  11.1
+
+       644	   254	     976	  976	    THOMAS	        NA	    NEUMANN	        NA	 6	11	1958		
+       644	   254	    1489	 1489	    THOMAS	        NA	    NEUMANN	        NA	 3	11	1978	     0	  11.1
+
+       645	   253	    7129	 7129	    SABINE	        NA	      LANGE	        NA	26	 1	1953		
+       645	   253	    9389	 9389	    SABINE	        NA	      LANGE	        NA	 5	 1	1953	     0	  11.1
+
+       646	   252	    8781	 8781	   IRMGARD	        NA	      VOGDL	        NA	12	11	1966		
+       646	   252	    9126	 9126	   IRMGARD	        NA	      VOGEL	        NA	12	11	1966	     0	  11.1
+
+       647	   251	    7666	 7666	     ELKBE	        NA	     LUDWIG	        NA	28	 3	1981		
+       647	   251	    9201	 9201	      ELKE	        NA	     LUDWIG	        NA	28	 3	1981	     0	  11.1
+
+       648	   250	     940	  940	  THORSTEN	        NA	    MUELLER	        NA	12	 9	1938		
+       648	   250	    1471	 1471	 THORSATEN	        NA	    MUELLER	        NA	12	 9	1938	     0	  11.0
+
+       649	   249	    1266	 1266	    DIETER	        NA	      MEYER	        NA	 4	11	1991		
+       649	   249	    2179	 2179	    DIETER	        NA	      MEYER	        NA	 2	11	1991	     0	  11.0
+
+       650	   248	    7234	 7234	    GERDAY	        NA	      VOGEL	        NA	 4	 8	1994		
+       650	   248	    8981	 8981	     GERDA	        NA	      VOGEL	        NA	 4	 8	1994	     0	  11.0
+
+       651	   247	    9636	 9636	   ANNETTE	        NA	     FRANKE	        NA	30	 1	1985		
+       651	   247	    9818	 9818	    GISELA	        NA	     FRANKE	        NA	30	 1	1974	     0	  11.0
+
+       652	   246	    5222	 5222	  CORNELIA	        NA	     JAEGER	        NA	17	11	1977		
+       652	   246	    8239	 8239	    SABINE	        NA	     JAEGER	        NA	15	11	1977	     0	  11.0
+
+       653	   245	    6028	 6028	     HELGA	        NA	     KRAUSE	        NA	22	12	1971		
+       653	   245	    8012	 8012	    HELYGA	        NA	     KRAUSE	        NA	22	12	1971	     0	  11.0
+
+       654	   244	    7041	 7041	    GISELA	        NA	       KOCH	        NA	 7	 1	1939		
+       654	   244	    7388	 7388	   GISIELA	        NA	       KOCH	        NA	 7	 1	1939	     0	  11.0
+
+       655	   243	    1118	 1118	 CHRISTIAN	        NA	     BECKER	        NA	 6	10	1998		
+       655	   243	    3173	 3173	 CHRISTIAN	        NA	     BECKER	        NA	18	10	1925	     0	  11.0
+
+       656	   242	    1784	 1784	   GERHARD	        NA	      MEYER	        NA	24	10	1948		
+       656	   242	    2992	 2992	   GERHARD	        NA	      MEYER	        NA	24	10	1947	     0	  11.0
+
+       657	   241	    7394	 7394	 ELISABETH	        NA	    MUELLER	        NA	20	 8	1947		
+       657	   241	    9778	 9778	ELISABIETH	        NA	    MUELLER	        NA	20	 8	1947	     0	  11.0
+
+       658	   192	    1721	 1721	    MARKUS	        NA	    MUELLER	        NA	14	11	1992		
+       658	   192	    2359	 2359	    MARKUS	        NA	      MAIER	        NA	14	11	1973	     0	  11.0
+
+       659	   239	    7391	 7391	   BARBARA	        NA	    SCHMITT	        NA	31	 3	1965		
+       659	   239	    7967	 7967	   BARBARA	        NA	    SCHMIDT	        NA	31	 3	1975	     0	  11.0
+
+       660	   238	    1848	 1848	   THOMAMS	        NA	     BERGER	        NA	23	 3	1984		
+       660	   238	    3901	 3901	    THOMAS	        NA	     BERGER	        NA	23	 3	1984	     0	  11.0
+
+       661	   237	    1705	 1705	   HELMWUT	        NA	     BERGER	        NA	27	 7	1955		
+       661	   237	    3842	 3842	    HELMUT	        NA	     BERGER	        NA	27	 7	1955	     0	  11.0
+
+       662	   236	    7991	 7991	     HELGA	        NA	    SCHMITZ	        NA	 8	 1	1970		
+       662	   236	    8760	 8760	    HELMGA	        NA	    SCHMITZ	        NA	 8	 1	1970	     0	  11.0
+
+       663	   234	    5107	 5107	     EDITH	        NA	       OTTO	        NA	14	10	1973		
+       663	   234	    7537	 7537	   SUSANNE	        NA	       OTTO	        NA	14	10	1964	     0	  11.0
+
+       664	   234	    5107	 5107	     EDITH	        NA	       OTTO	        NA	14	10	1973		
+       664	   234	    7563	 7563	   SUSANNE	        NA	       OTTO	        NA	14	10	1764	     0	  11.0
+
+       665	   233	    2058	 2058	   JUERGEN	        NA	       OTTO	        NA	13	 1	1949		
+       665	   233	    2748	 2748	   CARSTEN	        NA	       OTTO	        NA	13	 1	1983	     0	  11.0
+
+       666	   203	    4750	 4750	      RALF	        NA	     LUDWIG	        NA	19	11	1989		
+       666	   203	    7230	 7230	      RUTH	        NA	     LUDWIG	        NA	19	11	1994	     0	  10.9
+
+       667	   231	    5425	 5425	     KARIN	        NA	     LUDWIG	        NA	11	 1	1998		
+       667	   231	    9467	 9467	  ANGELIKA	        NA	     LUDWIG	        NA	11	 1	1988	     0	  10.9
+
+       668	   230	    1594	 1594	 CHRISTIAN	        NA	     PETERS	        NA	11	 1	1939		
+       668	   230	    2606	 2606	 CHRISTIAN	        NA	     PETERS	        NA	11	 1	1940	     0	  10.9
+
+       669	   228	    1422	 1422	    WERNER	        NA	   HOFFMANN	        NA	71	11	1964		
+       669	   228	    1452	 1452	    WERNER	        NA	   HOFFMANN	        NA	26	11	1962	     0	  10.9
+
+       670	   228	    1452	 1452	    WERNER	        NA	   HOFFMANN	        NA	26	11	1962		
+       670	   228	    4524	 4524	    WERNER	        NA	   HOFFMANN	        NA	17	11	1964	     0	  10.9
+
+       671	   227	    1040	 1040	    PETEAR	        NA	     LORENZ	        NA	 6	 9	1961		
+       671	   227	    1371	 1371	     PETER	        NA	     LORENZ	        NA	 6	 9	1961	     0	  10.9
+
+       672	   226	    8916	 8916	    BIRGIT	        NA	     WAGNER	        NA	13	11	1947		
+       672	   226	    9080	 9080	    BIRGIT	        NA	     WAGNER	        NA	 9	11	1938	     0	  10.9
+
+       673	   223	    3197	 3197	   GERHARD	        NA	    FISCHER	        NA	20	10	1967		
+       673	   223	    3852	 3852	   GERHARD	        NA	    FISCHER	        NA	22	10	1946	     0	  10.9
+
+       674	   223	    3844	 3844	   GERHARD	        NA	    FISCHER	        NA	23	10	1967		
+       674	   223	    3852	 3852	   GERHARD	        NA	    FISCHER	        NA	22	10	1946	     0	  10.9
+
+       675	   223	    3197	 3197	   GERHARD	        NA	    FISCHER	        NA	20	10	1967		
+       675	   223	    3844	 3844	   GERHARD	        NA	    FISCHER	        NA	23	10	1967	     0	  10.9
+
+       676	    19	    5130	 5130	    RENATE	        NA	       KOCH	        NA	19	 1	1959		
+       676	    19	    6658	 6658	    RENATE	        NA	       KOCH	        NA	 3	 1	1976	     0	  10.9
+
+       677	   221	    3893	 3893	      OTTO	        NA	    MUELLER	        NA	27	11	1988		
+       677	   221	    4422	 4422	     OTWTO	        NA	    MUELLER	        NA	27	11	1988	     0	  10.9
+
+       678	   220	    7056	 7056	  SUSANNKE	        NA	    KOEHLER	        NA	 2	 7	1955		
+       678	   220	    7896	 7896	   SUSANNE	        NA	    KOEHLER	        NA	 2	 7	1955	     0	  10.9
+
+       679	   217	    5846	 5846	  BRIGITTE	        NA	    MUELLER	        NA	21	 5	1952		
+       679	   217	    6182	 6182	  BRIGITTE	        NA	    MUELLER	        NA	21	 5	1988	     0	  10.9
+
+       680	   217	    6182	 6182	  BRIGITTE	        NA	    MUELLER	        NA	21	 5	1988		
+       680	   217	    9129	 9129	  BRIGITTE	        NA	    MUELLER	        NA	21	 3	1988	     0	  10.9
+
+       681	   217	    5846	 5846	  BRIGITTE	        NA	    MUELLER	        NA	21	 5	1952		
+       681	   217	    9129	 9129	  BRIGITTE	        NA	    MUELLER	        NA	21	 3	1988	     0	  10.9
+
+       682	   216	    6409	 6409	    SILKEF	        NA	   HERRMANN	        NA	23	 7	1958		
+       682	   216	    9757	 9757	     SILKE	        NA	   HERRMANN	        NA	23	 7	1958	     0	  10.9
+
+       683	   215	    2341	 2341	     WILLI	        NA	     PETESR	        NA	 9	 7	1963		
+       683	   215	    2896	 2896	     WILLI	        NA	     PETERS	        NA	 9	 7	1963	     0	  10.9
+
+       684	   214	    1544	 1544	      KURT	        NA	    NEUMANN	        NA	 1	10	1956		
+       684	   214	    2302	 2302	      KURT	        NA	    MUELLER	        NA	 1	10	1937	     0	  10.9
+
+       685	   213	     306	  306	 ALEXANDER	        NA	       ROTH	        NA	 1	12	1934		
+       685	   213	    6065	 6065	       EVA	        NA	       ROTH	        NA	 1	12	1939	     0	  10.9
+
+       686	     9	     832	  832	       UWE	        NA	    WINKLER	        NA	19	10	1973		
+       686	     9	    3445	 3445	     HORST	        NA	    WINKLER	        NA	14	10	1973	     0	  10.9
+
+       687	   211	     248	  248	     PETER	        NA	    WINKLER	        NA	14	12	1986		
+       687	   211	    6381	 6381	  STEFANIE	        NA	    WINKLER	        NA	14	12	1942	     0	  10.9
+
+       688	   210	    1761	 1761	   JUERGEN	        NA	    SCHMIDT	        NA	31	 8	1969		
+       688	   210	    2840	 2840	   JUERGEN	        NA	    SCHMIDT	        NA	31	 3	1969	     0	  10.9
+
+       689	   209	    5999	 5999	     KARIN	        NA	   HEINRICH	        NA	 4	11	1943		
+       689	   209	    7860	 7860	     KARIN	    SABINE	   HEINRICH	        NA	 8	11	1943	     0	  10.9
+
+       690	   208	    5226	 5226	      ELKE	        NA	       POHL	        NA	 8	 1	1953		
+       690	   208	    9936	 9936	      ELKE	        NA	      POEHL	        NA	 8	 1	1953	     0	  10.9
+
+       691	   207	    5762	 5762	     HELGA	        NA	      LANGE	        NA	10	 7	1973		
+       691	   207	    7027	 7027	     HELGA	        NA	     LANVGE	        NA	10	 7	1973	     0	  10.9
+
+       692	   206	    9202	 9202	   KATHRIN	        NA	       LANG	        NA	14	12	1988		
+       692	   206	    9713	 9713	   CHRISTA	        NA	       LANG	        NA	13	12	1988	     0	  10.9
+
+       693	   205	    1935	 1935	    RAINER	        NA	      LANGE	        NA	 3	12	1948		
+       693	   205	    2615	 2615	    RAINER	        NA	     LANGEG	        NA	 3	12	1948	     0	  10.9
+
+       694	   204	    1259	 1259	     HORST	        NA	      WEBER	        NA	25	11	1943		
+       694	   204	    3544	 3544	     HORST	        NA	      WEBER	        NA	 6	11	1979	     0	  10.9
+
+       695	   203	    3477	 3477	      RALF	        NA	    MUELLER	        NA	14	11	1989		
+       695	   203	    4750	 4750	      RALF	        NA	     LUDWIG	        NA	19	11	1989	     0	  10.9
+
+       696	   202	     325	  325	   MICHAEL	        NA	    SCHMIDT	        NA	20	 5	1944		
+       696	   202	    3588	 3588	   MICHAEL	        NA	    SCHMIDT	        NA	20	10	1983	     0	  10.9
+
+       697	   201	    5753	 5753	   BILRGIT	        NA	    KOEHLER	        NA	 8	 5	1994		
+       697	   201	    8327	 8327	    BIRGIT	        NA	    KOEHLER	        NA	 8	 5	1994	     0	  10.9
+
+       698	   200	    4346	 4346	   JUERGEN	        NA	      BAUER	        NA	 3	10	1972		
+       698	   200	    4397	 4397	  JUERGENN	        NA	      BAUER	        NA	 3	10	1972	     0	  10.9
+
+       699	   199	    5236	 5236	 CHRISTINE	        NA	    SCHMIDT	        NA	28	10	1994		
+       699	   199	    6728	 6728	 CHRISTINE	        NA	    SCHMIDT	        NA	 2	10	1955	     0	  10.9
+
+       700	   198	    3118	 3118	     HEINZ	        NA	      FUCHS	        NA	19	12	2008		
+       700	   198	    8630	 8630	   KATHRIN	        NA	      FUCHS	        NA	19	12	2002	     0	  10.8
+
+       701	   196	      85	   85	    HARALD	        NA	      FUCHS	        NA	20	11	1954		
+       701	   196	    2130	 2130	  REINHARD	        NA	      FUCHS	        NA	20	11	1948	     0	  10.8
+
+       702	   196	    2130	 2130	  REINHARD	        NA	      FUCHS	        NA	20	11	1948		
+       702	   196	    2623	 2623	   HARAJLD	        NA	      FUCHS	        NA	20	11	1954	     0	  10.8
+
+       703	   195	     888	  888	     HANSC	        NA	     LORENZ	        NA	22	 8	1930		
+       703	   195	    3419	 3419	      HANS	        NA	     LORENZ	        NA	22	 8	1930	     0	  10.8
+
+       704	   194	    3169	 3169	    STEFAN	        NA	      VOGEL	        NA	16	 1	1988		
+       704	   194	    8712	 8712	   KERSTIN	        NA	      VOGEL	        NA	16	 1	1933	     0	  10.8
+
+       705	   193	    8911	 8911	     HELGA	        NA	   HOFFMANN	        NA	22	11	1934		
+       705	   193	    8988	 8988	     HELGA	        NA	   HOFFMANN	     MEIER	24	11	1942	     0	  10.8
+
+       706	   192	    1721	 1721	    MARKUS	        NA	    MUELLER	        NA	14	11	1992		
+       706	   192	    3960	 3960	    MARKUS	        NA	    MUELLER	        NA	23	11	1962	     0	  10.8
+
+       707	   191	    5298	 5298	     ERIKA	        NA	       KOCH	        NA	19	 3	1960		
+       707	   191	    8298	 8298	     ERIKA	        NA	      KAOCH	        NA	19	 3	1960	     0	  10.8
+
+       708	   105	    5127	 5127	    ANGELA	        NA	   GUENTHER	        NA	17	10	1932		
+       708	   105	    9110	 9110	    NICOLE	        NA	   GUENTHER	        NA	17	10	1947	     0	  10.8
+
+       709	   189	    1920	 1920	    THOMAS	        NA	    SCHMIDT	        NA	21	12	1975		
+       709	   189	    3438	 3438	    THOMAS	        NA	    SCHMIDT	        NA	21	10	1952	     0	  10.8
+
+       710	   188	    3041	 3041	    THOMAS	        NA	    SCHMIDT	        NA	11	11	1966		
+       710	   188	    4058	 4058	    THOMAS	        NA	    SCHMIDT	        NA	11	 1	1997	     0	  10.8
+
+       711	   187	    6841	 6841	    MARIZA	        NA	      MEIER	        NA	 4	 2	1980		
+       711	   187	    8627	 8627	     MARIA	        NA	      MEIER	        NA	 4	 2	1980	     0	  10.8
+
+       712	   186	     839	  839	     FRANK	        NA	    FISCHER	        NA	28	12	1948		
+       712	   186	    3140	 3140	     FRANK	        NA	    FISCHER	        NA	14	12	1964	     0	  10.8
+
+       713	   185	     851	  851	    DIETER	        NA	      WEBER	        NA	12	 7	1978		
+       713	   185	    2264	 2264	    DIETER	     ERNST	      WEBER	        NA	12	 8	1942	     0	  10.8
+
+       714	   184	    1222	 1222	 ALEXANDER	        NA	      FRANK	        NA	11	12	1990		
+       714	   184	    1357	 1357	 ALEXANDER	        NA	      FRANM	        NA	11	12	1990	     0	  10.8
+
+       715	   183	    6475	 6475	   BIRGKIT	        NA	     KAISER	        NA	27	 3	1970		
+       715	   183	    9760	 9760	    BIRGIT	        NA	     KAISER	        NA	27	 3	1970	     0	  10.8
+
+       716	   182	    5304	 5304	    BIRGIT	      RUTH	   ALBRECHT	        NA	 3	12	1947		
+       716	   182	    7947	 7947	    BIRGIT	      TUTH	   ALBRECHT	        NA	 3	12	1947	     0	  10.8
+
+       717	   181	    7531	 7531	    GISELA	        NA	       BECK	        NA	15	 1	1944		
+       717	   181	    9462	 9462	   CLAUDIA	        NA	       BECK	        NA	15	 1	1937	     0	  10.8
+
+       718	   180	     526	  526	 SIEGFRIED	        NA	    MOELLER	        NA	19	 1	1942		
+       718	   180	    7087	 7087	    MONIKA	        NA	    MOELLER	        NA	19	 1	1963	     0	  10.8
+
+       719	   179	    1826	 1826	 CHRISTIAN	        NA	    MUELLER	        NA	14	 3	1976		
+       719	   179	    3271	 3271	 CHRISTIAN	        NA	    MUELLER	        NA	 1	 3	1992	     0	  10.8
+
+       720	   178	    3014	 3014	 CHRISTIAN	        NA	    MUELLER	        NA	21	 7	1988		
+       720	   178	    3290	 3290	 CHRISTIAN	        NA	    MUELLER	        NA	21	 6	1952	     0	  10.8
+
+       721	   177	    6352	 6352	    ANDREA	        NA	      FUCHS	        NA	 5	10	1938		
+       721	   177	    9217	 9217	    ANDREA	        NA	     FUCHSR	        NA	 5	10	1938	     0	  10.8
+
+       722	   176	     690	  690	     FRANK	        NA	    MUELLER	        NA	18	 8	1946		
+       722	   176	    2124	 2124	     FRANK	        NA	    MUELLER	        NA	18	 8	1947	     0	  10.7
+
+       723	   175	    1913	 1913	     FRANK	        NA	    MUELLER	        NA	20	 8	1939		
+       723	   175	    3073	 3073	     FRANK	        NA	    MUELLER	        NA	20	12	1958	     0	  10.7
+
+       724	   174	     651	  651	    THOMAS	        NA	     SCHULZ	        NA	24	 1	1968		
+       724	   174	    1368	 1368	    THOMAS	        NA	     SCHULZ	        NA	 6	 1	1964	     0	  10.7
+
+       725	   173	    1560	 1560	   JOACHIM	        NA	     LORENZ	        NA	 1	 1	1963		
+       725	   173	    8511	 8511	   MANUELA	        NA	     LORENZ	        NA	 1	 1	1992	     0	  10.7
+
+       726	   172	    5405	 5405	 ANGELPIKA	        NA	      LANGE	        NA	 8	 4	1960		
+       726	   172	    7268	 7268	  ANGELIKA	        NA	      LANGE	        NA	 8	 4	1960	     0	  10.7
+
+       727	   171	    5048	 5048	 CHRISTINE	        NA	      ENGEL	        NA	15	10	1962		
+       727	   171	    7284	 7284	 CHRISTINE	        NA	   HOFFMANN	        NA	12	10	1962	     0	  10.7
+
+       728	   102	      59	   59	     JOERG	        NA	    MUELLER	        NA	14	12	1964		
+       728	   102	     574	  574	     JOERG	        NA	       WOLF	        NA	14	12	1966	     0	  10.7
+
+       729	   169	    6629	 6629	     PETRA	        NA	      WEBER	        NA	26	10	1948		
+       729	   169	    9758	 9758	     PETRA	        NA	      WEBER	        NA	15	10	1992	     0	  10.7
+
+       730	   168	    7107	 7107	     SONJA	        NA	   HERRMANN	        NA	10	12	1946		
+       730	   168	    9248	 9248	      ANNA	        NA	   HERRMANN	        NA	10	12	1993	     0	  10.7
+
+       731	   167	    1657	 1657	    DIETER	        NA	      WEISS	        NA	 1	 1	1952		
+       731	   167	    8548	 8548	     HELGA	        NA	      WEISS	        NA	12	 1	1952	     0	  10.7
+
+       732	   138	    2643	 2643	    WALTER	        NA	   HERRMANN	        NA	17	12	1993		
+       732	   138	    9857	 9857	  WALTRAUD	        NA	   HERRMANN	        NA	17	12	1992	     0	  10.7
+
+       733	   165	    8213	 8213	       UTE	        NA	     SCHULZ	        NA	20	12	1944		
+       733	   165	    8356	 8356	       UTE	        NA	    MOELLER	        NA	20	12	1997	     0	  10.7
+
+       734	    90	    5083	 5083	       UTE	        NA	       LANG	        NA	21	 1	1936		
+       734	    90	    8316	 8316	       UTE	        NA	   HARTMANN	        NA	15	 1	1936	     0	  10.7
+
+       735	   163	    5787	 5787	    SABINE	        NA	   HOFFMANN	        NA	16	11	1976		
+       735	   163	    5989	 5989	    SABINE	        NA	   HOFFMANN	        NA	 3	11	1986	     0	  10.7
+
+       736	   162	     198	  198	      SVEN	        NA	    SCHMIDT	        NA	15	12	1935		
+       736	   162	    1769	 1769	      SVEN	        NA	    SCHMIDT	        NA	 9	12	1967	     0	  10.7
+
+       737	   161	    7816	 7816	      ANNA	        NA	    MUELLER	        NA	20	12	1969		
+       737	   161	    9842	 9842	      ANNA	        NA	    MUELLER	        NA	20	11	1965	     0	  10.7
+
+       738	   160	    2161	 2161	    RAINER	        NA	     WAGNER	        NA	 2	 1	1974		
+       738	   160	    2391	 2391	    RAINER	        NA	    WAGNXER	        NA	 2	 1	1974	     0	  10.7
+
+       739	   159	    5685	 5685	   ANDRNEA	        NA	      BRAUN	        NA	 9	 4	1959		
+       739	   159	    6326	 6326	    ANDREA	        NA	      BRAUN	        NA	 9	 4	1959	     0	  10.7
+
+       740	   158	    1629	 1629	  WOLFGANG	        NA	      WEBER	        NA	 7	 1	1976		
+       740	   158	    2153	 2153	  WOLFGANG	        NA	      WEBER	        NA	 7	 1	1975	     0	  10.7
+
+       741	   157	    1341	 1341	   MICHAEL	        NA	     PETERS	        NA	12	 1	1937		
+       741	   157	    6887	 6887	  ANGELIKA	        NA	     PETERS	        NA	12	 1	1924	     0	  10.7
+
+       742	    80	     619	  619	     FRANK	        NA	  SCHNEIDER	        NA	25	10	1967		
+       742	    80	    2000	 2000	     FRANK	        NA	  SCHNEIDER	        NA	23	10	1997	     0	  10.7
+
+       743	   155	    6902	 6902	  ANGELIKA	        NA	     KELLER	        NA	31	10	1992		
+       743	   155	    8999	 8999	  ANGELIKA	        NA	       KOCH	        NA	14	10	1992	     0	  10.7
+
+       744	   154	    6994	 6994	     GERDA	        NA	    MUELLER	        NA	23	12	1973		
+       744	   154	    7029	 7029	     GERDA	        NA	    MUELLER	        NA	27	12	1973	     0	  10.6
+
+       745	   153	    1945	 1945	       UWE	        NA	    FISCHER	        NA	 2	11	1970		
+       745	   153	    2328	 2328	       UWE	        NA	    FISCHER	        NA	 1	11	1970	     0	  10.6
+
+       746	   151	    6644	 6644	   BARBARA	        NA	      VOIGT	        NA	19	12	1995		
+       746	   151	    9212	 9212	   BARBARA	        NA	    NEUMANN	        NA	19	12	1928	     0	  10.6
+
+       747	   151	    7805	 7805	   BARBARA	        NA	      VOIGT	        NA	19	12	1996		
+       747	   151	    9212	 9212	   BARBARA	        NA	    NEUMANN	        NA	19	12	1928	     0	  10.6
+
+       748	   150	    5073	 5073	   BARBARA	        NA	      SAUER	        NA	17	 1	1980		
+       748	   150	    5486	 5486	   BARBARA	        NA	  SCHNEIDER	        NA	19	 1	1980	     0	  10.6
+
+       749	   149	    6705	 6705	     ILSSE	        NA	     KAISER	        NA	29	 8	1954		
+       749	   149	    8491	 8491	      ILSE	        NA	     KAISER	        NA	29	 8	1954	     0	  10.6
+
+       750	   148	    7547	 7547	    KARINO	        NA	    SCHMITT	        NA	 3	 2	1986		
+       750	   148	    8805	 8805	     KARIN	        NA	    SCHMITT	        NA	 3	 2	1986	     0	  10.6
+
+       751	   147	    6382	 6382	   SUSANNE	        NA	    MUELLER	        NA	16	 2	1982		
+       751	   147	    7221	 7221	   SUSANNE	        NA	    MUELLER	        NA	16	 8	1976	     0	  10.6
+
+       752	   105	    9110	 9110	    NICOLE	        NA	   GUENTHER	        NA	17	10	1947		
+       752	   105	    9914	 9914	    NICOLE	        NA	     WERNER	        NA	17	10	1955	     0	  10.6
+
+       753	   145	    1439	 1439	   OLIVERH	        NA	    SCHMITZ	        NA	28	 9	2000		
+       753	   145	    3801	 3801	    OLIVER	        NA	    SCHMITZ	        NA	28	 9	2000	     0	  10.6
+
+       754	   144	    5667	 5667	 CHRISTINA	        NA	  SCHNEIDER	        NA	21	 1	1948		
+       754	   144	    6126	 6126	   CHRISTA	        NA	    KOEHLER	        NA	21	 1	1948	     0	  10.6
+
+       755	   143	     602	  602	     KLAUS	        NA	    FISCHER	        NA	 7	12	1964		
+       755	   143	    4804	 4804	     KLAUS	        NA	    FISCHER	        NA	 6	12	1964	     0	  10.6
+
+       756	   142	      77	   77	    RAINER	        NA	      HUBER	        NA	19	 1	1958		
+       756	   142	    2429	 2429	    RAINER	        NA	    FISCHER	        NA	19	 1	1954	     0	  10.6
+
+       757	   138	    1541	 1541	    WALTER	        NA	  SCHNEIDER	        NA	17	12	1946		
+       757	   138	    2643	 2643	    WALTER	        NA	   HERRMANN	        NA	17	12	1993	     0	  10.6
+
+       758	   138	    2643	 2643	    WALTER	        NA	   HERRMANN	        NA	17	12	1993		
+       758	   138	    4264	 4264	    WALTER	        NA	     SCHMID	        NA	17	12	1958	     0	  10.6
+
+       759	   138	    1541	 1541	    WALTER	        NA	  SCHNEIDER	        NA	17	12	1946		
+       759	   138	    4264	 4264	    WALTER	        NA	     SCHMID	        NA	17	12	1958	     0	  10.6
+
+       760	   138	    1540	 1540	    WALTER	        NA	    FISCHER	        NA	17	 1	1958		
+       760	   138	    4264	 4264	    WALTER	        NA	     SCHMID	        NA	17	12	1958	     0	  10.6
+
+       761	   134	    6605	 6605	     PETRA	        NA	    MUELLER	        NA	13	 8	1959		
+       761	   134	    9952	 9952	     PETRA	        NA	    MUELLER	        NA	13	 5	1948	     0	  10.6
+
+       762	   133	    6632	 6632	    BIRGIT	        NA	    MUELLER	        NA	13	 5	1958		
+       762	   133	    8378	 8378	    BIRGIT	        NA	    MUELLER	        NA	13	 1	1933	     0	  10.6
+
+       763	   134	    5121	 5121	     PETRA	        NA	    MUELLER	        NA	13	 5	1958		
+       763	   134	    6605	 6605	     PETRA	        NA	    MUELLER	        NA	13	 8	1959	     0	  10.6
+
+       764	   134	    5121	 5121	     PETRA	        NA	    MUELLER	        NA	13	 5	1958		
+       764	   134	    9952	 9952	     PETRA	        NA	    MUELLER	        NA	13	 5	1948	     0	  10.6
+
+       765	   133	    5023	 5023	    BIRGIT	        NA	    MUELLER	        NA	17	 5	1997		
+       765	   133	    6632	 6632	    BIRGIT	        NA	    MUELLER	        NA	13	 5	1958	     0	  10.6
+
+       766	   132	    9025	 9025	     PETRA	        NA	    MUELLER	        NA	19	 4	1963		
+       766	   132	    9948	 9948	     PETRA	        NA	    MUELLER	        NA	15	 4	1963	     0	  10.6
+
+       767	   131	    6849	 6849	     PETRA	        NA	    MUELLER	        NA	14	 9	1964		
+       767	   131	    9740	 9740	     PETRA	        NA	    MUELLER	        NA	16	10	1964	     0	  10.6
+
+       768	   130	    7544	 7544	     PETRA	        NA	    MUELLER	        NA	30	 3	1958		
+       768	   130	    8700	 8700	     PETRA	        NA	    MUELLER	        NA	30	 8	1954	     0	  10.6
+
+       769	    11	    3096	 3096	     HORST	        NA	      MAYER	        NA	14	 1	1972		
+       769	    11	    4421	 4421	 WOLTFGANG	        NA	      MAYER	        NA	14	 1	1984	     0	  10.6
+
+       770	    11	    1776	 1776	  WOLFGANG	        NA	      MAYER	        NA	14	 1	1984		
+       770	    11	    3096	 3096	     HORST	        NA	      MAYER	        NA	14	 1	1972	     0	  10.6
+
+       771	   127	    6980	 6980	   MANUELA	        NA	      BUSCH	        NA	 5	 3	1907		
+       771	   127	    9836	 9836	   MANUELA	        NA	      BUSCH	        NA	 5	 3	1970	     0	  10.6
+
+       772	   126	    5554	 5554	    MONIKA	        NA	    HOFMANN	        NA	16	 4	1947		
+       772	   126	    6128	 6128	    MONIKA	    INGRID	   HOFFMANN	        NA	16	 4	1959	     0	  10.6
+
+       773	   123	    8715	 8715	     KARIN	        NA	      MEIER	        NA	31	 1	1968		
+       773	   123	    9750	 9750	  BRIGITTE	        NA	      MEIER	        NA	31	 1	1964	     0	  10.6
+
+       774	   123	    3226	 3226	     HORST	        NA	      MEIER	        NA	31	 1	1954		
+       774	   123	    8715	 8715	     KARIN	        NA	      MEIER	        NA	31	 1	1968	     0	  10.6
+
+       775	   123	    3226	 3226	     HORST	        NA	      MEIER	        NA	31	 1	1954		
+       775	   123	    9750	 9750	  BRIGITTE	        NA	      MEIER	        NA	31	 1	1964	     0	  10.6
+
+       776	    10	    3593	 3593	 CHRISTIAN	        NA	    KOEHLER	        NA	12	10	1966		
+       776	    10	    8187	 8187	  STEFANIE	        NA	    KOEHLER	        NA	12	10	1998	     0	  10.6
+
+       777	   121	     159	  159	   CARSTEN	        NA	    KOEHLER	        NA	14	12	1969		
+       777	   121	    7470	 7470	       UTE	        NA	    KOEHLER	        NA	14	12	1949	     0	  10.6
+
+       778	    10	    5396	 5396	  GABRIELE	        NA	    KOEHLER	        NA	12	10	1948		
+       778	    10	    8187	 8187	  STEFANIE	        NA	    KOEHLER	        NA	12	10	1998	     0	  10.6
+
+       779	    10	    3593	 3593	 CHRISTIAN	        NA	    KOEHLER	        NA	12	10	1966		
+       779	    10	    5396	 5396	  GABRIELE	        NA	    KOEHLER	        NA	12	10	1948	     0	  10.6
+
+       780	   118	     551	  551	    STEFAN	        NA	    KOEHLER	        NA	12	 1	1985		
+       780	   118	     770	  770	  MATTHIAS	        NA	    KOEHLER	        NA	12	 1	1986	     0	  10.6
+
+       781	   117	    1199	 1199	    THOMAS	        NA	       KOCH	        NA	16	 8	1957		
+       781	   117	    2200	 2200	   THOSMAS	        NA	       KOCH	        NA	16	 8	1957	     0	  10.6
+
+       782	   116	    1228	 1228	 WOLFGAZNG	        NA	    NEUMANN	        NA	27	 8	1940		
+       782	   116	    2019	 2019	  WOLFGANG	        NA	    NEUMANN	        NA	27	 8	1940	     0	  10.6
+
+       783	   115	     964	  964	     HEINZ	      GERD	       KOCH	        NA	20	 1	1975		
+       783	   115	    3843	 3843	     HEINZ	        NA	       KOCH	        NA	24	 1	1939	     0	  10.6
+
+       784	   114	    1164	 1164	     KLAUS	        NA	    MUELLER	        NA	 1	 9	1967		
+       784	   114	    1254	 1254	     KLAUS	        NA	    MUELLER	        NA	 1	11	1935	     0	  10.6
+
+       785	   113	    6271	 6271	    INGRID	        NA	    FISCHER	        NA	24	12	1989		
+       785	   113	    9526	 9526	    INGRID	        NA	    FISCHER	        NA	17	12	1934	     0	  10.6
+
+       786	    59	     893	  893	      ROLF	        NA	   SCHUBERT	        NA	13	10	1983		
+       786	    59	    4067	 4067	      ROLF	        NA	  SCHROEDER	        NA	13	10	1957	     0	  10.6
+
+       787	   100	     598	  598	      SVEN	        NA	    SCHMITT	        NA	14	12	1968		
+       787	   100	    3877	 3877	      SVEN	        NA	      MAIER	        NA	14	12	1936	     0	  10.6
+
+       788	   110	     787	  787	    THOMAS	        NA	    FISCHER	        NA	10	12	1995		
+       788	   110	    4723	 4723	    THOMAS	        NA	    FISCHER	        NA	18	12	1987	     0	  10.5
+
+       789	   107	    2222	 2222	     PETER	        NA	      WEBER	        NA	 3	10	1952		
+       789	   107	    4203	 4203	     PETER	        NA	      WEBER	        NA	10	10	1989	     0	  10.5
+
+       790	   107	    2310	 2310	     PETER	        NA	      WEBER	        NA	14	10	1989		
+       790	   107	    4203	 4203	     PETER	        NA	      WEBER	        NA	10	10	1989	     0	  10.5
+
+       791	   107	    2222	 2222	     PETER	        NA	      WEBER	        NA	 3	10	1952		
+       791	   107	    2310	 2310	     PETER	        NA	      WEBER	        NA	14	10	1989	     0	  10.5
+
+       792	   103	    5866	 5866	    RENATE	        NA	     WERNER	        NA	19	11	1939		
+       792	   103	    8428	 8428	    MONIKA	        NA	     WERNER	        NA	19	11	1944	     0	  10.5
+
+       793	   105	     494	  494	       JAN	        NA	     WERNER	        NA	19	10	1955		
+       793	   105	    9914	 9914	    NICOLE	        NA	     WERNER	        NA	17	10	1955	     0	  10.5
+
+       794	   103	    1240	 1240	    WERNER	        NA	     WERNER	        NA	19	11	1972		
+       794	   103	    8428	 8428	    MONIKA	        NA	     WERNER	        NA	19	11	1944	     0	  10.5
+
+       795	   103	    1240	 1240	    WERNER	        NA	     WERNER	        NA	19	11	1972		
+       795	   103	    5866	 5866	    RENATE	        NA	     WERNER	        NA	19	11	1939	     0	  10.5
+
+       796	   102	      59	   59	     JOERG	        NA	    MUELLER	        NA	14	12	1964		
+       796	   102	    1854	 1854	     JOERG	        NA	    MUELLER	        NA	 8	12	1973	     0	  10.5
+
+       797	   101	    2889	 2889	   JUERGEN	        NA	     WALTER	        NA	 1	12	1953		
+       797	   101	    8094	 8094	    BRITTA	        NA	     WALTER	        NA	 1	12	1997	     0	  10.5
+
+       798	   100	    3877	 3877	      SVEN	        NA	      MAIER	        NA	14	12	1936		
+       798	   100	    5774	 5774	      ANNA	        NA	      MAIER	        NA	14	12	1927	     0	  10.5
+
+       799	    99	    8768	 8768	     AGNNA	        NA	     BECJER	        NA	 6	 2	1970		
+       799	    99	    9962	 9962	      ANNA	        NA	     BECKER	        NA	 6	 2	1970	     0	  10.5
+
+       800	    98	    7281	 7281	    KARIPN	        NA	  SCHROEDER	        NA	 4	10	1934		
+       800	    98	    8960	 8960	     KARIN	        NA	  SCHROEDER	        NA	 4	 2	1934	     0	  10.5
+
+       801	    97	    1101	 1101	   CARSTEN	        NA	       KUHN	        NA	17	12	1966		
+       801	    97	    1646	 1646	   CARSTEN	        NA	       KUTN	        NA	17	12	1966	     0	  10.5
+
+       802	    96	    3490	 3490	    THOMAS	        NA	    MUELLER	        NA	12	12	1962		
+       802	    96	    4893	 4893	    THOMAS	        NA	    MUELLER	        NA	12	 7	1996	     0	  10.5
+
+       803	    95	    2829	 2829	    THOMAS	        NA	    MUELLER	        NA	13	 9	1985		
+       803	    95	    4783	 4783	    THOMAS	        NA	    MUELLER	        NA	13	 9	1984	     0	  10.5
+
+       804	    94	    6020	 6020	    URSULA	        NA	  SCHNEIDER	        NA	23	10	1938		
+       804	    94	    7543	 7543	    URSULA	        NA	  SCHNEIDER	        NA	23	10	1997	     0	  10.5
+
+       805	    93	    1903	 1903	  GUENTHER	        NA	    MUELLER	        NA	16	10	1965		
+       805	    93	    3008	 3008	  GUENTHER	        NA	    MUELLER	        NA	16	11	1985	     0	  10.5
+
+       806	    93	      22	   22	  GUENTHER	        NA	    MUELLER	        NA	17	11	1994		
+       806	    93	    2910	 2910	  GUENTHER	        NA	    MUELLER	        NA	17	 9	1935	     0	  10.5
+
+       807	    91	    6060	 6060	   GERTRUD	        NA	    SCHMITT	        NA	13	11	1971		
+       807	    91	    8423	 8423	   GERTRUD	        NA	      MEYER	        NA	12	11	1971	     0	  10.5
+
+       808	    90	     499	  499	      OLAF	        NA	   HARTMANN	        NA	15	 1	1974		
+       808	    90	    8316	 8316	       UTE	        NA	   HARTMANN	        NA	15	 1	1936	     0	  10.5
+
+       809	    89	    6465	 6465	  GABRIELE	        NA	    MUELLER	        NA	18	12	1994		
+       809	    89	    7806	 7806	  GABRIELE	        NA	       ROTH	        NA	18	12	1992	     0	  10.5
+
+       810	    88	    2855	 2855	   ANDREAS	        NA	    MUELLER	        NA	19	 7	1996		
+       810	    88	    3252	 3252	   ANDREAS	        NA	    MUELLER	        NA	19	11	1953	     0	  10.5
+
+       811	    87	    5049	 5049	    GISELA	        NA	 SCHUMACHER	        NA	29	11	1957		
+       811	    87	    7624	 7624	    GISELA	        NA	SCHUMAECHER	        NA	29	11	1957	     0	  10.4
+
+       812	    86	    7031	 7031	    RENATE	        NA	     BERGER	        NA	27	 1	1970		
+       812	    86	    9313	 9313	    RENATE	        NA	    BERGXER	        NA	27	 1	1970	     0	  10.4
+
+       813	    85	    6665	 6665	 ELISABETH	        NA	     SOMMER	        NA	21	12	1928		
+       813	    85	    7552	 7552	 ELISABETH	        NA	     BECKER	        NA	21	12	1937	     0	  10.4
+
+       814	    84	    5600	 5600	 ELISABETH	        NA	  FRIEDRICH	        NA	21	10	1982		
+       814	    84	    9865	 9865	 ELISABETH	        NA	    SCHMITZ	        NA	21	10	1972	     0	  10.4
+
+       815	    83	     604	  604	  JOACHDIM	        NA	      KLEIN	        NA	24	 6	1982		
+       815	    83	    2033	 2033	   JOACHIM	        NA	      KLEIN	        NA	24	 6	1982	     0	  10.4
+
+       816	    82	    8170	 8170	  CLAUDIAH	        NA	      KLEIN	        NA	22	 3	1940		
+       816	    82	    8576	 8576	   CLAUDIA	        NA	      KLEIN	        NA	22	 3	1940	     0	  10.4
+
+       817	    81	     108	  108	  GUENTHER	        NA	    KRUEGER	    MARTIN	16	11	1976		
+       817	    81	     603	  603	    ULRICH	        NA	    KRUEGER	        NA	16	11	1977	     0	  10.4
+
+       818	    80	     619	  619	     FRANK	        NA	  SCHNEIDER	        NA	25	10	1967		
+       818	    80	    4235	 4235	    FRANKW	        NA	  SCHNEIDER	        NA	25	10	1967	     0	  10.4
+
+       819	    79	    5059	 5059	  GABRIELE	        NA	      MEYER	        NA	31	10	1979		
+       819	    79	    8447	 8447	  GABRIELE	        NA	      MEYER	        NA	15	10	1971	     0	  10.4
+
+       820	    78	    1390	 1390	  GUENTHER	        NA	ZIMMERMWANN	        NA	23	 6	1971		
+       820	    78	    4320	 4320	  GUENTHER	        NA	 ZIMMERMANN	        NA	23	 6	1971	     0	  10.4
+
+       821	    77	    3312	 3312	   MANFRED	        NA	    SCHWARZ	        NA	10	12	1975		
+       821	    77	    4848	 4848	   MANFRED	        NA	     MARTIN	        NA	10	12	1957	     0	  10.4
+
+       822	    76	    5627	 5627	    RENATE	        NA	    MUELLER	        NA	18	 2	1986		
+       822	    76	    9710	 9710	    RENATE	        NA	    MUELLER	        NA	17	 2	1978	     0	  10.4
+
+       823	    75	    5352	 5352	    SABINE	        NA	      WEBER	        NA	16	12	1977		
+       823	    75	    9867	 9867	    SABINE	        NA	      WEBER	        NA	23	12	1977	     0	  10.4
+
+       824	    74	    7139	 7139	 STEFAINIE	        NA	     KRAUSE	        NA	24	 3	1972		
+       824	    74	    8363	 8363	  STEFANIE	        NA	     KRAUSE	        NA	24	 3	1972	     0	  10.4
+
+       825	    73	    5216	 5216	     MARIA	        NA	      FUCHS	        NA	12	12	1929		
+       825	    73	    6662	 6662	     MARIA	        NA	      FUCHN	        NA	12	12	1929	     0	  10.4
+
+       826	    72	     290	  290	    OLIVER	        NA	     KRAUSE	        NA	21	10	1993		
+       826	    72	    2653	 2653	    WERNER	        NA	     KRAUSE	        NA	21	10	1985	     0	  10.4
+
+       827	    71	    1089	 1089	  MATTHIAS	        NA	   HARTMANN	        NA	18	12	1964		
+       827	    71	    4332	 4332	  MATTHIAS	        NA	      FRANK	        NA	18	12	1964	     0	  10.4
+
+       828	    70	     503	  503	  MATTHIAS	        NA	      MEIER	        NA	30	12	1985		
+       828	    70	    2926	 2926	  MATTHIAS	        NA	    SCHMIDT	        NA	30	12	1965	     0	  10.4
+
+       829	    69	    2319	 2319	  MANFREQD	        NA	      BAUER	        NA	 7	 9	1997		
+       829	    69	    4531	 4531	   MANFRED	        NA	      BAUER	        NA	 7	 9	1997	     0	  10.4
+
+       830	    68	    6767	 6767	     KARIN	        NA	      LANGE	        NA	 1	11	1976		
+       830	    68	    6837	 6837	    ANGELA	        NA	      LANGE	    BECKER	 1	11	1966	     0	  10.4
+
+       831	    67	    5552	 5552	  SUSANPNE	        NA	    RICHTER	        NA	23	 6	1998		
+       831	    67	    8634	 8634	   SUSANNE	        NA	    RICHTER	        NA	23	 6	1998	     0	  10.3
+
+       832	    66	    1443	 1443	     PETER	        NA	  SCHNEIDER	        NA	27	12	1939		
+       832	    66	    2415	 2415	     PETER	        NA	  SCHNEIDER	        NA	16	12	1969	     0	  10.3
+
+       833	    65	    3662	 3662	 ALEXANDER	        NA	    SCHMITZ	        NA	 1	10	1964		
+       833	    65	    9562	 9562	 CHRISTINA	        NA	    SCHMITZ	        NA	 1	10	1997	     0	  10.3
+
+       834	    64	    4329	 4329	   JUERGEN	        NA	 ZIMMERMANN	        NA	20	10	1975		
+       834	    64	    6603	 6603	  STEFANIE	        NA	 ZIMMERMANN	        NA	20	10	1962	     0	  10.3
+
+       835	    63	    5648	 5648	    SABINE	        NA	    MUELLER	        NA	19	 2	1975		
+       835	    63	    8391	 8391	    SABINE	        NA	    MUELLER	        NA	13	 6	1975	     0	  10.3
+
+       836	    62	    5196	 5196	    SABINE	        NA	    MUELLER	        NA	11	 6	1927		
+       836	    62	    6881	 6881	    SABINE	        NA	    MUELLER	        NA	11	12	1987	     0	  10.3
+
+       837	    61	    3355	 3355	     FRANK	        NA	  SCHROEDER	        NA	19	10	1973		
+       837	    61	    6272	 6272	   KERSTIN	        NA	  SCHROEDER	        NA	19	10	1937	     0	  10.3
+
+       838	    60	    4109	 4109	   GERHARD	        NA	  SCHROEDER	        NA	10	 1	1971		
+       838	    60	    5109	 5109	   SUSANNE	        NA	  SCHROEDER	        NA	10	 1	1961	     0	  10.3
+
+       839	    59	     959	  959	     HEINZ	        NA	  SCHROEDER	        NA	13	10	1995		
+       839	    59	    4067	 4067	      ROLF	        NA	  SCHROEDER	        NA	13	10	1957	     0	  10.3
+
+       840	    58	    6627	 6627	    MONIKA	        NA	   SCHAEFER	        NA	21	 3	1934		
+       840	    58	    6759	 6759	    MONIKA	        NA	   SCHAEOER	        NA	21	 3	1934	     0	  10.3
+
+       841	    57	    6899	 6899	   GERTRUD	        NA	    MUELLER	        NA	30	11	1972		
+       841	    57	    8192	 8192	   GERTRUD	        NA	    MUELLER	        NA	19	11	1986	     0	  10.3
+
+       842	    55	     722	  722	    KALAUS	        NA	       WOLF	        NA	16	10	1972		
+       842	    55	    3754	 3754	    RAINER	        NA	       WOLF	        NA	12	10	1972	     0	  10.3
+
+       843	    55	     752	  752	     KLAUS	        NA	       WOLF	        NA	16	10	1972		
+       843	    55	    3754	 3754	    RAINER	        NA	       WOLF	        NA	12	10	1972	     0	  10.3
+
+       844	    54	    4023	 4023	      JENS	  MATTHIAS	    MUELLER	        NA	19	 8	1989		
+       844	    54	    4778	 4778	      JENS	    MARTIN	    MUELLER	        NA	31	 8	1942	     0	  10.3
+
+       845	    53	    3037	 3037	      KARL	        NA	    SCHMIDT	        NA	21	11	1998		
+       845	    53	    4511	 4511	      KARL	        NA	    SCHMIDT	        NA	21	11	1961	     0	  10.3
+
+       846	    52	     328	  328	     ROELF	        NA	   SCHAEFER	        NA	22	 7	1939		
+       846	    52	    4882	 4882	      ROLF	        NA	   SCHAEFER	        NA	22	 7	1939	     0	  10.3
+
+       847	    51	    5825	 5825	 ELISABETH	        NA	    MUELLER	        NA	26	10	1945		
+       847	    51	    7469	 7469	 ELISABETH	        NA	    MUELLER	        NA	27	10	1957	     0	  10.3
+
+       848	    50	    5901	 5901	    PETRSA	        NA	      BAUER	        NA	 8	 7	1969		
+       848	    50	    7736	 7736	     PETRA	        NA	      BAUER	        NA	 8	 7	1969	     0	  10.2
+
+       849	    49	    6813	 6813	    RENATE	        NA	    MUELLER	        NA	21	 8	1963		
+       849	    49	    6930	 6930	   RENATOE	        NA	    MUELLER	        NA	21	 8	1963	     0	  10.2
+
+       850	    48	    1126	 1126	    FRANAK	        NA	    RICHTER	        NA	 5	 9	1954		
+       850	    48	    2524	 2524	     FRANK	        NA	    RICHTER	        NA	 5	 9	1954	     0	  10.2
+
+       851	    47	    6774	 6774	    HELFGA	        NA	    RICHTER	        NA	 3	 2	1988		
+       851	    47	    8950	 8950	     HELGA	        NA	    RICHTER	        NA	 3	 2	1988	     0	  10.2
+
+       852	    46	    8590	 8590	     ANXJA	        NA	      KLEIN	        NA	28	 9	1954		
+       852	    46	    9699	 9699	      ANJA	        NA	      KLEIN	        NA	28	 9	1954	     0	  10.2
+
+       853	    45	    1627	 1627	     KLAUS	        NA	    NEUMANN	        NA	16	11	1993		
+       853	    45	    5979	 5979	    BRITTA	        NA	    NEUMANN	        NA	16	11	1938	     0	  10.2
+
+       854	    44	     736	  736	   MANFRED	        NA	    NEUMANN	        NA	15	11	1954		
+       854	    44	    6528	 6528	  GABRIELE	        NA	    NEUMANN	        NA	15	11	1954	     0	  10.2
+
+       855	    43	    2412	 2412	      DIRK	        NA	    NEUMANN	        NA	14	 1	1997		
+       855	    43	    4040	 4040	    HARALD	        NA	    NEUMANN	        NA	14	 1	1926	     0	  10.2
+
+       856	    42	    5267	 5267	    KAETHE	        NA	    NEUMANN	        NA	21	11	1963		
+       856	    42	    5809	 5809	      ANJA	        NA	    NEUMANN	        NA	 1	11	1963	     0	  10.2
+
+       857	    40	    4126	 4126	  MATTHIAS	        NA	    MUELLER	        NA	24	12	1977		
+       857	    40	    4165	 4165	  MATTHIAS	        NA	    MUELLER	        NA	24	 1	1993	     0	  10.2
+
+       858	    40	    2957	 2957	  MATTHIAS	        NA	    MUELLER	        NA	11	12	1967		
+       858	    40	    4126	 4126	  MATTHIAS	        NA	    MUELLER	        NA	24	12	1977	     0	  10.2
+
+       859	    39	    8006	 8006	     KARIN	    ANDREA	    MUELLER	        NA	 6	 8	1985		
+       859	    39	    8462	 8462	     KARIN	    ANDREA	    MUELLER	        NA	 6	 8	1984	     0	  10.2
+
+       860	    38	    7570	 7570	  BRIGITTE	        NA	    SCHMIDT	        NA	29	10	1982		
+       860	    38	    9652	 9652	 BRIGIWTTE	        NA	    SCHMIDT	        NA	29	10	1982	     0	  10.2
+
+       861	    37	    1506	 1506	  GUENTHER	   MANFRED	  SCHNEIDER	        NA	18	 7	1932		
+       861	    37	    4944	 4944	  GUENTHER	        NA	  SCHNEIDER	        NA	13	 7	1956	     0	  10.2
+
+       862	    35	     748	  748	    DIETER	        NA	     SOMMER	        NA	17	12	1937		
+       862	    35	    4535	 4535	    DIETER	        NA	      MEYER	        NA	17	12	1959	     0	  10.2
+
+       863	    35	     438	  438	    DIETER	        NA	      MEYER	        NA	17	12	1953		
+       863	    35	     748	  748	    DIETER	        NA	     SOMMER	        NA	17	12	1937	     0	  10.2
+
+       864	    34	    6414	 6414	    HELMGA	        NA	    KOERTIG	        NA	29	 4	1984		
+       864	    34	    8215	 8215	     HELGA	        NA	    KOERTIG	        NA	29	 4	1984	     0	  10.1
+
+       865	    33	    1693	 1693	   MANFRED	        NA	   SCHAEFER	        NA	19	12	1997		
+       865	    33	    2696	 2696	  WOLFGANG	        NA	   SCHAEFER	        NA	19	12	1978	     0	  10.1
+
+       866	    32	     763	  763	 FRIEDRICH	        NA	   SCHAEFER	        NA	12	 1	1945		
+       866	    32	    8876	 8876	    MARION	        NA	   SCHAEFER	        NA	12	 1	1989	     0	  10.1
+
+       867	    31	    8022	 8022	   URSULAD	        NA	     SCHULZ	        NA	22	 3	1982		
+       867	    31	    9904	 9904	    URSULA	        NA	     SCHULZ	        NA	22	 3	1982	     0	  10.1
+
+       868	    30	    2241	 2241	   MICHAEL	        NA	    SCHMIDT	        NA	19	 9	1996		
+       868	    30	    4181	 4181	   MICHAEL	        NA	   SCHAMIDT	        NA	19	 9	1996	     0	  10.1
+
+       869	    29	    7627	 7627	   SABIENE	        NA	   HEINRICH	        NA	23	 9	1926		
+       869	    29	    7705	 7705	    SABINE	        NA	   HEINRICH	        NA	23	 9	1926	     0	  10.1
+
+       870	    28	    1609	 1609	     PETER	        NA	      WEBER	        NA	14	10	1990		
+       870	    28	    6608	 6608	     PETRA	        NA	      WEBER	        NA	14	 1	1990	     0	  10.1
+
+       871	    26	    3679	 3679	      KURT	        NA	      KLEIN	        NA	21	11	1949		
+       871	    26	    6234	 6234	     MARIA	        NA	      KLEIN	        NA	21	11	1957	     0	  10.1
+
+       872	    26	    1619	 1619	       KAI	        NA	      KLEIN	        NA	16	11	1949		
+       872	    26	    3679	 3679	      KURT	        NA	      KLEIN	        NA	21	11	1949	     0	  10.1
+
+       873	    25	    4163	 4163	    OLIVER	        NA	      KLEIN	        NA	14	 1	1978		
+       873	    25	    9791	 9791	     KARIN	        NA	      KLEIN	        NA	16	 1	1978	     0	  10.1
+
+       874	    23	    3213	 3213	   ROBERET	        NA	      KLEIN	        NA	14	10	1942		
+       874	    23	    6942	 6942	    INGRID	        NA	      KLEIN	        NA	14	10	1945	     0	  10.1
+
+       875	    23	    1241	 1241	    ROBERT	        NA	      KLEIN	        NA	14	10	1942		
+       875	    23	    6942	 6942	    INGRID	        NA	      KLEIN	        NA	14	10	1945	     0	  10.1
+
+       876	    22	    6029	 6029	      ANNA	        NA	    SCHMIDT	        NA	16	 1	1997		
+       876	    22	    8828	 8828	      ANNA	        NA	    SCHMIDT	        NA	 3	 1	1949	     0	  10.1
+
+       877	    21	    9516	 9516	  STEFANIE	        NA	    MOELLER	        NA	28	11	1936		
+       877	    21	    9542	 9542	  STEFANIE	        NA	    MUELLER	        NA	28	11	1982	     0	  10.1
+
+       878	    20	    6337	 6337	     ERIKA	        NA	    KOERTIG	        NA	31	 1	1954		
+       878	    20	    9894	 9894	     ERIKA	        NA	     WAGNER	        NA	14	 1	1954	     0	  10.1
+
+       879	    19	    5130	 5130	    RENATE	        NA	       KOCH	        NA	19	 1	1959		
+       879	    19	    5270	 5270	     MARIA	        NA	       KOCH	        NA	19	 1	1994	     0	  10.1
+
+       880	    18	     221	  221	    RAINER	        NA	   MUEGLLER	        NA	 6	 7	1961		
+       880	    18	    1493	 1493	    RAINER	        NA	    MUELLER	        NA	 6	 7	1961	     0	  10.1
+
+       881	    14	    4548	 4548	     PETER	      ROLF	 ZIMMERMANN	        NA	21	11	1935		
+       881	    14	    4604	 4604	     PETER	        NA	 ZIMMERMANN	        NA	24	11	1964	     0	  10.1
+
+       882	    14	    1022	 1022	     PETER	      ROLF	 ZIMMERMANN	        NA	21	11	1945		
+       882	    14	    4604	 4604	     PETER	        NA	 ZIMMERMANN	        NA	24	11	1964	     0	  10.1
+
+       883	    14	    1292	 1292	     PETER	        NA	 ZIMMERMANN	        NA	29	11	1994		
+       883	    14	    4548	 4548	     PETER	      ROLF	 ZIMMERMANN	        NA	21	11	1935	     0	  10.1
+
+       884	    14	    1022	 1022	     PETER	      ROLF	 ZIMMERMANN	        NA	21	11	1945		
+       884	    14	    1292	 1292	     PETER	        NA	 ZIMMERMANN	        NA	29	11	1994	     0	  10.1
+
+       885	    13	    5714	 5714	   CLAUDIA	        NA	    WINKLER	        NA	 8	 1	1982		
+       885	    13	    7687	 7687	   CLAUDIA	        NA	    WINKLRR	        NA	 8	 1	1982	     0	  10.1
+
+       886	    12	    1217	 1217	     HEINZ	        NA	    MUELLER	        NA	17	 5	1968		
+       886	    12	    4937	 4937	     HEINZ	   MANFRED	    MUELLER	        NA	18	 5	1986	     0	  10.1
+
+       887	    11	    2544	 2544	     HORST	        NA	      MAIER	        NA	14	 1	1969		
+       887	    11	    3096	 3096	     HORST	        NA	      MAYER	        NA	14	 1	1972	     0	  10.1
+
+       888	    10	    2466	 2466	 CHRISTIAN	        NA	   HOFFMANN	        NA	14	10	1966		
+       888	    10	    3593	 3593	 CHRISTIAN	        NA	    KOEHLER	        NA	12	10	1966	     0	  10.1
+
+       889	     9	    1798	 1798	     HORST	        NA	    SCHWARZ	        NA	14	10	1985		
+       889	     9	    3445	 3445	     HORST	        NA	    WINKLER	        NA	14	10	1973	     0	  10.1
+
+       890	     8	    1873	 1873	 CHRISTIAN	        NA	    NEUMANN	        NA	21	 1	1986		
+       890	     8	    1974	 1974	 CHRISTIAN	        NA	    SCHMITZ	        NA	21	 1	1946	     0	  10.1
+
+       891	     7	    2613	 2613	     PETER	        NA	      BAUER	        NA	14	12	1941		
+       891	     7	    5636	 5636	    INGRID	        NA	      BAUER	        NA	14	12	1951	     0	  10.0
+
+       892	     6	    5548	 5548	     HELGA	        NA	      BAUER	        NA	16	12	1938		
+       892	     6	    7023	 7023	  ELFRIEDE	        NA	      BAUER	        NA	16	12	1988	     0	  10.0
+
+       893	     5	     830	  830	    MARKUS	        NA	      BAUER	        NA	12	 1	1949		
+       893	     5	    7762	 7762	     ERIKA	        NA	      BAUER	        NA	12	 1	1963	     0	  10.0
+
+       894	     4	     667	  667	     FRANK	        NA	  SCHNEIDER	        NA	17	11	1937		
+       894	     4	    3156	 3156	     FRANK	        NA	      LANGE	        NA	12	11	1937	     0	  10.0
+
+       895	     3	    6094	 6094	    ANDREA	      ILSE	    SCHMIDT	        NA	17	 8	1983		
+       895	     3	    8059	 8059	    ANDREA	        NA	    SCHMIDT	        NA	17	10	1949	     0	  10.0
+
+       896	     2	    6566	 6566	   BRIKTTA	        NA	      MEYER	        NA	 2	 2	1945		
+       896	     2	    9910	 9910	    BRITTA	        NA	      MEYER	        NA	 2	 2	1945	     0	  10.0
+
+       897	     1	    1990	 1990	       UWE	        NA	    SCHMIDT	        NA	 1	12	1928		
+       897	     1	    2605	 2605	       UWE	        NA	    SCHMIDT	        NA	 3	12	1979	     0	  10.0
+
+       898	     0	     148	  148	       UWE	        NA	    SCHMIDT	        NA	26	11	1982		
+       898	     0	    2204	 2204	       UWE	        NA	    SCHMIDT	        NA	24	11	1943	     0	  10.0
+
