@@ -2,7 +2,10 @@
 Author: Sou-Cheng Choi
 Contributor: Jack Huang
 Date: May 27, 2016 -- Aug 3, 2017
-Reference: Choi, Sou-Cheng T., Yongheng Lin, and Edward Mulrow. "Comparison of Public-Domain Software and Services for Probabilistic Record Linkage and Address Standardization,” Towards Integrative Machine Learning and Knowledge Extraction, Springer LNAI 10344, 2017. To appear. PDF available at http://tinyurl.com/ydxbjww4
+Reference: Choi, Sou-Cheng T., Yongheng Lin, and Edward Mulrow.
+"Comparison of Public-Domain Software and Services for Probabilistic Record Linkage and Address Standardization,"
+Towards Integrative Machine Learning and Knowledge Extraction, Springer LNAI 10344, 2017.
+PDF available at http://tinyurl.com/ydxbjww4
 """
 import random
 import time
