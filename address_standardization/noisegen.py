@@ -116,7 +116,16 @@ class noisegen(object):
         l = len(text)
         r = random.randint(0, l - 1)
         if self.isverbose: print "l = %s, r = %s" % (l, r)
-        return text[0:r - 1] + text[r] + text[r - 1] + (text[r + 1:] if r + 1 <= l - 1 else "")
+        #return text[0:r - 1] + text[r] + text[r - 1] + (text[r + 1:] if r + 1 <= l - 1 else "")
+        if l==1:
+            return text
+        elif l>1:
+            if r != 0 and r != l - 1:
+                return text[0:r - 1] + text[r] + text[r - 1] + text[r + 1:]
+            elif r == 0:
+                return text[r + 1] + text[r] + text[r + 2:]
+            elif r == l - 1:
+                return text[0:r - 1] + text[r] + text[r - 1]
 
 
     def tran_lets(self, text, k=1):
