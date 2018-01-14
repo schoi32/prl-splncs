@@ -15,15 +15,15 @@ To standardize address in samplefordatalinkage.csv using Google Maps API on the 
 
 To standardize address in samplefordatalinkage.csv with noise:
 
-  $ time python uspsaddress_googlemaps_driver.py --n 2 --m 3 --g 1
+  $ time python uspsaddress_googlemaps_driver.py --n 2 --m 3 --g 0.1
 
 To time, use "time" utility on unix and adds up USER + SYS time:
 
-  $ time python uspsaddress_googlemaps_driver.py --n 2 --m 3 --g 1
+  $ time python uspsaddress_googlemaps_driver.py --n 2 --m 3 --g 0.1
 
 New instruction:
-A typical command (read 2300 records, using method 5, with noise level 0.2, beginning with 4601st record and
-ending with 6900th record):
+A typical command (read n=2300 records, using method m=5, with noise level g=0.2, beginning with t+1=2301st record and
+ending with n+t=4600th record):
   $ time python uspsaddress_googlemaps_driver.py --n 2300 --m 5 --g 0.2 --t 2300
 
 """
@@ -44,6 +44,7 @@ parser.add_argument('--m', '--method of choice', type=int, default=6, help="""
                             6: usaddress.""", metavar='m')
 parser.add_argument('--g', '--generate noise', type=float, default=0, help="0.1: to generate noise level 0.1", metavar='g')
 parser.add_argument('--t', '--begin line', type=int, default=0, help="6: begin with 7th record", metavar='t')
+parser.add_argument('--f', '--csv filename', type=, default="", help="addresses.csv: read in addresses.csv", metavar='f')
 
 args = parser.parse_args()
 n=args.n
@@ -58,6 +59,7 @@ from uspsaddress_googlemaps import uspsaddress_googlemaps
 usadd = uspsaddress_googlemaps()
 random.seed(0) # for reproducibility
 if m>=1 and m<=3:
+
   usadd.eval_googlemaps(n,m,g,t)
 elif m==4:
   usadd.eval_geocoder_us(n,g,t)
