@@ -1,4 +1,3 @@
-# coding=utf-8
 """
 Author: Sou-Cheng Choi
 Contributor: Jack Huang
@@ -43,8 +42,7 @@ parser.add_argument('--m', '--method of choice', type=int, default=6, help="""
                             5: Data Science Toolkit;
                             6: usaddress.""", metavar='m')
 parser.add_argument('--g', '--generate noise', type=float, default=0, help="0.1: to generate noise level 0.1", metavar='g')
-parser.add_argument('--t', '--begin line', type=int, default=0, help="6: begin with 7th record", metavar='t')
-parser.add_argument('--f', '--csv filename', type=, default="", help="addresses.csv: read in addresses.csv", metavar='f')
+parser.add_argument('--t', '--begin line', type=int, default=0, help="6: begin with 7th record", metavar='t') 
 
 args = parser.parse_args()
 n=args.n
